@@ -1325,14 +1325,11 @@ div.separadorsucursal
 
 
 
-
-    
-
-
 @media only screen and (max-width : 1024px) {
 
-div.alimento div.foto img.{
-width: 193%;
+div.alimento div.foto img
+{
+ width: 160%;
 }
 
 
@@ -1588,6 +1585,8 @@ body.chilisorden div.banner img.atras
   width: 23%;
   margin: 0 0% 4% 65%;
 }
+
+
 
 
 
