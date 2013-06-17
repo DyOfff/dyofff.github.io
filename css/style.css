@@ -861,7 +861,7 @@ body.alimento img.cuadrocomida
 {
 position: fixed;
 z-index: 1;
-width: 28%;
+width: 24%;
 right: 7.4%;
 top: 7%;
 }
@@ -901,10 +901,10 @@ background: url("../img/postre.jpg");
 body.chilisorden div.orden
 {
   display: inline-block;
-  width: 48%;
+  width: 34%;
   float: none;
   margin: 0 5% 0;
-  background: rgb(236, 34, 34);
+  background: rgb(35, 31, 32);
   opacity: 0.8;
 }
 
@@ -1060,15 +1060,7 @@ body.chilisorden div.opciones
   margin-right: 8.9%;
 }
 
-body.chilisorden div.opciones div.banner
-{
-  width: 48.5%;
-display: inline-block;
-top: 53;
-position: absolute;
-right: 0;
 
-}
 body.chilisorden div.opciones div.banner img
 {
   width: 100%;
@@ -1099,21 +1091,6 @@ width: 100%;
 body.chilisorden div.selectores div.cancelaaqui
 {
 width: 100%;
-}
-
-body.chilisorden div.aprobado, body.chilisorden div.cancelado
-{
-display: inline-block;
-width: 14%;
-margin-left: 0%;
-float: right;
-margin-right: 17%;
-}
-
-body.chilisorden div.aprobado img, body.chilisorden div.cancelado img
-{
-  width: 30%;
-  display: inline-block;
 }
 
 body.chilispagos div.formulario form
