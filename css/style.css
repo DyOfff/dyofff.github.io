@@ -901,10 +901,10 @@ background: url("../img/postre.jpg");
 body.chilisorden div.orden
 {
   display: inline-block;
-  width: 48%;
+  width: 34%;
   float: none;
   margin: 0 5% 0;
-  background: rgb(236, 34, 34);
+  background: rgb(35, 31, 32);
   opacity: 0.8;
 }
 
@@ -1060,15 +1060,7 @@ body.chilisorden div.opciones
   margin-right: 8.9%;
 }
 
-body.chilisorden div.opciones div.banner
-{
-  width: 48.5%;
-display: inline-block;
-top: 53;
-position: absolute;
-right: 0;
 
-}
 body.chilisorden div.opciones div.banner img
 {
   width: 100%;
