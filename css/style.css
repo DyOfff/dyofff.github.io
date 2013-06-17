@@ -1093,21 +1093,6 @@ body.chilisorden div.selectores div.cancelaaqui
 width: 100%;
 }
 
-body.chilisorden div.aprobado, body.chilisorden div.cancelado
-{
-display: inline-block;
-width: 14%;
-margin-left: 0%;
-float: right;
-margin-right: 17%;
-}
-
-body.chilisorden div.aprobado img, body.chilisorden div.cancelado img
-{
-  width: 30%;
-  display: inline-block;
-}
-
 body.chilispagos div.formulario form
 {
 margin: 3% 0;
