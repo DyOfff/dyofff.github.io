@@ -401,7 +401,7 @@ height: 100%;
 
 body.chilis, body.chilissucursales, body.chilispagos
 {
-  background: rgb(26, 26, 26);
+  background: rgb(37, 37, 37);
       
 }
 
@@ -689,6 +689,7 @@ text-align: center;
 width: 110px;
 vertical-align: bottom;
 margin-top: 1%;
+margin-left: 30px;
 }
 div.marca img.loguitos{
 
@@ -784,7 +785,7 @@ width: 100%;
 height: 5%;
   
 margin-bottom: -.3%;
-background: rgb(22, 22, 22);
+background: rgb(26, 26, 26);
 display: inline-block;
 }
 
@@ -861,7 +862,16 @@ body.alimento img.cuadrocomida
 {
 position: fixed;
 z-index: 1;
-width: 24%;
+width: 25%;
+right: 7.4%;
+top: 7%;
+}
+
+body.alimento img.paquete
+{
+position: fixed;
+z-index: 1;
+width: 39%;
 right: 7.4%;
 top: 7%;
 }
@@ -888,14 +898,25 @@ right: 16.2%;
 top: 59%;
 }
 
+body.alimento div.cuadronegro
+{
+width: 41%;
+height: 63%;
+background-color: black;
+opacity: .6;
+margin: 4% 0 0 6%;
+position: fixed;
+z-index: 10;
+}
+
 
 body.chilisorden
 {
+margin-top: 60px;
 background: rgb(201, 28, 28) 40%;  
 color: white;
-background: url("../img/postre.jpg"); 
+background: url("../img/fotosgrandes/eureka.png"); 
 }
-
 
 
 body.chilisorden div.orden
@@ -908,163 +929,6 @@ body.chilisorden div.orden
   opacity: 0.8;
 }
 
-body.chilisorden div.orden div.informacion
-{
-  width: 100%;
-  margin-top: 5em;
-}
-
-body.chilisorden div.orden div.informacion div.chilisordenlogo
-{
-  width: 19%;
-  margin: 0 0 0 3em;
-  display: inline-block;
-}
-
-body.chilisorden div.orden div.informacion div.chilisordenlogo img
-{
-  width: 100%;
-}
-
-
-body.chilisorden div.orden div.informacion div.datos
-{
-display: inline-block;
-vertical-align: top;
-margin: 6px 0 0 10px;
-width: 30%;
-}
-
-body.chilisorden div.orden div.informacion div.datos div.direccion
-{
-  vertical-align: top;
-}
-
-body.chilisorden div.orden div.informacion div.datos div.telefono
-{
-    display: inline-block;
-}
-
-
-body.chilisorden div.orden div.pedido
-{
-width: 100%;
-margin: 3em 2.2em 0;
-}
-
-body.chilisorden div.orden div.pedido div.titulo
-{
- width: 100%; 
- font-size: 24px;
- text-transform: uppercase;
- margin-bottom: 29px;
-}
-
-body.chilisorden div.orden div.pedido div.alimento
-{
-width: 160%;
-margin-top: 1.5em;
-}
-
-body.chilisorden div.orden div.pedido div.alimento div.texto
-{
- display: inline-block;
-  vertical-align: top;    
- width: 67%; 
-}
-
-
-body.chilisorden div.orden div.pedido div.total
-{
-  margin-top: 3em;
-  color:  yellow;
-}
-
-body.chilisorden div.orden div.separadororden
-{
-border-top: solid thin white;
-margin: 10% 6%;
-}
-
-body.chilisorden div.orden div.mododepago
-{
-  width: 100%;
-}
-
-
-body.chilisorden div.orden div.mododepago div.mensaje
-{
-    margin-bottom: 2em;
-}
-
-body.chilisorden div.orden div.mododepago div.efectivo
-{
-  display: inline-block;  
-  margin: 0 13.5% 0 18%;
-  width: 27%;
-}
-
-body.chilisorden div.orden div.mododepago div.efectivo img
-{
-  width: 100%;
-}
-
-body.chilisorden div.orden div.mododepago div.tarjeta
-{
-    display: inline-block;  
-    width: 25%;
-    text-align: center;
-}
-
-body.chilisorden div.orden div.mododepago div.tarjeta img
-{
-  width: 100%;
-}
-
-body.chilisorden div.orden div.modoentrega
-{
-  width: 90%;
-  margin: 0 5%;
-}
-
-body.chilisorden div.orden div.modoentrega div.yovoy
-{
-  display: inline-block; 
-  width: 30%; 
-  margin: 0 14%;
-}
-
-body.chilisorden div.orden div.modoentrega div.yovoy img
-{
-width: 100%;
-}
-
-body.chilisorden div.orden div.modoentrega div.enviamelo
-{
-  display: inline-block; 
-  width: 30%; 
-}
-
-body.chilisorden div.orden div.modoentrega div.enviamelo img
-{
-width: 100%;
-}
-
-
-
-body.chilisorden div.opciones
-{
-  width: 25%;
-  display: inline-block;
-  float: right;
-  margin-right: 8.9%;
-}
-
-
-body.chilisorden div.opciones div.banner img
-{
-  width: 100%;
-}
 
 body.chilisorden div.opciones div.botonback
 {
@@ -1083,15 +947,6 @@ body.chilisorden div.botonback
   width: 100%;
 }
 
-body.chilisorden div.selectores
-{
-width: 100%;
-}
-
-body.chilisorden div.selectores div.cancelaaqui
-{
-width: 100%;
-}
 
 body.chilispagos div.formulario form
 {
@@ -1183,8 +1038,6 @@ body.chilisenviado div.empezar
   margin: 5% 0% 0%;
   text-align:center;
 }
-
-
 
 body.chilisorden div.banner
 {
@@ -1303,7 +1156,37 @@ div.separadorsucursal
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width : 1024px) {
+
 
 div.alimento div.foto img
 {
@@ -1319,6 +1202,25 @@ right: 12.4%;
 top: 7%;
 }
 
+
+body.alimento img.paquete
+{
+width: 46%;
+margin top: 32px;
+margin-right: -37px;
+margin-top: 193px;
+}
+
+body.alimento div.cuadronegro
+{
+width: 47%;
+height: 63%;
+background-color: black;
+opacity: .6;
+margin: 4% 0 0 2%;
+position: fixed;
+z-index: 10;
+}
 
 div.top 
 {
@@ -1482,10 +1384,7 @@ body.alimento img.fotoepica
   width: 100%;position: absolute;
 }
 
-body.alimento img.cuadrocomida
-{
-  position: fixed;z-index: 1;width: 22%;right: 9%;top: 10%;
-}
+
 
 body.alimento img.facegrande
 {
