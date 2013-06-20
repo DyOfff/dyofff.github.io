@@ -857,6 +857,18 @@ body.alimento img.fotoepica
   width: 100%;position: absolute;
 }
 
+body.alimento img.logonegro
+{
+position: fixed;
+z-index: 1;
+width: 13%;
+right: 86.4%;
+bottom: 1%;
+opacity: 0.8;
+}
+
+
+
 
 body.alimento img.cuadrocomida
 {
@@ -1202,6 +1214,16 @@ right: 12.4%;
 top: 7%;
 }
 
+body.alimento img.logonegro
+{
+position: fixed;
+z-index: 1;
+width: 25%;
+right: 74.4%;
+bottom: 3%;
+opacity: 0.8;
+}
+
 
 body.alimento img.paquete
 {
@@ -1376,8 +1398,9 @@ div.separadorsucursal
 
 body.alimento
 {
-height: 100%; width: 100%; background: white;
+height: 100%; width: 100%; background: rgb(32,32,32);
 }
+
 
 body.alimento img.fotoepica
 {
