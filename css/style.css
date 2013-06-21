@@ -128,9 +128,14 @@ abbr[title] {
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 
+
+/* Aca se cambia el estilo de tipografía del nombre de los restaurantes en los menús*/
 b,
-strong {
-    font-weight: bold;
+strong 
+{
+font-weight: bold;
+font-family: sans-serif;
+font-style: italic;
 }
 
 /*
@@ -390,14 +395,13 @@ table {
 /* Eso se refiere al fondo negro de las páginas de "gracias.html y directorio.htm"*/
    body
    {
-background: linear-gradient(to right, rgb(32, 32, 32) 0%,rgb(32, 32, 32) 40%,rgb(32, 32, 32) 60%,rgb(32, 32, 32) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(238, 102, 8)', endColorstr='#e96f35',GradientType=1 );
-height: 100%;
+background:url(http://miguelnieva.com/images/background.png);
+
     }
 
 body.chilis, body.chilissucursales, body.chilispagos
 {
-  background: rgb(37, 37, 37);
+background:url(http://miguelnieva.com/images/background.png);
       
 }
 
@@ -419,12 +423,27 @@ div.logotipogracias img
   margin-top: 100px;
 }
 
+/* Esto corresponde a la imagen de "Bienvenido"*/
+div.bienvenido img
+{
+text-align: center;
+}
+
+div.bienvenidoeatsy
+{
+  text-align: center; 
+  margin-top: 26px; 
+}
+
+div.img
+
 /*mensaje de "Bienvenido"*/
 p.fontgrande
 {
   font-size: 20px;
   color: 126 126 126;
   margin-top: -55;
+  z
 }
 
 /*mensaje de "En eatsy podrás ordenar a los mejores restaurantes de Puebla*/
@@ -432,26 +451,31 @@ p.fontchico
 {
   font-size: 1em;
   color: rgb(32 32 32);
-  margin-top: -26px;
+  margin-top: -80px;
 }
 
 /*color de "Bienvenido y en eatsy encontrarás"*/
 p.black
 {
 color: rgb( 126,126,126);
+margin-top: 22px;
+text-align: center;
+font-family: sans-serif;
+font-style: italic;
 }
 
 /* botón de empezar a ordenar*/
 div.empezaraordenar
 {
   text-align: center;
-  margin-top: 207px;
+  margin-top: 76px;
 }
 
 /*esto corresponde al margen de la imagen de lapcompuipad*/
 div.lapcompuipad
 {
   text-align: center;
+  margin-top: 30px;
 }
 
 div.appeatsy div.topeatsygracias div.logotipogracias
@@ -678,17 +702,21 @@ div.restaurante div.imago
 
 div.restaurante div.nombre
 {
-    height: 0em;
+height: 0em;
 }
 
+/* Esto corresponde al color y estilo de letra de los nombres de restaurantes*/
 div.restaurante div.nombre a
 {
-  color: black;
+color: #1F1E1F;
+font-family: sans-serif;
+font-style: italic;
 }
-
+/* Logotipos de restaurantes en el directorio*/
 div.restaurantes
 {
-  margin: 0% 23%;
+margin: 0% 23%;
+margin-top: 79px;
 }
 
 p.center
@@ -799,25 +827,30 @@ div.lista::-webkit-scrollbar {
     display: none; 
 }
 
+/*Esto corresponde a la barra de "comidas" "cenas" "bebidas y postres"*/ 
 div.barra
 {
 margin-top: 3%;
 width: 100%;
 height: 5%;
-  
-margin-bottom: -.3%;
-background: rgb(26, 26, 26);
+margin-bottom: -0.3%;
+padding-bottom: 4px; 
+background: rgb(32, 32, 32);
 display: inline-block;
 }
 
+/* Esto corresponde al "estilo de letra" de "comidas" "cenas" "bebidas y postres"*/
 div.tipo
 {
-width: 33.1%;  
+width: 33.1%;
 text-align: center;
 color: rgb(126, 126, 126);
 display: inline-block;
-float:left;
+float: left;
 padding: .5% 0%;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
 }
 
 div.alimento
@@ -832,46 +865,58 @@ div.alimento
 div.foto
 {
   /*height: 14.8em;*/
-  height: 12.2em;
+height: 12.2em;
 overflow: hidden;
 position: relative;
-  background: rgba(5, 5, 5, .9);
-
-  margin-bottom: 0px;
+background: rgba(255, 255, 255, .9);
+margin-bottom: 0px;
 }
 
+/*Esto corresponde al tamaño de imagen en los menús*/
 div.alimento div.foto img
 {
- width: 100%; 
+ width: 102%; 
 }
 
-
+/* Esto corresponde al estilo de la barra en donde vienen precios y nombres de menús*/
 div.alimento div.foto div.descripcion
 {
 position: absolute;
-background-color: rgb(35, 31, 32);
-background: rgba(5, 5, 5, .9);
+padding-top: 6px;
+opacity: 0.8;
+/*Datos pertnecientes a la barra en donde están los nombres y precios*/
+background-color: rgb(255, 255, 255);
+background: rgba(0, 0, 0, .6);
 bottom: 0;
-color: rgb(126, 126, 126);
+/*Datos pertenecientes a la tipografía*/
+color: rgb(255, 255, 255);
 height:;
 overflow: hidden;
 padding: -7px 5px 15px;
 width: 100%;
 }
 
+
+/* Aca se edita el texto de los platillos en el menú principal*/
 div.alimento div.foto div.descripcion div.nombre
 {
-  margin-left:10px;
-  display: inline-block;
-
-
+margin-left: 10px;
+margin-bottom: 2px;
+display: inline-block;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
 }
 
+/* Aca se edita el texto del precio en el menú principal*/
 div.alimento div.foto div.descripcion div.precio
 {
-  display: inline-block;
-  float: right;
-  margin-right: 12px;
+display: inline-block;
+float: right;
+margin-right: 12px;
+font-family: sans-serif;
+font-style: italic;
+margin-bottom:4px;
 }
 body.alimento img.fotoepica
 {
