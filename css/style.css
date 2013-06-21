@@ -386,10 +386,11 @@ table {
    Normalize Ending
    ========================================================================== */
 
+
+/* Eso se refiere al fondo negro de las páginas de "gracias.html y directorio.htm"*/
    body
    {
-        
-background: linear-gradient(to right, rgb(238, 102, 8) 0%,rgb(255, 144, 3) 40%,rgb(255, 144, 3) 60%,rgb(238, 102, 8) 100%);
+background: linear-gradient(to right, rgb(32, 32, 32) 0%,rgb(32, 32, 32) 40%,rgb(32, 32, 32) 60%,rgb(32, 32, 32) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(238, 102, 8)', endColorstr='#e96f35',GradientType=1 );
 height: 100%;
     }
@@ -401,12 +402,65 @@ body.chilis, body.chilissucursales, body.chilispagos
 }
 
 
+/* ACA EMPIEZA LA PÁGINA DE INICIO - GRACIAS POR ENTRAR A EATSY */ 
 
-    div.app
-    {
-      
 
-    }
+/*esto corresponde al div-conteneor del logotipo de eatsy*/
+div.logotipogracias
+{
+text-align: center;
+}
+
+/*logotipo de eatsy*/
+div.logotipogracias img
+{
+  margin-left: -2px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*mensaje de "Bienvenido"*/
+p.fontgrande
+{
+  font-size: 20px;
+  color: 126 126 126;
+  margin-top: -55;
+}
+
+/*mensaje de "En eatsy podrás ordenar a los mejores restaurantes de Puebla*/
+p.fontchico
+{
+  font-size: 1em;
+  color: rgb(32 32 32);
+  margin-top: -26px;
+}
+
+/*color de "Bienvenido y en eatsy encontrarás"*/
+p.black
+{
+color: rgb( 126,126,126);
+}
+
+/* botón de empezar a ordenar*/
+div.empezaraordenar
+{
+  text-align: center;
+  margin-top: 207px;
+}
+
+/*esto corresponde al margen de la imagen de lapcompuipad*/
+div.lapcompuipad
+{
+  text-align: center;
+}
+
+div.appeatsy div.topeatsygracias div.logotipogracias
+{
+height: auto;
+margin-bottom: 5em;
+margin-top: 5em;
+text-align: center;
+}
 
 div.app a
 {
@@ -421,24 +475,12 @@ div.app a
     text-align: center;
 }
 
-    div.logotipo
-    {
-      margin: 7% 38.5% 0;
-}
-
+ 
 div.top div.logotipo img
 {
 margin: 0 2%;
 }
 
-div.logotipogracias
-
-{
-   text-align: center;
-      
-    
-       
-}
 
 div.appsesion div.inicia
 {
@@ -585,6 +627,7 @@ div.mensaje
   text-align: center;
   margin: 0 27%;
   margin-bottom: 2em;
+
 }
 
 p.white
@@ -592,16 +635,6 @@ p.white
   color: white;
 }
 
-p.black
-{
-color: rgb( 54,54,54);
-}
-
-p.fontgrande
-{
-  font-size: 20px;
-  text-transform: uppercase;
-}
 
 p.quieres
 {
@@ -609,21 +642,14 @@ p.quieres
 
 }
 
-p.fontchico
-{
-  font-size: 1em;
-}
+
 
 p.upper
 {
   text-transform: uppercase;
 }
 
-div.empezar
-{
-  margin: 16% 0% 0%;
-  text-align: center;
-}
+
 
 div.restaurante
 {
