@@ -1281,12 +1281,13 @@ right: 12.4%;
 top: 7%;
 }
 
+/* Esto corresponde al responsive design del logotipo blanco de eatsy*/
 body.alimento img.logonegro
 {
 position: fixed;
 z-index: 1;
-width: 25%;
-right: 74.4%;
+width: 18%;
+right: 80.4%;
 bottom: 3%;
 opacity: 0.8;
 }
