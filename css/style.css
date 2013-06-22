@@ -72,6 +72,7 @@ html {
     font-family: sans-serif; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
+    font-style: italic;
 }
 
 /*
@@ -747,9 +748,9 @@ width: 92px;
 
 div.restaurantito
 {
-  display: inline-block;
+display: inline-block;
 color: rgb(126, 126, 126);
-margin-bottom: 3.5%;
+margin-bottom: 2.5%;
 }
 
 div.restaurante{
