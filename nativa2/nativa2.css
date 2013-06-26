@@ -397,17 +397,20 @@ body
 background:url(http://miguelnieva.com/images/background.png);
 }
 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////
+   Aca empieza la primera parte de la pagina (imagenes principales)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 /* Imegen "MIRA DE QUE TRATA" */
 div.miradequetrata
 {
 text-align: right;
 }
-
 div.miradequetrata img
 {
 text-align: right;
 }
-
 
 
 /* Botón "QUIERO ORDENAR" */
@@ -417,6 +420,7 @@ width: 192px;
 margin-bottom: -51px;
 }
 
+
 /* Botón "SOY RESTAURANTE" */
 div.botonsoyrestaurante img
 {
@@ -424,12 +428,21 @@ width: 192px;
 margin-left: 213px;
 }
 
+
 /* IMAGENES PRINCIPALES */
 div.imagenesdepagina img
 {
 width: 100%;	
 margin-bottom: 100px;
 }
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+   Aca empieza la segunda parte de la página (en donde los usuarios van a pedir su invitación)
+   //////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
 /* Texto "USUARIOS" */
 div.usuarios
@@ -440,11 +453,13 @@ font-weight: bold;
 margin-top: -91px;	
 }
 
+
 /* Raya uno */
 div.rayauno
 {
 margin-top: -10px;
 }
+
 
 /* Imagen de etiqueta "QUIERO ORDENAR" */
 div.etiquetaordenar
@@ -453,11 +468,11 @@ text-align: left;
 margin-left: 1%;
 margin-top: 1%; 
 }
-
 div.etiquetaordenar img
 {
 width: 22%;
 }
+
 
 /* Parrafo "QUIERO INVITACIÓN" */
 div.parrafoinvitacion
@@ -469,18 +484,20 @@ font-style: italic;
 text-align: left;
 }
 
+
+/*EMPIEZAN "REDES SOCIALES DE EATSY" */
 /* Boton "FACEBOOK.EATSY" */
 div.facebookeatsy
 {
 text-align: right;
 }
-
 div.facebookeatsy img
 {
 width: 7%;
 margin-top: -70%;
 margin-right: 20%;
 }
+
 
 /* Botón "TWITTER-EATSY" */
 div.twittereatsy
@@ -489,27 +506,31 @@ text-align: right;
 margin-top: -7.2%;
 margin-right: 8%
 }
-
 div.twittereatsy img
 {
 width: 7.6%;
 }
+/*TERMINA "REDES SOCIALES DE EATSY" */
+
 
 /* Raya dos*/
 div.rayados
 {
-margin-left: 23%;
-width: 77%;
+margin-left: 25%;
+width: 74%;
 }
 
+
+/* EMPIEZA "REGISTRO PARA INVITACIÓN" */
 /* Texto "TU E-MAIL" */
 div.anotaemail
 {
 font-family: sans-serif;
 font-style: italic;
-margin-top: -3%;
 margin-left: 9%;
+margin-top: -21px;
 }
+
 
 /* Cuadro de "REGISTRO" */
 div.registro
@@ -518,6 +539,7 @@ margin-left: 1%;
 margin-top: -1%;	
 }
 
+
 /* Botón "INVITACIÓN" */
 div.botoninvitacion
 {
@@ -525,5 +547,76 @@ width: 49%;
 margin-left: 7%;
 margin-top: 1%;
 }
+/* TERMINA "REGISTRO PARA INVITACIÓN" */
 
 
+/* EMPIEZA palabras "ENVIA" "RECIBE" "ORDENA" */
+/* Palabra "ENVÍA" */
+div.envia
+{
+width: 17px;
+margin-left: 27em;
+margin-top: -65px;
+font-family: sans-serif;
+font-style: italic;
+}
+/* Palabra "RECIBE"¨*/
+div.recibe
+{
+width: 17px;
+margin-left: 46em;
+margin-top: -38px;
+font-family: sans-serif;
+font-style: italic;
+}
+/* Palabra "ORDENA" */
+div.ordena
+{
+width: 17px;
+margin-left: 65em;
+margin-top: -35px;
+font-family: sans-serif;
+font-style: italic
+}
+/*TERMINA palabras "ENVÍA" "RECIBE" "ORDENA" */
+
+
+/* EMPIEZA IMAGENES "ENVIA" "RECIBE" "ORDENA" */
+/*Imagen "ENVIA"*/
+div.imagenenvia
+{
+margin-left: 25em;  
+}
+div.imagenenvia img
+{
+width: 12%;
+}
+
+/*Imagen "Recibe"*/
+div.imagenrecibe
+{
+margin-left: 44.2em;
+margin-top: -108px;
+}
+div.imagenrecibe img
+{
+width: 19%;
+}
+
+/* Imagen "Ordena"*/
+div.imagenordena
+{
+margin-left: 63.4em;
+margin-top: -109px;
+}
+div.imagenordena img
+{
+width: 42%
+}
+/* TERMINA imagenes "ENVÍA" "RECIBE" "ORDENA" */
+
+
+div.rayatres
+{
+
+}
