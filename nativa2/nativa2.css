@@ -618,5 +618,54 @@ width: 42%
 
 div.rayatres
 {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////
+   Aca empiezan los "MEDIAS CUERY" formato "IPAD HORIZONTAL"
+   ///////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+@media only screen and (max-width : 1024px){
+
+/* EMPIEZA "REDES SOCIALES EATSY" */
+/* Botón "FACEBOOK-EATSY" */
+div.facebookeatsy
+{
+text-align: right;
+}
+div.facebookeatsy img
+{
+width: 7.7%;
+margin-top: -70%;
+margin-right: 15%;
+}
+
+/*Botón "TWITTER-EATSY" */
+div.twittereatsy
+{
+text-align: right;
+margin-top: -7.9%;
+margin-right: 3%
+}
+div.twittereatsy img
+{
+width: 7.9%;
+}
 
 }
