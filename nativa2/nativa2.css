@@ -391,7 +391,6 @@ table {
 
 
 
-
 body
 {
 background:url(http://miguelnieva.com/images/background.png);
@@ -443,15 +442,15 @@ margin-bottom: 126px;
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////
-   Aca empieza la segunda parte de la página (en donde los usuarios van a pedir su invitación)
+   Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación)
    //////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
 /* Texto "usuarios" */
 div.usuarios
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 font-weight: bold;
 margin-top: -91px;
 margin-left: 13px;	
@@ -486,14 +485,14 @@ div.parrafoinvitacion
 {
 margin-left: 25%;
 margin-top: -6%;
-font-family: sans-serif;
-font-style: italic;
 text-align: left;
 }
 div.parrafoinvitacion p
 {
 font-size: 20px;
 color:gray;
+font-family: 'Open Sans';
+font-weight: 300;
 }
 
 
@@ -538,8 +537,8 @@ width: 74%;
 /* Texto "e-mail" */
 div.anotaemail
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 margin-left: 9%;
 margin-top: -21px;
 }
@@ -567,8 +566,8 @@ div.envia
 width: 17px;
 margin-left: 27em;
 margin-top: -65px;
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 }
 /* Palabra "recibe"¨*/
 div.recibe
@@ -576,8 +575,8 @@ div.recibe
 width: 17px;
 margin-left: 46em;
 margin-top: -38px;
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 }
 /* Palabra "ordena" */
 div.ordena
@@ -585,8 +584,8 @@ div.ordena
 width: 17px;
 margin-left: 65em;
 margin-top: -35px;
-font-family: sans-serif;
-font-style: italic
+font-family: 'Open Sans';
+font-weight: 300;
 }
 /*TERMINA palabras "envía" "recibe" "ordena" */
 
@@ -633,11 +632,18 @@ div.rayatres
 
 
 
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////
+   Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
 /*Palabra "Restaurantes" */
 div.restaurantes
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 font-weight: bold;
 margin-left: 13px;
 }
@@ -655,13 +661,13 @@ margin-top: -9px;
 /* EMPIEZA Texto "Me gustaría tener mi menú digital" */
 div.megustaria
 {
-font-family: sans-serif;
-font-style: italic;
 margin-left: 13px;
 }
 div.megustaria p
 {
-font-size: 25px;  
+font-size: 25px;
+font-family: 'Open Sans';
+font-weight: 300; 
 color: gray
 }
 /* TERMINA Texto "Me gustaría tener mi menú digital" */ 
@@ -690,8 +696,8 @@ margin-top: 22px;
 /* EMPIEZA Palabra "Escribenos" */
 div.escribenos
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 font-weight: bold;
 margin-left: 37px;
 }
@@ -707,8 +713,8 @@ color: rgba(51 51 51);
 /* EMPIEZA texto "Tu menú digital está cerca" */
 div.parrafoescribenos
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 text-align: left;
 }
 div.parrafoescribenos p
@@ -717,18 +723,18 @@ font-size: 20px;
 color:gray;
 margin-left: 38px;
 }
-/* TERMINA texto "Tu menú digital stá cerca" */
+/* TERMINA texto "Tu menú digital está cerca" */
 
 
 
 /* EMPIEZA Palabra "Imagina..." */
 div.imagina
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 font-weight: bold;
 margin-left: 27em;
-margin-top: -114px;
+margin-top: -119px;
 margin-right: 38px;
 }
 div.imagina p
@@ -743,8 +749,8 @@ color: rgb(51 51 51);
 /*EMPIEZA texto "las personas podrán compartir" */
 div.parrafoimagina
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 text-align: left;
 margin-top: -2px;
 margin-right: 39px;
@@ -767,6 +773,8 @@ margin-left: 39px;
 margin-top: -5px;
 }
 
+
+
 /* Imagen "menú de prueba"*/
 div.menuprueba img
 {
@@ -776,12 +784,13 @@ margin-left: 24em;
 }
 
 
+
 /* EMPIEZA "registro para restaurantes"*/
 /* Palabra e-mail */
 div.anotaemailrestaurante
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 margin-left: 40%;
 margin-top: -28em;
 }
@@ -794,14 +803,14 @@ margin-left: 49px;
 }
 div.anotanombrerestaurante
 {
-font-family: sans-serif;
-font-style: italic;
+font-family: 'Open Sans';
+font-weight: 300;
 margin-left: 55px;
 }
 /* Botón "invitación" */
 div.botonenviar
 {
-width: 100%;
+width: 110%;
 margin-left: 7.5em;
 margin-top: 7%;
 }
@@ -816,11 +825,140 @@ margin-left: 49px;
 
 
 
+/*Raya seis*/
+div.rayaseis
+{
+margin-top: 16em;
+width: 78em;
+margin-left: -36px;
+}
 
 
 
 
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////
+   Acá empieza la "ultima parte de la página" (el footer y datos de Conexión)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
 
+
+
+/* Palabra ¿Quiénes somos? */
+div.quienessomos p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: -26px; 
+margin-top: 8em;
+}
+
+
+
+/* Logo "Conexión"*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 28em;
+}
+
+
+
+/* Raya siete */
+div.rayasiete
+{
+margin-left: -37px;
+width: 78em;  
+}
+
+
+
+/* Conexión Web - Desarrolladores de eatsy */
+div.desarrolladores 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: -33px;
+margin-right: -38em;
+padding: 0px;
+font-size: 23px;
+}
+
+
+
+/* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
+/* Palabra "La empresa"*/
+div.empresa
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+}
+/*Palabra "Servicios"*/
+div.servicios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 19em;
+margin-top: -36px;
+}
+/*Palabra "Portafolio de trabajo"*/
+div.portafolio
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 40em;
+margin-right: -32em;
+margin-top: -38px;
+}
+/*Palabra "Redes sociales"*/
+div.redes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 62em;
+margin-right: -56em;
+margin-top: -38px;
+}
+/* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
+
+
+
+/* EMPIEZA rayas "información Conexión" */
+/* Raya "ocho"*/
+div.rayaocho
+{
+width: 17em;
+}
+/* Raya nueve*/
+div.rayanueve
+{
+width: 17em;
+margin-left: 19em;
+margin-top: -10px;
+}
+/* Raya "diez"*/
+div.rayadiez
+{
+width: 17em;
+margin-left: 40em;
+margin-top: -10px;
+}
+/* Raya "once"*/
+div.rayaonce
+{
+width: 13em;
+margin-left: 62em;
+margin-top: -10px;
+}
+/* TERMINA rayas "información Conexión" */
 
 
 
