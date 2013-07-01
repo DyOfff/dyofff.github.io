@@ -980,9 +980,9 @@ font-size: 14px;
 /* Descripción "servicios"*/
 div.descripcionservicios
 {
-margin-left: 19em;
 margin-right: -17em;
 margin-top: -89px;
+margin-left: 19em;
 }
 div.descripcionservicios p
 {
@@ -1232,8 +1232,9 @@ margin-top: -78px;
 }
 div.imagenrecibe img
 {
-width: 18%;
-margin-left: 26px;
+width: 87px;
+margin-left: 20px;
+margin-top: -13px;
 }
 /* Imagen "ordena"*/
 div.imagenordena
@@ -1243,8 +1244,9 @@ margin-top: -82px;
 }
 div.imagenordena img
 {
-width: 53%;
-margin-left: 4px;
+width: 40%;
+margin-left: -2px;
+margin-top: -6px;
 }
 /* TERMINA imagenes "envía" "recibe" "ordena" CSS-IPAD HORIZONTAL */
 
@@ -1324,8 +1326,9 @@ margin-top: -21em;
 div.registrorestaurante
 {
 line-height: normal;
-width: 66em;
-margin-left: 5px;
+width: 58em;
+margin-left: 18px;
+margin-right: -5em;
 }
 div.anotanombrerestaurante
 {
@@ -1346,8 +1349,9 @@ margin-top: 7%;
 div.cuadrorestaurante
 {
 line-height: normal;
-width: 66em;
-margin-left: 6px;
+width: 58em;
+margin-left: 18px;
+margin-right: -4em;
 }
 /*TERMINA "registro para restaurante" CSS-IPAD HORIZONTAL*/
 
@@ -1378,11 +1382,20 @@ margin-left: -24px;
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */   
 
+
+/*Logo "Conexión"*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 20em;
+}
+
+
 /* Raya siete CSS-IPAD HORIZONTAL*/
 div.rayasiete
 {
 margin-left: -25px;
-width: 58em;
+width: 62em;
 } 
 
 
@@ -1393,7 +1406,7 @@ div.desarrolladores
 font-family: 'Open Sans';
 font-weight: 300;
 margin-left: -27px;
-margin-right: -38em;
+margin-right: -34em;
 padding: 0px;
 font-size: 20px;
 }
@@ -1441,8 +1454,8 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-margin-left: 51em;
-margin-right: -56em;
+margin-left: 46.7em;
+margin-right: -40em;
 margin-top: -36px;
 font-size: 15px;
 }
@@ -1461,6 +1474,7 @@ font-weight: bold;
 color: rgb(151 151 151);  
 }
 /* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD HORIZONTAL*/
+
 
 
 /* EMPIEZA rayas "información Conexión" CSS-IPAD HORIZONTAL*/
@@ -1486,8 +1500,8 @@ margin-top: -10px;
 /* Raya "once"*/
 div.rayaonce
 {
-width: 14em;
-margin-left: 60em;
+width: 16em;
+margin-left: 44em;
 margin-top: -10px;
 }
 /*Raya "doce"*/
@@ -1498,39 +1512,139 @@ margin-left: 30em;
 margin-right: -34.6em;
 margin-top: 15px;
 }
-/* TERMINA rayas "información Conexión" CSS-IPAD HORIZONTAL*/
-}
 
 
-/*EMPIEZA descripciones */
+
+/* EMPIEZA "descripciones" CSS-IPAD HORIZONTAL */
+/* Descripción "empresa"*/
 div.descripcionempresa p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px;
-margin-left: -23px;  
+margin-left: -25px;
+margin-right: 63px;
 }
 /* Descripción "servicios"*/
 div.descripcionservicios
 {
 margin-right: -17em;
-margin-top: -108px;
+margin-top: -107px;
 margin-left: 15em;
 }
-/*Descripcioón "Portafolio"*/
+/*Descripción "portafolio"*/
 div.descripcionportafolio
 {
-margin-left: 34.3em;
+margin-left: 34.6em;
 margin-top: -91px;
 font-size: 14px;
 }
-/* Descripción "Sitio Oficial"*/
+/*Descripción "sitio oficial"*/
 div.descripcionsitiooficial
 {
 margin-left: 30em;
 margin-right: -37em;
-margin-top: -3px;
+margin-top: -7px;
 }
+/*TERMINA "descripciones" CSS-IPAD HORIZONTAL*/
+
+
+
+/*Botón "facebook conexion" CSS-IPAD HORIZONTAL*/
+div.facebookconexion img
+{
+margin-left: 43.5em;
+}
+
+
+
+/*Botón "twitter conexión CSS-IPAD HORIZONTAL"*/
+div.twitterconexion img
+{
+margin-left: 43.5em;
+}
+
+
+
+/*Texto "algunas empresas" CSS-IPAD HORIZONTAL*/
+div.empresasyclientes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-right: -160px;
+font-size: 15px;
+margin-left: -25px; 
+}
+
+
+/* Raya "trece" CSS-IPAD HORIZONTAL*/
+div.rayatrece
+{
+width: 62em;
+margin-left: -25px;
+} 
+
+
+
+/*Logo "Trozmer" CSS-IPAD HORIZONTAL*/
+div.trozmer
+{
+margin-left: 14em;
+margin-top: -96px;
+}
+div.trozmer img
+{
+width: 10em;
+}
+
+
+/*Logo "idm" CSS-IPAD HORIZONTAL*/
+div.idm
+{
+margin-left: 28em;
+margin-top: -99px;  
+}
+
+
+
+/* Texto de "frase diseño y programación" CSS-IPAD HORIZONTAL*/
+div.frase
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-right: -33em;
+margin-left: 27em;
+margin-top: -98px;
+font-size: 21px;
+text-align: center;
+}
+
+
+/* Raya "catorce" CSS-IPAD HORIZONTAL*/
+div.rayacatorce
+{
+width: 62em;
+margin-left: -24px;
+}
+
+
+div.ultimomensaje
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 11px;
+margin-right: -61em;
+text-align: center;
+}
+
+
+
+/* TERMINA rayas "información Conexión" CSS-IPAD HORIZONTAL*/
+}
+
+
+
 
 
 
