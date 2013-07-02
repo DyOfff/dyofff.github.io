@@ -1629,6 +1629,8 @@ margin-left: -24px;
 }
 
 
+
+/* Ultimo mensaje*/
 div.ultimomensaje
 {
 font-family: 'Open Sans';
@@ -1658,38 +1660,364 @@ text-align: center;
 
 
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
    MEDIA CUERY - "IPAD VERTICAL"
-   ///////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
 @media only screen and (max-width : 768px){
 
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD VERTICAL
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+ /* Texto "usuarios" CSS-IPAD VERTICAL */
+div.usuarios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-top: -91px;
+margin-left: 13px;
+font-size: 14px; 
+}
+
+
+
+/* Parrafo "quiero invitación" CSS-IPAD VERTICAL*/
 div.parrafoinvitacion
 {
 margin-left: 25%;
-margin-top: -6%;
-font-family: sans-serif;
-font-style: italic;
+margin-top: -8%;
 text-align: left;
+margin-right: 250px;
 }
-
 div.parrafoinvitacion p
 {
-font-size: 12px;
+font-size: 14px;
 color:gray;
+font-family: 'Open Sans';
+font-weight: 300;
 }
 
-/* EMPIEZA "REDES SOCIALES EATSY" */
-/* Botón "FACEBOOK-EATSY" */
+
+
+/*EMPIEZAN "redes sociales eatsy CSS-IPAD VERTICAL*/
 div.facebookeatsy
 {
+margin-top: -29px;
 text-align: right;
 }
 div.facebookeatsy img
 {
-width: 7.7%;
-margin-top: -70%;
-margin-right: 15%;
+width: 11.6%;
+margin-top: -71%;
+margin-right: 22%;
 }
- } 
+/* Botón "twitter-eatsy" CSS-IPAD VERTICAL*/
+div.twittereatsy
+{
+text-align: right;
+margin-top: -7.2%;
+margin-right: 3%
+}
+div.twittereatsy img
+{
+width: 11.6%;
+margin-top: -33px;
+}
+/*TERMINA "redes sociales eatsy" CSS-IPAD VERTICAL*/
+
+
+
+/* EMPIEZA "registro para invitación" CSS-IPAD VERTICAL*/
+/* Texto "e-mail" CSS-IPAD VERTICAL*/
+div.anotaemail
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 9%;
+margin-top: -21px;
+font-size: 14px;
+}
+/* Botón "invitación" CSS-IPAD VERTICAL*/
+div.botoninvitacion
+{
+width: 71%;
+margin-left: 5%;
+margin-top: 1%;
+}
+
+
+
+/* EMPIEZA palabras "envía" "recibe" "ordena" CSS-IPAD VERTICAL*/ 
+/* Palabra "envía" CSS-IPAD VERTICAL*/
+div.envia
+{
+width: 17px;
+margin-left: 17em;
+margin-top: -84px;
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px;
+}
+/* Palabra "recibe" CSS-IPAD VERTICAL*/
+div.recibe
+{
+width: 17px;
+margin-left: 30em;
+margin-top: -33px;
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px;
+}
+/* Palabra "ordena" CSS-IPAD VERTICAL*/
+div.ordena
+{
+width: 17px;
+margin-left: 43em;
+margin-top: -30px;
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px;
+}
+/* TERMINA palabras "envía" "recibe" "ordena" CSS-IPAD VERTICAL*/ 
+
+
+
+/* EMPIEZA IMAGENES "envía" "recibe" "ordena" CSS-IPAD VERTICAL */
+/*Imagen "envía" CSS-IPAD VERTICAL*/
+div.imagenenvia
+{
+margin-left: 25em;  
+}
+div.imagenenvia img
+{
+width: 24%;
+margin-left: -11em;
+}
+/*Imagen "recibe" CSS-IPAD VERTICAL*/
+div.imagenrecibe
+{
+margin-left: 23.8em;
+margin-top: -70px;
+}
+div.imagenrecibe img
+{
+width: 72px;
+margin-left: 31px;
+margin-top: -3px;
+}
+/* Imagen "ordena" CSS-IPAD VERTICAL*/
+div.imagenordena
+{
+margin-left: 51em;
+margin-top: -70px;
+width: 14em;
+}
+div.imagenordena img
+{
+width: 33%;
+margin-left: -221px;
+margin-top: -6px;
+}
+/* TERMINA IMAGENES "envía" "recibe" "ordena" CSS-IPAD VERTICAL */
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD VERTICAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+/*Palabra "Restaurantes" CSS-IPAD VERTICAL*/
+div.restaurantes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 13px;
+font-size: 14px;
+}
+
+
+
+/* EMPIEZA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/
+div.megustaria
+{
+margin-left: 13px;
+}
+div.megustaria p
+{
+font-size: 21px;
+font-family: 'Open Sans';
+font-weight: 300;
+color: gray;
+}
+/* TERMINA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/ 
+
+
+
+/* Imagen "¿Tienes un restaurante?" CSS-IPAD VERTICAL*/
+div.tienesunrestaurante img
+{
+width: 98%;
+margin-left: 6px;  
+}
+
+
+
+/* Imagen "Te invitamos" CSS-IPAD VERTICAL */
+div.teinvitamos img
+{
+width: 98%;
+margin-left: 7px;
+margin-top: 8px;
+}
+
+
+
+/* EMPIEZA Palabra "Escribenos" CSS-IPAD VERTICAL */
+div.escribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 9px;
+}
+div.escribenos p
+{
+font-size: 14px;
+color: rgba(51 51 51);
+}
+/*TERMINA Plabra "Escribenos" CSS-IPAD VERTICAL*/ 
+
+
+
+/* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD VETICAL*/
+div.parrafoescribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+}
+div.parrafoescribenos p
+{
+font-size: 13px;
+color:gray;
+margin-left: 12px;
+}
+/* TERMINA texto "Tu menú digital está cerca" CSS-IPAD VERTICAL */
+
+
+
+/* EMPIEZA Palabra "Imagina..." CSS-IPAD VERTICAL*/
+div.imagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 16em;
+margin-top: -84px;
+margin-right: 38px;
+}
+div.imagina p
+{
+font-size: 14px;
+color: rgb(51 51 51);  
+}
+/*TERMINA Plabara "Imagina..." CSS-IPAD VERTICAL */
+
+
+
+/*EMPIEZA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
+div.parrafoimagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+margin-top: -2px;
+margin-right: 2px;
+margin-left: -7px;
+}
+div.parrafoimagina p
+{
+font-size: 13px;
+color:gray;
+margin-left: 20.1em;
+}
+/*TERMINA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
+
+
+
+/* Raya cinco*/
+div.rayacinco
+{
+width: 33%;
+margin-left: 14px;
+margin-top: -5px;
+}
+
+
+
+/* EMPIEZA "registro para restaurantes" CSS-IPAD VERTICAL*/
+/* Palabra e-mail */
+div.anotaemailrestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 37%;
+margin-top: -19em;
+font-size: 13px;
+}
+/* Cuadro de "registro" */
+div.registrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 8px;
+margin-right: -5em;
+}
+/* Texto "Anota nombre restaurante" CSS-IPAD VERTICAL*/
+div.anotanombrerestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 17px;
+font-size: 13px;
+margin-right: -42px;
+}
+/*Cuadro para anotar "nombre del restaurante" CSS-IPAD VERTICAL*/
+div.cuadrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 9px;
+margin-right: -4em;
+}
+/*TERMINA "registro para restaurante" CSS-IPAD VERTICAL*/
+
+
+
+/* Imagen "menú de prueba" CSS-IPAD VERTICAL*/
+div.menuprueba img
+{
+width: 191%;
+margin-left: 15em;
+}
+
+
+
+/*Raya seis CSS-IPAD HORIZONTAL*/
+div.rayaseis
+{
+margin-top: 5em;
+width: 45em;
+margin-left: -37px;
+}
+}
