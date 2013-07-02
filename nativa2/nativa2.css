@@ -1085,6 +1085,7 @@ margin-top: -96px;
 }
 div.trozmer img
 {
+/* Imagen "idm"*/  
 }
 div.idm
 {
@@ -1694,9 +1695,9 @@ font-size: 14px;
 div.parrafoinvitacion
 {
 margin-left: 25%;
-margin-top: -8%;
+margin-top: -7%;
 text-align: left;
-margin-right: 250px;
+margin-right: 144px;
 }
 div.parrafoinvitacion p
 {
@@ -1711,26 +1712,26 @@ font-weight: 300;
 /*EMPIEZAN "redes sociales eatsy CSS-IPAD VERTICAL*/
 div.facebookeatsy
 {
-margin-top: -29px;
+margin-top: -18px;
 text-align: right;
 }
 div.facebookeatsy img
 {
-width: 11.6%;
-margin-top: -71%;
-margin-right: 22%;
+width: 7.1%;
+margin-top: -60%;
+margin-right: 11%;
 }
 /* Botón "twitter-eatsy" CSS-IPAD VERTICAL*/
 div.twittereatsy
 {
 text-align: right;
 margin-top: -7.2%;
-margin-right: 3%
+margin-right: 1%;
 }
 div.twittereatsy img
 {
-width: 11.6%;
-margin-top: -33px;
+width: 7.5%;
+margin-top: -4px;
 }
 /*TERMINA "redes sociales eatsy" CSS-IPAD VERTICAL*/
 
@@ -1771,8 +1772,8 @@ font-size: 14px;
 div.recibe
 {
 width: 17px;
-margin-left: 30em;
-margin-top: -33px;
+margin-left: 31em;
+margin-top: -31px;
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px;
@@ -1781,7 +1782,7 @@ font-size: 14px;
 div.ordena
 {
 width: 17px;
-margin-left: 43em;
+margin-left: 45em;
 margin-top: -30px;
 font-family: 'Open Sans';
 font-weight: 300;
@@ -1799,8 +1800,8 @@ margin-left: 25em;
 }
 div.imagenenvia img
 {
-width: 24%;
-margin-left: -11em;
+width: 17%;
+margin-left: -10.5em;
 }
 /*Imagen "recibe" CSS-IPAD VERTICAL*/
 div.imagenrecibe
@@ -1810,9 +1811,9 @@ margin-top: -70px;
 }
 div.imagenrecibe img
 {
-width: 72px;
-margin-left: 31px;
-margin-top: -3px;
+width: 61px;
+margin-left: 51px;
+margin-top: 6px;
 }
 /* Imagen "ordena" CSS-IPAD VERTICAL*/
 div.imagenordena
@@ -1823,9 +1824,9 @@ width: 14em;
 }
 div.imagenordena img
 {
-width: 33%;
-margin-left: -221px;
-margin-top: -6px;
+width: 29%;
+margin-left: -190px;
+margin-top: 3px;
 }
 /* TERMINA IMAGENES "envía" "recibe" "ordena" CSS-IPAD VERTICAL */
 
@@ -1942,8 +1943,8 @@ font-family: 'Open Sans';
 font-weight: 300;
 text-align: left;
 margin-top: -2px;
-margin-right: 2px;
-margin-left: -7px;
+margin-right: 7px;
+margin-left: -8px;
 }
 div.parrafoimagina p
 {
@@ -1958,7 +1959,7 @@ margin-left: 20.1em;
 /* Raya cinco*/
 div.rayacinco
 {
-width: 33%;
+width: 29%;
 margin-left: 14px;
 margin-top: -5px;
 }
@@ -1971,8 +1972,8 @@ div.anotaemailrestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 37%;
-margin-top: -19em;
+margin-left: 43%;
+margin-top: -20em;
 font-size: 13px;
 }
 /* Cuadro de "registro" */
@@ -2007,17 +2008,347 @@ margin-right: -4em;
 /* Imagen "menú de prueba" CSS-IPAD VERTICAL*/
 div.menuprueba img
 {
-width: 191%;
+width: 227%;
 margin-left: 15em;
 }
 
 
 
-/*Raya seis CSS-IPAD HORIZONTAL*/
+/*Raya seis CSS-IPAD VERTICAL*/
 div.rayaseis
 {
 margin-top: 5em;
-width: 45em;
+width: 49em;
 margin-left: -37px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   4) Acá empieza la "ultima parte de la página" (el footer y datos de Conexión) CSS-IPAD VERTICAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
+/* Palabra ¿Quiénes somos? CSS-IPAD VERTICAL*/
+div.quienessomos p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: -1px;
+margin-top: 8em;
+font-size: 14px;
+}
+
+
+
+/*Logo "Conexión" CSS-IPAD VERTICAL*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 17em;
+width: 13em;
+}
+
+
+
+/* Raya siete CSS-IPAD VERTICAL*/
+div.rayasiete
+{
+margin-left: -25px;
+width: 48em;
+} 
+
+
+
+/* Conexión Web - Desarrolladores de eatsy CSS-IPAD VERTICAL*/
+div.desarrolladores 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: -9px;
+margin-right: -34em;
+padding: 0px;
+font-size: 19px;
+}
+
+
+
+/* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD VERTICAL */
+/* Palabra "La empresa"*/
+div.empresa
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+}
+div.empresa p
+{
+font-size: 14px;
+margin-left: 17px  
+}
+/*Palabra "Servicios"*/
+div.servicios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 18em;
+margin-top: -35px;
+}
+div.servicos p
+{
+font-size: 14px;  
+}
+/*Palabra "Portafolio de trabajo" CSS-IPAD VERTICAL*/
+div.portafolio
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 40em;
+margin-right: -32em;
+margin-top: -32px;
+}
+div.portafolio p
+{
+font-size: 14px;
+margin-left: -165px;  
+}
+/*Palabra "sitio oficial"*/
+div.sitiooficial
+{
+margin-left: 29em;
+margin-right: -37em;
+}
+div.sitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+font-size: 14px;  
+}
+/*Palabra "Redes sociales" CSS-IPAD VERTICAL*/
+div.redes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 60em;
+margin-right: -56em;
+margin-top: -35px;
+}
+div.redes p
+{
+font-size: 14px;
+margin-left: -20em;  
+}
+
+
+
+/* Raya nueve CSS-IPAD VERTICAL*/
+div.rayanueve
+{
+width: 12em;
+margin-left: 14em;
+margin-top: -10px;
+}
+/* Raya "diez" CSS-IPAD VERTICAL*/
+div.rayadiez
+{
+width: 10em;
+margin-left: 27.3em;
+margin-top: -10px;
+}
+/* Raya "once"*/
+div.rayaonce
+{
+width: 7.6em;
+margin-left: 38.9em;
+margin-top: -10px;
+}
+/*Raya "doce"*/
+div.rayadoce
+{
+width: 10em;
+margin-left: 27.4em;
+margin-right: -34.6em;
+margin-top: 15px;
+}
+
+
+/* EMPIEZA "descripciones" CSS-IPAD VERTICAL */
+/* Descripción "empresa"*/
+div.descripcionempresa p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px;
+margin-left: -5px;
+margin-right: 29px;
+}
+/* Descripción "servicios" CSS-IPAD VERTICAL*/
+div.descripcionservicios
+{
+margin-right: -17em;
+margin-top: -121px;
+margin-left: 14em;
+}
+div.descripcionservicios p
+{
+font-size: 13px;  
+}
+/*Descripcioón "Portafolio" CSS-IPAD VERTICAL*/
+div.descripcionportafolio p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px;
+margin-left: -3.6em;
+}
+/* Descripción "Sitio Oficial" CSS-IPAD VERTICAL*/
+div.descripcionsitiooficial
+{
+margin-left: 27.3em;
+margin-right: -37em;
+margin-top: -7px;
+}
+div.descripcionsitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px; 
+}
+
+
+
+/*Botón "facebook conexion" CSS-IPAD VERTICAL*/
+div.facebookconexion img
+{
+margin-left: 39.5em;
+width: 6em;
+margin-top: 16px;
+}
+
+
+
+/*Botón "twitter conexión CSS-IPAD VERTICAL"*/
+div.twitterconexion img
+{
+margin-left: 39.5em;
+width: 6.1em;
+}
+
+
+
+/* Texto "Algunas empresas y clientes que han confiado en nosotros" CSS-IPAD VERTICAL*/
+div.empresasyclientes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151); 
+margin-right: -9em;  
+}
+div.empresasyclientes p
+{
+font-size: 14px;
+margin-top: 31px;
+margin-left: 20px;
+margin-right: -91px; 
+}
+
+
+
+/* Raya "trece" CSS-IPAD VERTICAL*/
+div.rayatrece
+{
+width: 48em;
+margin-left: -25px;
+} 
+
+
+
+/*Imagen "Ibero" CSS-IPAD VERTICAL*/
+div.ibero
+{
+}
+div.ibero img
+{
+margin-left: 1px;
+width: 7em;  
+}
+
+
+
+/*Logo "Trozmer" CSS-IPAD VERTICAL*/
+div.trozmer
+{
+margin-left: 14em;
+margin-top: -96px;
+}
+div.trozmer img
+{
+width: 7em;
+margin-top: 27px;
+margin-left: -41px;
+}
+
+
+
+/* Imagen "idm" CSS-IPAD VERTICAL*/  
+}
+div.idm
+{
+margin-left: 34em;
+margin-top: -99px;  
+}
+div.idm img
+{
+width: 6em;
+margin-top: 26px;
+margin-left: -11em;
+}
+
+
+
+/* Texto de "frase diseño y programación" CSS-IPAD HORIZONTAL*/
+div.frase
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-right: -30em;
+margin-left: 28em;
+margin-top: -72px;
+font-size: 17px;
+text-align: center;
+}
+
+
+
+/* Raya "catorce" CSS-IPAD HORIZONTAL*/
+div.rayacatorce
+{
+width: 48em;
+margin-left: -24px;
+}
+
+
+
+/* Ultimo mensaje*/
+div.ultimomensaje
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 11px;
+margin-right: -61em;
+text-align: center;
+margin-right: -48em;
 }
 }
