@@ -970,6 +970,7 @@ margin-top: -10px;
 /* Descripción "empresa"*/
 div.descripcionempresa
 {
+
 }
 div.descripcionempresa p
 {
@@ -1089,7 +1090,7 @@ div.trozmer img
 }
 div.idm
 {
-margin-left: 34em;
+margin-left: 2em;
 margin-top: -99px;  
 }
 div.idm img
@@ -1121,6 +1122,7 @@ font-size: 11px;
 margin-right: -79em;
 text-align: center;
 }
+
 /*TERMINA descripciones "empresa" "serrvicios" "portafolio de trabajo" "redes sociales"*/
 
 
@@ -2303,7 +2305,6 @@ margin-left: -41px;
 
 
 /* Imagen "idm" CSS-IPAD VERTICAL*/  
-}
 div.idm
 {
 margin-left: 34em;
