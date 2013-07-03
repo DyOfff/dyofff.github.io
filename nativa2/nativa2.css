@@ -425,7 +425,7 @@ margin-bottom: -51px;
 /* Botón "soy restaurante" */
 div.botonsoyrestaurante img
 {
-width: 192px;	
+width: 192px; 
 margin-left: 213px;
 }
 
@@ -434,7 +434,7 @@ margin-left: 213px;
 /* imagenes principales*/
 div.imagenesdepagina img
 {
-width: 100%;	
+width: 100%;  
 margin-bottom: 126px;
 }
 
@@ -453,7 +453,7 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 margin-top: -91px;
-margin-left: 13px;	
+margin-left: 13px;  
 }
 
 
@@ -546,7 +546,7 @@ margin-top: -21px;
 div.registro
 {
 margin-left: 1%;
-margin-top: -1%;	
+margin-top: -1%;  
 }
 /* Botón "invitación" */
 div.botoninvitacion
