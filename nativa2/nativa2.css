@@ -674,10 +674,24 @@ margin-left: 13px;
 
 
 
-/*Raya cuatrp*/
+/*Raya cuatro*/
 div.rayacuatro
 {
 margin-top: -9px;
+}
+
+
+
+/*Botón "inicio2"*/
+div.inicio2 
+{
+
+}
+div.inicio2 img
+{
+width: 16%;
+margin-left: 63em;
+margin-bottom: -43px;
 }
 
 
@@ -1292,6 +1306,18 @@ margin-top: -6px;
    3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD HORIZONTAL
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */   
+
+/*Botón "inicio2"*/
+div.inicio2 
+{
+
+}
+div.inicio2 img
+{
+width: 20%;
+margin-left: 50em;
+margin-bottom: -43px;
+}
 
 
 /* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL*/
