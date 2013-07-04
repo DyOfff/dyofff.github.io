@@ -401,6 +401,12 @@ background:url(http://miguelnieva.com/images/background.png);
    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
+div.imagenportada img
+{
+width: 100%;
+}
+
+
 /* Imegen "mira de que trata" */
 div.miradequetrata
 {
@@ -409,6 +415,7 @@ text-align: right;
 div.miradequetrata img
 {
 text-align: right;
+margin-bottom: 79px;
 }
 
 
@@ -417,7 +424,7 @@ text-align: right;
 div.botonquieroordenar img
 {
 width: 192px;
-margin-bottom: -51px;
+margin-bottom: -85px;
 }
 
 
@@ -427,6 +434,7 @@ div.botonsoyrestaurante img
 {
 width: 192px; 
 margin-left: 213px;
+margin-top: 34px;
 }
 
 
@@ -446,13 +454,25 @@ margin-bottom: 126px;
    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
+/*Botón inicio*/
+div.inicio
+{
+margin-top: -108px; 
+}
+div.inicio img
+{
+width: 16%;
+margin-left: 63em;
+}
+
+
 /* Texto "usuarios" */
 div.usuarios
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
-margin-top: -91px;
+margin-top: -14px;
 margin-left: 13px;  
 }
 
@@ -640,6 +660,7 @@ div.rayatres
    3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes)
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */   
+
 
 
 /*Palabra "Restaurantes" */
@@ -1156,6 +1177,18 @@ text-align: center;
    2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD HORIZONTAL
    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
+
+/*Botón de "inicio"*/
+div.inicio
+{
+margin-top: -108px; 
+}
+div.inicio img
+{
+width: 19%;
+margin-left: 50em;
+}
+
 
 /* Parrafo "quiero invitación" CSS-IPAD HORIZONTAL*/
 div.parrafoinvitacion
@@ -1679,6 +1712,17 @@ text-align: center;
    2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD VERTICAL
    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
+
+/*Botón de "inicio"*/
+div.inicio
+{
+margin-top: -108px; 
+}
+div.inicio img
+{
+width: 19%;
+margin-left: 30em;
+}
 
  /* Texto "usuarios" CSS-IPAD VERTICAL */
 div.usuarios
