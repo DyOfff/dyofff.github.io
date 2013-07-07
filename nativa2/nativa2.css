@@ -1178,6 +1178,20 @@ text-align: center;
 @media only screen and (max-width : 1024px){
 
 
+/*Imagen "Mira de qué trata"*/
+div.miradequetrata
+{
+margin-left: 41em;
+}
+div.miradequetrata img
+{
+margin-bottom: 99px;
+width: 18em;
+}
+div.miradequetrata img:hover
+{
+opacity: 0.5;
+}
 
 
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1221,75 +1235,6 @@ div.indicates-required
 }
 
 
-
-/* EMPIEZA palabras "envía" "recibe" "ordena" CSS-IPAD HORIZONTAL*/ 
-/* Palabra "envía" */
-div.envia
-{
-width: 17px;
-margin-left: 19em;
-margin-top: -84px;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-/* Palabra "recibe"¨*/
-div.recibe
-{
-width: 17px;
-margin-left: 34em;
-margin-top: -38px;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-/* Palabra "ordena" */
-div.ordena
-{
-width: 17px;
-margin-left: 50em;
-margin-top: -35px;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-/* TERMINA palabras "envía" "recibe" "ordena" CSS-IPAD HORIZONTAL */ 
-
-
-
-/* EMPIEZA IMAGENES "envía" "recibe" "ordena" CSS-IPAD HORIZONTAL */
-/*Imagen "envía"*/
-div.imagenenvia
-{
-margin-left: 25em;  
-}
-div.imagenenvia img
-{
-width: 14%;
-margin-left: -6.6em;
-}
-/*Imagen "recibe"*/
-div.imagenrecibe
-{
-margin-left: 31.8em;
-margin-top: -78px;
-}
-div.imagenrecibe img
-{
-width: 87px;
-margin-left: 20px;
-margin-top: -13px;
-}
-/* Imagen "ordena"*/
-div.imagenordena
-{
-margin-left: 49.4em;
-margin-top: -86px;
-}
-div.imagenordena img
-{
-width: 39%;
-margin-left: -2px;
-margin-top: -6px;
-}
-/* TERMINA imagenes "envía" "recibe" "ordena" CSS-IPAD HORIZONTAL */
 
 
 
@@ -1725,6 +1670,23 @@ text-align: center;
 @media only screen and (max-width : 768px){
 
 
+/*Imagen "Mira de qué trata"*/
+div.miradequetrata
+{
+margin-left: 27em;
+}
+div.miradequetrata img
+{
+margin-bottom: 99px;
+width: 18em;
+}
+div.miradequetrata img:hover
+{
+opacity: 0.5;
+}
+
+
+
  /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
    2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD VERTICAL
    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1820,78 +1782,8 @@ margin-top: 1%;
 
 
 
-/* EMPIEZA palabras "envía" "recibe" "ordena" CSS-IPAD VERTICAL*/ 
-/* Palabra "envía" CSS-IPAD VERTICAL*/
-div.envia
-{
-width: 17px;
-margin-left: 17em;
-margin-top: -84px;
-font-family: 'Open Sans';
-font-weight: 300;
-font-size: 14px;
-}
-/* Palabra "recibe" CSS-IPAD VERTICAL*/
-div.recibe
-{
-width: 17px;
-margin-left: 31em;
-margin-top: -31px;
-font-family: 'Open Sans';
-font-weight: 300;
-font-size: 14px;
-}
-/* Palabra "ordena" CSS-IPAD VERTICAL*/
-div.ordena
-{
-width: 17px;
-margin-left: 45em;
-margin-top: -30px;
-font-family: 'Open Sans';
-font-weight: 300;
-font-size: 14px;
-}
-/* TERMINA palabras "envía" "recibe" "ordena" CSS-IPAD VERTICAL*/ 
 
 
-
-/* EMPIEZA IMAGENES "envía" "recibe" "ordena" CSS-IPAD VERTICAL */
-/*Imagen "envía" CSS-IPAD VERTICAL*/
-div.imagenenvia
-{
-margin-left: 25em;  
-}
-div.imagenenvia img
-{
-width: 17%;
-margin-left: -10.5em;
-}
-/*Imagen "recibe" CSS-IPAD VERTICAL*/
-div.imagenrecibe
-{
-margin-left: 23.8em;
-margin-top: -70px;
-}
-div.imagenrecibe img
-{
-width: 61px;
-margin-left: 51px;
-margin-top: 6px;
-}
-/* Imagen "ordena" CSS-IPAD VERTICAL*/
-div.imagenordena
-{
-margin-left: 51em;
-margin-top: -70px;
-width: 14em;
-}
-div.imagenordena img
-{
-width: 29%;
-margin-left: -190px;
-margin-top: 3px;
-}
-/* TERMINA IMAGENES "envía" "recibe" "ordena" CSS-IPAD VERTICAL */
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
