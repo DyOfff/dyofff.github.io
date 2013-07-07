@@ -1673,12 +1673,12 @@ text-align: center;
 /*Imagen "Mira de qué trata"*/
 div.miradequetrata
 {
-margin-left: 27em;
+margin-left: 32em;
 }
 div.miradequetrata img
 {
 margin-bottom: 99px;
-width: 18em;
+width: 12em;
 }
 div.miradequetrata img:hover
 {
