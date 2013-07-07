@@ -73,6 +73,7 @@ html {
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
     font-style: italic;
+    color: blue;
 }
 
 /*
@@ -407,8 +408,11 @@ background:url(http://miguelnieva.com/images/background.png);
 }
 
 
-/* ACA EMPIEZA LA PÁGINA DE INICIO - GRACIAS POR ENTRAR A EATSY */ 
-
+/* 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA Página de inicio (Menú de prueba - restaurantes)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/ 
 
 /*esto corresponde al div-conteneor del logotipo de eatsy*/
 div.logotipogracias
@@ -479,6 +483,16 @@ div.lapcompuipad
   margin-top: 30px;
 }
 
+
+
+
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+EMPIEZA directorio de restaurantes
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
 div.appeatsy div.topeatsygracias div.logotipogracias
 {
 height: auto;
@@ -492,12 +506,12 @@ div.app a
   text-decoration: none;
 }
 
-    div.top
+div.top
 {
-    height: auto;
-    margin-bottom: 5em;
-    margin-top: 5em;
-    text-align: center;
+  height: auto;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  text-align: center;
 }
 
  
@@ -505,175 +519,6 @@ div.top div.logotipo img
 {
 margin: 0 2%;
 }
-
-
-div.appsesion div.inicia
-{
-  text-align: center;
-  margin-bottom: 23px;
-}
-
-div.appregistro div.inicia
-{
-  text-align: center;
-  margin-bottom: 17px;
-  margin-top: 17px;
-}
-
-div.medium div.bloques
-{
-  margin: 55px 15% 55px;
-}
-
-div.medium div.bloques div.bloque
-{
-  background: #383839;
-  border-radius: 5px;
-  height: 2.1em;
-  margin: 0 32.5% 4%;
-  width: 35%;
-}
-
-div.medium div.bloques div.bloque:hover, div.medium div.bloques div.bloque:focus
-{
- opacity: .5;
-}
-
-div.medium div.bloques div.bloque a
-{
-  text-decoration: none;
-}
-
-
-div.medium div.bloques div.bloque p
-{
-  font-family: Helvetica;
-  border-radius: 5px;
-  color: #dadada;
-  text-align: center;
-  padding-top: 8px;
-  font-size: 15px;
-  margin: 0;
-}
-
-div.avance
-{
-  margin: 0 48.6%;
-  margin-top: 2em;
-}
-
-div.separador
-{
-  border-top:solid thin;
-  color: rgb( 54, 54, 54);
-  margin: 1 23%;
-}
-
-
-div.socialmedia
-{
-
- margin: 2.5% 23%;
-
- width: 54%;
-
- text-align: center;
-
-}
-
-div.socialmedia img
-{
-  margin: 3% 3%;
-}
-
-div.socialmediaregistro
-{
-
- margin: 2.5% 0%;
- width: 100%;
- text-align: center;
-
-}
-
-div.socialmediaregistro img
-{
-  margin: 0 4%;
-}
-
-
-div.formulario
-{
-    text-align: center;
- 
-
-}
-
-div.formulario form
-{
-margin: 4% 12% 0%;
-text-align: center;
-}
-
-div.formulario form input
-{
-  background: #383839;
-border-radius: 10px;
-color: white;
-padding-left: 10px;
-box-sizing: border-box;
-
-  height: 25px;
-
-  padding: 10px 10px 10px 14px;
-
-outline: 0;
-border: 1px solid transparent;
-
-  display: block;
-
-  width: 50%;
-  margin: 0% 25% 3.5%;
-}
-
-div.crearcuenta
-{
-  margin: 4.5% 0%;
-
-  text-align: center;
-}
-
-div.crearcuenta img:hover
-{
-  opacity: .5;
-}
-
-div.mensaje
-{
-  text-align: center;
-  margin: 0 27%;
-  margin-bottom: 2em;
-
-}
-
-p.white
-{
-  color: white;
-}
-
-
-p.quieres
-{
-  font-size:17px;
-
-}
-
-
-
-p.upper
-{
-  text-transform: uppercase;
-}
-
 
 
 div.restaurante
@@ -705,6 +550,7 @@ div.restaurante div.nombre
 {
 height: 0em;
 }
+
 
 /* Esto corresponde al color y estilo de letra de los nombres de restaurantes*/
 div.restaurante div.nombre a
@@ -758,20 +604,8 @@ div.restaurante{
   color: white
 }
 
-div.busqueda
-{
-  width: 34%;
-  text-align: center;
-  display: inline-block;
-  vertical-align: middle;
-}
 
 
-div.busqueda input
-{
-  border-radius: 10px;
-  width: 65%;
-}
 
 div.botoncuenta
 {
@@ -782,11 +616,12 @@ float: right;
 }
 
 
-/* Chilis.html */
 
-
-
-
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+Aca empieza el layout de los menús
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
 div.menu
 {
@@ -957,280 +792,28 @@ top: 7%;
 
 
 
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina de cuenta
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
-
-body.alimento img.facegrande
+div.imagenedificios img
 {
-  position: fixed;
-z-index: 1;
-width: 11%;
-right: 28.4%;
-top: 59%;
+width: 100%;
 }
 
-body.alimento img.twittergrande
-{
-  position: fixed;
-z-index: 1;
-width: 11%;
-right: 16.2%;
-top: 59%;
-}
 
-body.alimento div.cuadronegro
+div.cuadronegrocuenta 
 {
-width: 41%;
-height: 63%;
+width: 27em;
+height: 31em;
 background-color: black;
-opacity: .6;
-margin: 4% 0 0 6%;
-position: fixed;
-z-index: 10;
-}
-
-
-body.chilisorden
-{
-margin-top: 60px;
-background: rgb(201, 28, 28) 40%;  
-color: white;
-background: url("../img/fotosgrandes/eureka.png"); 
-}
-
-
-body.chilisorden div.orden
-{
-  display: inline-block;
-  width: 34%;
-  float: none;
-  margin: 0 5% 0;
-  background: rgb(35, 31, 32);
-  opacity: 0.8;
-}
-
-
-body.chilisorden div.opciones div.botonback
-{
-display
-}
-
-body.chilisorden div.opciones div.botonback img
-{
-    width: 50%;
-
-    margin-top: 20%;
-}
-
-body.chilisorden div.botonback
-{
-  width: 100%;
-}
-
-
-body.chilispagos div.formulario form
-{
-margin: 3% 0;
-}
-
-body.chilispagos a
-{
-  text-decoration: none;
-}
-
-
-body.chilispagos a div.continuar
-{
-    margin: 0 43% 4%;
-background: #383839;
-border-radius: 10px;
-color: white;
-padding-left: 10px;
-box-sizing: border-box;
-height: 25px;
-padding: 3px;
-outline: 0;
-border: 1px solid transparent;
-display: block;
-width: 13%;
-text-align: center;
-
-
-}
-
-body.chilispagos div.back
-{
-  margin: 3% 0% 0 78%;
-    display: block;
-}
-body.chilispagos div.back img
-{
-
-    width: 75%;
-}
-
-
-body.chilispagos div.logopagos
-{
-  margin: 4% 25% 6%;
-    width: 50%;
-    text-align: center;
-}
-
-body.chilispagos div.titulo
-{
-    color: white;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-body.chilispagos div.banco
-{
-    text-align: center;
-    margin-bottom: 1em;
-}
-
-
-body.chilispagos div.banco input
-{
-        height: 83px;
-        margin-left: 10px;  
 }
 
 
 
-body.chilispagos div.notarjeta,
-body.chilispagos div.codigo
-{
-color: white;
-    text-align: center;
 
-}
-
-body.chilisenviado div.munequito
-{
-  text-align: center;
-  margin: 3% 0;
-}
-
-body.chilisenviado div.empezar
-{
-  margin: 5% 0% 0%;
-  text-align:center;
-}
-
-body.chilisorden div.banner
-{
-  width: 44.5%;
-display: inline-block;
-top: 60;
-position: absolute;
-right: 0;
-}
-body.chilisorden div.banner img
-{
-  width: 100%;
-}
-
-body.chilisorden div.banner img.atras
-{
-  width: 25%;
-  margin: 0 0% 4% 65%;
-}
-
-
-body.chilissucursales header
-{
-  color: white;
-text-align: center;
-margin: 3em 0 1em;
-display: block;
-}
-
-body.chilissucursales div.middle
-{
- margin: 4em 8em 0; 
-}
-
-body.chilissucursales div.individual
-{
-  width: 100%;
-padding-bottom: 20px;
-}
-
-body.chilissucursales a
-{
-  text-decoration: none;
-
-}
-
-body.chilissucursales div.logotipo
-{
- width: 14%;
-display: inline-block;
-
- margin: 0 .8%;
- vertical-align: top;
-}
-
-body.chilissucursales div.logotipo img
-{
-  width: 69%;
-
-}
-
-body.chilissucursales div.informacion
-{
- color: white;
-display: inline-block;
-
- width: 35%;
-vertical-align: top;
-
- margin: 2% 2% 0 0.1%;
-}
-
-body.chilissucursales div.informacion div.direccion
-{
-  margin: 0% 0%;
-}
-
-div.informacion div.telefono
-{
- margin: 0% 1%; 
-}
-
-body.chilissucursales div.orden
-{
-  background: green;
-    font-weight: bold;
-    color: white;
-    
-  width: 42%;
-    display: inline-block;
-  vertical-align: top;
-    
-
-  border-radius: 4px;
-  padding: 1.5%;
-  margin: 2% 0%;
-  
-}
-
-body.chilissucursales div.barrita
-{
-  text-align:center;
-}
-
-body.chilissucursales div.boton
-{
-  margin: 1% 39% 0;
-}
-
-div.separadorsucursal
-{
-    border-top:solid thin white;
-    margin: 2% 1%;
-}
 
 
 
