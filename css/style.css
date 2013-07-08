@@ -817,6 +817,8 @@ div.imagenedificios img
 width: 100%;
 }
 
+
+/*Imagen "paquete eureka"*/
 div.imagenpaquete img
 {
 width: 40%;
@@ -1033,8 +1035,15 @@ TERMINA pagina de "cuenta"
 
 
 
-
-
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+EMPIEZA media query -IPAD HORIZONTAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
 
 
@@ -1270,24 +1279,7 @@ body.chilisorden div.banner img.atras
 }
 
 
-
-
-
-/*
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-EMPIEZA CSS - IPAD HORIZONTAL (PAGINA CUENTA)
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/*
-
-
-
-
-
-
-
-
-
-} /* Fin de Media Query - Landscape */
+} /* Fin de Media Query - IPAD HORIZONTAL */
 
 
 
@@ -1317,10 +1309,191 @@ margin-bottom: 5.5%;
 font-size: 13px;
 }
 
-/*Botón de "Regresar a página de inicio"*/
+/*Botón de "Regresar a página de inicio"  IPAD-VERTICAL*/
 div.botoncuenta img
 {
 width: 11em;
 margin-top: 21px;
 }
 
+
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina de cuenta IPAD-VERTICAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////
+ EMPIEZA Cuadro negro - IPAD VERTICAL
+//////////////////////////////////
+*/
+div.cuadronegro
+{
+width: 24em;
+margin-top: 3em;
+margin-left: 1em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+
+/*Palabra "Restaurante" - IPAD VERTICAL */
+div.restaurantecuenta p
+{
+font-size: 22px;
+margin-left: 23px;
+color: white;
+}
+
+
+
+/*Acá va el "Nombre el restaurante"*/
+div.nombrederestaurante p
+{
+margin-left: 24px;
+color: white;
+font-size: 23px;
+font-style: bold;
+font-weight: bold;
+margin-top: -23px;
+}
+
+
+
+/*Texto "Le repito su orden"*/
+div.repito p
+{
+font-size: 17px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+
+
+/*Platillo1 - IPAD VERTICAL*/
+ div.platillo1 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio1 - IPAD VERTICAL*/
+div.precio1 p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+/*Platillo2*/
+div.platillo2 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio2*/
+div.precio2 p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo3*/
+div.platillo3 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio3*/
+div.precio3 p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo4*/
+div.platillo4 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio4*/
+div.precio4 p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo5*/
+div.platillo5 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio5*/
+div.precio5 p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+/*Total*/
+div.total p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Preciototal*/
+div.preciototal p
+{
+color: white;
+font-size: 13px;
+margin-left: 24em;
+margin-top: -29px;
+}
+
+
+/*Imagen "paquete eureka"*/
+div.imagenpaquete img
+{
+width: 41%;
+float: right;
+margin: 0 4%;
+margin-top: 19em;
+}
+
+
+
+
+
+
+} /*TERMINA query IPAD- VERTICAL*/
