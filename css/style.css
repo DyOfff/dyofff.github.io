@@ -395,16 +395,15 @@ table {
 
 
 /* Eso se refiere al fondo negro de las páginas de "gracias.html y directorio.htm"*/
-   body
+   body, body.chilis, body.chilissucursales, body.chilispagos
    {
 background:url(http://miguelnieva.com/images/background.png);
 
     }
 
-body.chilis, body.chilissucursales, body.chilispagos
+body.edificios
 {
-background:url(http://miguelnieva.com/images/background.png);
-      
+  background: url('../img/fotosgrandes/city3.png');
 }
 
 
@@ -806,11 +805,9 @@ width: 100%;
 div.imagenpaquete img
 {
 width: 40%;
-margin-left: 43em;
-}
-div.imagenpaquete
-{
-margin-top: -72em;
+float: right;
+margin: 0 4%;
+margin-top: 6em;
 }
 
 /*
@@ -821,9 +818,8 @@ Cuadro negro
 div.cuadronegro
 {
 width: 36em;
-height: 23em;
-margin-top: -42em;
-margin-left: 2em;
+margin-top: 3em;
+margin-left: 5em;
 background-color: black;
 opacity: 0.6;
 position: absolute;
@@ -875,18 +871,18 @@ margin-top: 53px;
 
 
 /*Platillo1*/
-div.platillo1 p
+ div.platillo1 p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Precio1*/
 div.precio1 p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 }
 
@@ -895,15 +891,15 @@ margin-top: -42px;
 div.platillo2 p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Precio2*/
 div.precio2 p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 }
 
@@ -913,15 +909,15 @@ margin-top: -42px;
 div.platillo3 p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Precio3*/
 div.precio3 p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 }
 
@@ -931,15 +927,15 @@ margin-top: -42px;
 div.platillo4 p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Precio4*/
 div.precio4 p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 }
 
@@ -949,15 +945,15 @@ margin-top: -42px;
 div.platillo5 p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Precio5*/
 div.precio5 p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 }
 
@@ -966,15 +962,15 @@ margin-top: -42px;
 div.total p
 {
 color: white;
-font-size: 19px;
-margin-left: 25px;
+font-size: 18px;
+margin-left: 39px;
 }
 /*Preciototal*/
 div.preciototal p
 {
 color: white;
-font-size: 19px;
-margin-left: 24em;
+font-size: 18px;
+margin-left: 25em;
 margin-top: -42px;
 font-weight: bold;
 }
@@ -1311,4 +1307,3 @@ body.chilisorden div.banner img.atras
 
 
 } /* Fin de Media Query - Landscape */
-
