@@ -817,6 +817,17 @@ div.imagenedificios img
 width: 100%;
 }
 
+/*Botón "regresar a menú"*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 26em;
+margin-top: 76px;
+width: 13em;
+}
+
+
+
 
 /*Imagen "paquete eureka"*/
 div.imagenpaquete img
@@ -834,7 +845,7 @@ margin-top: 6em;
 */
 div.cuadronegro
 {
-width: 36em;
+width: 35em;
 margin-top: 3em;
 margin-left: 5em;
 background-color: black;
@@ -882,7 +893,7 @@ font-size: 23px;
 color: white;
 margin-left: 24px;
 font-weight: bold;
-margin-top: 53px;
+margin-top: 26px;
 }
 
 
@@ -1291,6 +1302,17 @@ EMPIEZA pagina "Cuenta" IPAD-HORIZONTAL
 //////////////////////////////////
 */
 
+/*Botón "regresar a menú" IPAD VERTICAL*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 22em;
+margin-top: 82px;
+width: 12em;
+}
+
+
+
 /*Imagen "paquete eureka" - IPAD HORIZONTAL*/
 div.imagenpaquete img
 {
@@ -1383,6 +1405,15 @@ EMPIEZA pagina de cuenta IPAD-VERTICAL
  EMPIEZA Cuadro negro - IPAD VERTICAL
 //////////////////////////////////
 */
+
+/*Botón "regresar a menú" IPAD VERTICAL*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 16em;
+margin-top: 76px;
+width: 11em;}
+
 div.cuadronegro
 {
 width: 27em;
