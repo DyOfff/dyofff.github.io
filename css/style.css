@@ -1279,7 +1279,59 @@ body.chilisorden div.banner img.atras
 }
 
 
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina "Cuenta" IPAD-HORIZONTAL
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////
+ EMPIEZA Cuadro negro - IPA HORIZONTAL
+//////////////////////////////////
+*/
+
+/*Imagen "paquete eureka" - IPAD HORIZONTAL*/
+div.imagenpaquete img
+{
+width: 40%;
+float: right;
+margin: 0 2%;
+margin-top: 12em;
+}
+
+/*Cuadro negro -IPAD HORIZONTAL*/
+div.cuadronegro
+{
+width: 34em;
+margin-top: 3em;
+margin-left: 1em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+/*Texto "Le repito su orden" - IPAD HORIZONTAL*/
+div.repito p
+{
+font-size: 23px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 13px;
+}
+
+
+
 } /* Fin de Media Query - IPAD HORIZONTAL */
+
+
+
+
+
+
+
+
 
 
 
