@@ -821,9 +821,13 @@ width: 100%;
 div.regresarmenu img
 {
 position: absolute;
-margin-left: 26em;
-margin-top: 76px;
-width: 13em;
+margin-left: 59em;
+margin-top: 36px;
+width: 15em;
+}
+div.regresarmenu img:hover
+{
+opacity: 0.5;  
 }
 
 
@@ -1306,9 +1310,9 @@ EMPIEZA pagina "Cuenta" IPAD-HORIZONTAL
 div.regresarmenu img
 {
 position: absolute;
-margin-left: 22em;
-margin-top: 82px;
-width: 12em;
+margin-left: 43.7em;
+margin-top: 41px;
+width: 14em;
 }
 
 
@@ -1410,9 +1414,10 @@ EMPIEZA pagina de cuenta IPAD-VERTICAL
 div.regresarmenu img
 {
 position: absolute;
-margin-left: 16em;
-margin-top: 76px;
-width: 11em;}
+margin-left: 31em;
+margin-top: 44px;
+width: 11em;
+}
 
 div.cuadronegro
 {
