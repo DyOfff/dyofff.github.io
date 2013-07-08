@@ -574,23 +574,33 @@ header.principal
 {
     width: 100%; 
     margin-top: 1%;
-
 }
 
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA "Menú de prueba"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*Logotipo sin marca*/
 div.marca
 {
-    display: inline-block;
+display: inline-block;
 text-align: center;
 width: 110px;
 vertical-align: bottom;
 margin-top: 1%;
 margin-left: 30px;
 }
-div.marca img.loguitos{
-
+div.marca img.loguitos
+{
 width: 92px;
 }
 
+
+/*Esto corresponde a los datos del Restaurante en "Menú de prueba"*/
 div.restaurantito
 {
 display: inline-block;
@@ -598,20 +608,25 @@ color: rgb(126, 126, 126);
 margin-bottom: 2.5%;
 }
 
-div.restaurante{
-  margin-left: 0%;
-  color: white
+div.restaurante
+{
+margin-left: 0%;
+color: white
 }
 
 
 
-
-div.botoncuenta
+/* Botón de cuenta (regresar a página de inicio)*/
+div.botoncuenta 
 {
 display: inline-block;
 margin: 1% 1% 0% 0%;
 margin-top: 47px;
 float: right;
+}
+div.botoncuenta img
+{
+
 }
 
 
@@ -812,7 +827,7 @@ margin-top: 6em;
 
 /*
 //////////////////////////////////
-Cuadro negro
+ EMPIEZA Cuadro negro
 //////////////////////////////////
 */
 div.cuadronegro
@@ -975,6 +990,17 @@ margin-top: -42px;
 font-weight: bold;
 }
 
+/*
+////////////////////////////////////
+TERMINA "cuadro negor"
+////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TERMINA pagina de "cuenta"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
 
 
@@ -1079,56 +1105,7 @@ div.top div.logotipo img
   width: 85%;
 }
 
-div.crearcuenta 
-{
-margin: 0.5% 0%;
-}
 
-div.formulario 
-{
-margin: 2% 4%;
-}
-
-div.formulario form
-{
-margin: 0 1%;
-}
-
-div.formulario form input {
-background: #383839;
-border-radius: 10px;
-color: white;
-padding-left: 10px;
-box-sizing: border-box;
-height: 25px;
-padding: 10px 10px 10px 14px;
-outline: 0;
-border: 1px solid transparent;
-display: block;
-width: 37%;
-margin: 1% 32% 2%;
-}
-
-div.socialmedia 
-{
-margin: 2.5% 33%;
-width: 35%;
-}
-
-
-div.socialmediaregistro
-{
-
- margin: 2.5% 0%;
- width: 100%;
- text-align: center;
-
-}
-
-div.socialmediaregistro img
-{
-  margin: 0 4%;
-}
 
 
 div.logotipogracias img
@@ -1136,23 +1113,7 @@ div.logotipogracias img
   margin-left: -18px;
 }
 
-div.empezar {
-margin: 14% 41% 0%;
-}
 
-
-body.chilissucursales header
-{
-  color: white;
-text-align: center;
-margin: 3em 0 1em;
-display: block;
-}
-
-body.chilissucursales div.middle
-{
- margin: 4em 8em 0; 
-}
 
 div.individual
 {
@@ -1243,6 +1204,12 @@ right: 13.2%;
 top: 66.5%;
 }
 
+
+
+
+
+
+
 /* Chilis Orden */
 
 body.chilisorden
@@ -1306,4 +1273,54 @@ body.chilisorden div.banner img.atras
 
 
 
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA CSS - IPAD HORIZONTAL (PAGINA CUENTA)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+
+
+
+
+
+
+
+
+
 } /* Fin de Media Query - Landscape */
+
+
+
+
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA medya query IPAD VERTICAL
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media only screen and (max-width : 768px){
+
+
+/*Esto corresponde a los datos del Restaurante en "Menú de prueba"  IPAD-VERTICAL*/
+div.restaurantito
+{
+display: inline-block;
+color: rgb(126, 126, 126);
+margin-bottom: 5.5%;
+font-size: 13px;
+}
+
+/*Botón de "Regresar a página de inicio"*/
+div.botoncuenta img
+{
+width: 11em;
+margin-top: 21px;
+}
+
