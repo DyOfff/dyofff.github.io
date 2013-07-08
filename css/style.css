@@ -72,8 +72,8 @@ html {
     font-family: sans-serif; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
-    font-style: italic;
-    color: blue;
+    
+    
 }
 
 /*
@@ -803,13 +803,182 @@ div.imagenedificios img
 width: 100%;
 }
 
-
-div.cuadronegrocuenta 
+div.imagenpaquete img
 {
-width: 27em;
-height: 31em;
-background-color: black;
+width: 40%;
+margin-left: 43em;
 }
+div.imagenpaquete
+{
+margin-top: -72em;
+}
+
+/*
+//////////////////////////////////
+Cuadro negro
+//////////////////////////////////
+*/
+div.cuadronegro
+{
+width: 36em;
+height: 23em;
+margin-top: -42em;
+margin-left: 2em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+
+
+/*Palabra "Restaurante"*/
+div.restaurantecuenta p
+{
+font-size: 27px;
+margin-left: 23px;
+color: white;  
+}
+
+
+
+/*Acá va el "Nombre el restaurante"*/
+div.nombrederestaurante p
+{
+margin-left: 24px;
+color: white;
+font-size: 30px;
+font-style: bold;
+font-weight: bold;
+margin-top: -23px;
+}
+
+
+
+/*Esta es la raya blanca*/
+div.rayacuenta
+{
+margin-top: -14px;
+}
+
+
+
+/*Texto "Le repito su orden"*/
+div.repito p
+{
+font-size: 23px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 53px;
+}
+
+
+
+/*Platillo1*/
+div.platillo1 p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Precio1*/
+div.precio1 p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+}
+
+
+/*Platillo2*/
+div.platillo2 p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Precio2*/
+div.precio2 p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo3*/
+div.platillo3 p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Precio3*/
+div.precio3 p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo4*/
+div.platillo4 p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Precio4*/
+div.precio4 p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo5*/
+div.platillo5 p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Precio5*/
+div.precio5 p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+}
+
+
+/*Total*/
+div.total p
+{
+color: white;
+font-size: 19px;
+margin-left: 25px;
+}
+/*Preciototal*/
+div.preciototal p
+{
+color: white;
+font-size: 19px;
+margin-left: 24em;
+margin-top: -42px;
+font-weight: bold;
+}
+
 
 
 
