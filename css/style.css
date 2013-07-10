@@ -474,6 +474,10 @@ div.empezaraordenar
   text-align: center;
   margin-top: 76px;
 }
+div.empezaraordenar:hover
+{
+opacity: 0.5;  
+}
 
 /*esto corresponde al margen de la imagen de lapcompuipad*/
 div.lapcompuipad
@@ -628,6 +632,10 @@ div.botoncuenta img
 {
 
 }
+div.botoncuenta img:hover
+{
+opacity: 0.5;
+}
 
 
 
@@ -702,6 +710,10 @@ font-family: sans-serif;
 font-style: italic;
 font-weight: bold;
 }
+
+
+
+
 
 div.alimento
 {
@@ -1020,7 +1032,10 @@ TERMINA pagina de "cuenta"
 */
 
 
-
+div.scrollbar
+{
+  
+}
 
 
 
