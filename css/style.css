@@ -818,7 +818,7 @@ div.cuadrocomida
 width: 262px;
 padding-bottom: 11px;
 background: rgba(32,32,32,0.8);
-position: absolute;
+position: fixed;
 margin-left: 53em;
 margin-top: 3em;
 }
@@ -834,6 +834,7 @@ div.nombrecomida p
 {
 margin-left: 16px;
 margin-top: 11px; 
+font-style: italic;
 }
 
 /* Descripción de la comida*/
@@ -865,6 +866,10 @@ width: 14.7em;
 margin-left: 14px;
 margin-top: 2px;
 }
+div.botonorden:hover
+{
+opacity: 0.5;
+}
 
 /*Botón facebookcomida*/
 div.facebookcomida img
@@ -877,6 +882,10 @@ div.facebookcomida
 {
 display: inline-block;
 }
+div.facebookcomida:hover
+{
+opacity: 0.5;  
+}
 
 /* Botón Twitter*/
 div.twitter img
@@ -888,16 +897,25 @@ div.twitter
 {
 display: inline-block;  
 }
+div.twitter:hover
+{
+opacity: 0.5;  
+}
 
+/*Boton para cerrar*/
 div.botonx img
 {
 width: 2em;
-margin-left: 70em;
-margin-top: 45px;
+left: 70em;
+top: 45px;
 }
 div.botonx
 {
-position: absolute;  
+position: fixed;  
+}
+div.botonx:hover
+{
+opacity: 0.5;  
 }
 
 
