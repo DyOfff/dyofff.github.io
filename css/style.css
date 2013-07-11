@@ -816,7 +816,7 @@ Acá empieza el cuadro negro en donde van las descripciones y precios de los pla
 div.cuadrocomida
 {
 width: 262px;
-padding-bottom: 5px;
+padding-bottom: 11px;
 background: rgba(32,32,32,0.8);
 position: absolute;
 margin-left: 53em;
@@ -832,7 +832,7 @@ font-family: sans-serif;
 }
 div.nombrecomida p
 {
-margin-left: 20px; 
+margin-left: 16px;
 margin-top: 11px; 
 }
 
@@ -845,21 +845,23 @@ margin-top: -22px;
 div.descripcioncomida
 {
 margin-right: 18px;
-margin-left: 20px; 
+margin-left: 17px;
 }
 
 /*Precio de la comida*/
 div.preciodelacomida p
 {
 color: white;
-margin-left: 21px;
-font-weight: bold;  
+margin-left: 16px;
+font-weight: bold;
+font-size: 20px;
+margin-top: -7px; 
 }
 
 /*Botón agregar a la orden*/
 div.botonorden img
 {
-width: 13em;
+width: 14.7em;
 margin-left: 14px;
 margin-top: 2px;
 }
@@ -876,14 +878,26 @@ div.facebookcomida
 display: inline-block;
 }
 
-
+/* Botón Twitter*/
 div.twitter img
 {
 width: 92px;
+margin-left: 38px;
 }
 div.twitter
 {
 display: inline-block;  
+}
+
+div.botonx img
+{
+width: 2em;
+margin-left: 70em;
+margin-top: 45px;
+}
+div.botonx
+{
+position: absolute;  
 }
 
 
