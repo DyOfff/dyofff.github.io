@@ -657,15 +657,12 @@ bottom: 0px;
 
 div.lista
 {
-
 display: inline-block;
 float: left;
-
 height: 91%;
 overflow-x: hidden;
 vertical-align: top;
 width: 33.3%;
-
 -webkit-overflow-scrolling: touch;
 bottom: 0;
 overflow-x: hidden;
@@ -673,16 +670,15 @@ overflow-y: auto;
 -o-transition: top .1s ease-out;
 -ms-transition: top .1s ease-out;
 -moz-transition: top .1s ease-out;
--webkit-transition: top .1s ease-out;
-transition: top .1s ease-out;
+-webkit-transition: top .1s ease-out transition: top .1s ease-out;
 position: relative;
-
-
-
+overflow: scroll;
 }
 
-div.lista::-webkit-scrollbar { 
-    display: none; 
+
+div.lista::-webkit-scrollbar 
+{ 
+     
 }
 
 /*Esto corresponde a la barra de "comidas" "cenas" "bebidas y postres"*/ 
