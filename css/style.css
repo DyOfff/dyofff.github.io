@@ -842,6 +842,8 @@ div.descripcioncomida p
 {
 color: white;
 margin-top: -22px;
+font-style: italic;
+font-size: 15px;
 }
 div.descripcioncomida
 {
@@ -857,6 +859,7 @@ margin-left: 16px;
 font-weight: bold;
 font-size: 20px;
 margin-top: -7px; 
+font-style: italic;
 }
 
 /*Botón agregar a la orden*/
@@ -908,10 +911,10 @@ div.botonx img
 width: 2em;
 left: 70em;
 top: 45px;
+position: fixed;
 }
 div.botonx
-{
-position: fixed;  
+{  
 }
 div.botonx:hover
 {
