@@ -1769,7 +1769,7 @@ font-family: sans-serif;
 div.nombrecomida p
 {
 margin-left: 16px;
-margin-top: 11px; 
+margin-top: 3px; 
 font-style: italic;
 }
 
@@ -1813,7 +1813,7 @@ display: inline-block;
 div.botonorden img
 {
 width: 9.7em;
-margin-top: -8px;
+margin-top: -21px;
 display: inline-block;
 }
 div.botonorden:hover
@@ -1824,7 +1824,7 @@ opacity: 0.5;
 /*Botón facebookcomida*/
 div.facebookcomida img
 {
-width: 70px;
+width: 90px;
 margin-top: 4px;
 margin-left: 1em;
 }
@@ -1840,7 +1840,7 @@ opacity: 0.5;
 /* Botón Twitter*/
 div.twitter img
 {
-width: 72px;
+width: 93px;
 margin-left: 4px;
 }
 div.twitter
