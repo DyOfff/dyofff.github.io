@@ -1748,13 +1748,13 @@ Acá empieza el cuadro negro en donde van las descripciones y precios de los pla
 */
 div.cuadrocomida
 {
-width: 731px;
-padding-bottom: 11px;
+width: 768px;
+height: 83px;
+padding-bottom: 9px;
 background: rgba(32,32,32,0.8);
 position: fixed;
 margin-left: 0em;
-margin-top: 50em;
-position: fixed;
+margin-top: 48em;
 z-index: 1;
 bottom: 3%;
 }
@@ -1762,59 +1762,57 @@ bottom: 3%;
 /* Nombre del platillo*/
 div.nombrecomida
 {
-font-size: 20px;
-color: white;
-font-family: sans-serif; 
+
 }
 div.nombrecomida p
 {
-margin-left: 16px;
-margin-top: 3px; 
-font-style: italic;
+font-size: 20px;
+display: inline-block;
+margin-bottom: -1px;
+
 }
 
 /* Descripción de la comida*/
 div.descripcioncomida p
 {
-color: white;
-margin-top: -17px;
-font-size: 16px;
-font-style: italic;
+font-size: 15px;
 display: inline-block;
+margin-bottom: 0px;
 }
 div.descripcioncomida
 {
-margin-left: 14px;
-width: 24em;
-display: inline-block;
+margin-right: 17em;
+position: absolute;
+margin-top: 16px;
 }
 
 /*Precio de la comida*/
 div.preciodelacomida p
 {
-color: white;
-margin-left: 1em;
-font-weight: bold;
-font-size: 17px;
-margin-top: -8px;
-font-style: italic;
+font-size: 18px;
 display: inline-block;
+margin-bottom: -1px;  
 }
 div.preciodelacomida
 {
-display: inline-block;  
+position: absolute;
+margin-left: 11em;
+margin-top: -1.3em;
 }
 
 /*Botón agregar a la orden*/
 div.botonorden
 {
-display: inline-block; 
+
 }
 div.botonorden img
 {
-width: 12.7em;
-margin-top: -21px;
+width: 11.7em;
+margin-left: 35em;
+margin-top: -27px;
 display: inline-block;
+position: absolute;
+
 }
 div.botonorden:hover
 {
@@ -1824,32 +1822,34 @@ opacity: 0.5;
 /*Botón facebookcomida*/
 div.facebookcomida img
 {
-width: 90px;
-margin-top: 4px;
-margin-left: 1em;
+position: absolute;
+margin-left: 35.3em;
+width: 85px;
 }
 div.facebookcomida
 {
-display: inline-block;
+
 }
 div.facebookcomida:hover
 {
-opacity: 0.5;  
+ 
 }
 
 /* Botón Twitter*/
 div.twitter img
 {
-width: 93px;
-margin-left: 4px;
+width: 79px;
+
 }
 div.twitter
 {
-display: inline-block;  
+position: absolute;
+margin-left: 39.1em;
+margin-top: 19px;
 }
 div.twitter:hover
 {
-opacity: 0.5;  
+  
 }
 
 /*Boton para cerrar*/
