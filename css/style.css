@@ -1749,7 +1749,7 @@ Acá empieza el cuadro negro en donde van las descripciones y precios de los pla
 div.cuadrocomida
 {
 width: 768px;
-height: 83px;
+height: 123px;
 padding-bottom: 9px;
 background: rgba(32,32,32,0.8);
 position: fixed;
@@ -1783,7 +1783,7 @@ div.descripcioncomida
 {
 margin-right: 17em;
 position: absolute;
-margin-top: 16px;
+margin-top: 32px;
 }
 
 /*Precio de la comida*/
@@ -1825,6 +1825,7 @@ div.facebookcomida img
 position: absolute;
 margin-left: 35.3em;
 width: 85px;
+margin-top: 15px;
 }
 div.facebookcomida
 {
@@ -1845,7 +1846,7 @@ div.twitter
 {
 position: absolute;
 margin-left: 39.1em;
-margin-top: 19px;
+margin-top: 31px;
 }
 div.twitter:hover
 {
