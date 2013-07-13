@@ -778,7 +778,8 @@ div.rayacinco
 {
 width: 26%;
 margin-left: 39px;
-margin-top: -5px;
+margin-top: 55px;
+
 }
 
 
@@ -789,6 +790,7 @@ div.menuprueba img
 width: 244%;
 text-align: r;
 margin-left: 24em;
+margin-top: -33px;
 }
 div.menuprueba img:hover
 {
