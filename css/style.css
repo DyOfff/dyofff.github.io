@@ -1762,7 +1762,7 @@ bottom: 3%;
 /* Nombre del platillo*/
 div.nombrecomida
 {
-
+margin-top: 22px;
 }
 div.nombrecomida p
 {
@@ -1783,7 +1783,7 @@ div.descripcioncomida
 {
 margin-right: 17em;
 position: absolute;
-margin-top: 32px;
+margin-top: 45px;
 }
 
 /*Precio de la comida*/
@@ -1839,8 +1839,7 @@ div.facebookcomida:hover
 /* Botón Twitter*/
 div.twitter img
 {
-width: 79px;
-
+width: 82px;
 }
 div.twitter
 {
