@@ -1781,7 +1781,7 @@ margin-bottom: 0px;
 }
 div.descripcioncomida
 {
-margin-right: 17em;
+margin-right: 23em;
 position: absolute;
 margin-top: 25px;
 margin-left: 13px;
@@ -1797,7 +1797,7 @@ margin-bottom: -1px;
 div.preciodelacomida
 {
 position: absolute;
-margin-left: 25.5em;
+margin-left: 16em;
 margin-top: -1.2em;
 }
 
@@ -1849,16 +1849,15 @@ margin-left: 37.6em;
 margin-top: 35px;
 }
 div.twitter:hover
-{
-  
+{  
 }
 
 /*Boton para cerrar*/
 div.botonx img
 {
 width: 2em;
-left: 70em;
-top: 45px;
+left: 44em;
+top: 32em;
 position: fixed;
 }
 div.botonx
@@ -1868,6 +1867,7 @@ div.botonx:hover
 {
 opacity: 0.5;  
 }
+
 
 /* Esto corresponde al responsive design del logotipo blanco de eatsy*/
 body.alimento img.logonegro
