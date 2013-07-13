@@ -1766,7 +1766,7 @@ margin-top: 22px;
 }
 div.nombrecomida p
 {
-font-size: 20px;
+font-size: 26px;
 display: inline-block;
 margin-bottom: -1px;
 
@@ -1790,7 +1790,7 @@ margin-left: 13px;
 /*Precio de la comida*/
 div.preciodelacomida p
 {
-font-size: 18px;
+font-size: 22px;
 display: inline-block;
 margin-bottom: -1px;  
 }
@@ -1798,7 +1798,7 @@ div.preciodelacomida
 {
 position: absolute;
 margin-left: 18em;
-margin-top: -1.2em;
+margin-top: -1.3em;
 }
 
 /*Botón agregar a la orden*/
@@ -1810,7 +1810,7 @@ div.botonorden img
 {
 width: 14.7em;
 margin-left: 32em;
-margin-top: -27px;
+margin-top: -32px;
 display: inline-block;
 position: absolute;
 
@@ -1857,7 +1857,7 @@ div.botonx img
 {
 width: 2em;
 left: 44em;
-top: 50em;
+top: 40em;
 position: fixed;
 }
 div.botonx
