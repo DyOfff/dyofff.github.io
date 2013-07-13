@@ -1495,13 +1495,14 @@ left: 59em;
 top: 45px;
 position: fixed;
 }
-div.botonx
-{  
-}
 div.botonx:hover
 {
 opacity: 0.5;  
 }
+div.botonx
+{  
+}
+
 
 
 } /* Fin de Media Query - IPAD HORIZONTAL */
