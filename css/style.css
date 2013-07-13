@@ -1783,7 +1783,8 @@ div.descripcioncomida
 {
 margin-right: 17em;
 position: absolute;
-margin-top: 45px;
+margin-top: 25px;
+margin-left: 13px;
 }
 
 /*Precio de la comida*/
@@ -1796,8 +1797,8 @@ margin-bottom: -1px;
 div.preciodelacomida
 {
 position: absolute;
-margin-left: 11em;
-margin-top: -1.3em;
+margin-left: 25.5em;
+margin-top: -1.2em;
 }
 
 /*Botón agregar a la orden*/
@@ -1807,8 +1808,8 @@ div.botonorden
 }
 div.botonorden img
 {
-width: 11.7em;
-margin-left: 35em;
+width: 14.7em;
+margin-left: 32em;
 margin-top: -27px;
 display: inline-block;
 position: absolute;
@@ -1823,9 +1824,9 @@ opacity: 0.5;
 div.facebookcomida img
 {
 position: absolute;
-margin-left: 35.3em;
-width: 85px;
-margin-top: 15px;
+margin-left: 32.3em;
+width: 96px;
+margin-top: 21px;
 }
 div.facebookcomida
 {
@@ -1839,13 +1840,13 @@ div.facebookcomida:hover
 /* Botón Twitter*/
 div.twitter img
 {
-width: 82px;
+width: 101px;
 }
 div.twitter
 {
 position: absolute;
-margin-left: 39.1em;
-margin-top: 31px;
+margin-left: 37.6em;
+margin-top: 35px;
 }
 div.twitter:hover
 {
