@@ -1834,7 +1834,7 @@ Acá empieza el cuadro negro en donde van las descripciones y precios de los pla
 div.cuadrocomida
 {
 width: 768px;
-height: 142px;
+height: 124px;
 padding-bottom: 9px;
 background: rgba(0,0,0,0.8);
 position: fixed;
