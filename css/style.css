@@ -858,8 +858,92 @@ color: white;
 margin-left: 16px;
 font-weight: bold;
 font-size: 20px;
-margin-top: -7px; 
+margin-top: -4px;
 font-style: italic;
+}
+
+/* Texto No. de ordenes*/
+div.numordenes p
+{
+font-size: 16px;
+font-family: sans-serif;
+font-weight: bold;
+font-style: italic;
+color: white;
+margin-left: 16px;
+display: inline-block;
+margin-top: 8px; 
+}
+
+
+
+/*Botón 1*/
+div.botoncitos div.boton1 img
+{
+width: 28px;
+margin-left: 17px;
+margin-top: -9px;
+display: inline-block;
+}
+div.boton1:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton 2*/
+div.botoncitos div.boton2 img
+{
+width: 28px;
+margin-left: 66px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton2:hover
+{
+opacity: 0.5;  
+}
+
+/* Botón 3*/
+div.botoncitos div.boton3 img
+{
+width: 28px;
+margin-left: 115px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton3:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton 4*/
+div.botoncitos div.boton4 img
+{
+width: 28px;
+margin-left: 165px;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton4:hover
+{
+opacity: 0.5;
+}
+
+/*Boton 5*/
+div.botoncitos div.boton5 img
+{
+width: 28px;
+margin-left: 215px;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton5:hover
+{
+opacity: 0.5;  
 }
 
 /*Botón agregar a la orden*/
@@ -867,7 +951,7 @@ div.botonorden img
 {
 width: 14.7em;
 margin-left: 14px;
-margin-top: 2px;
+margin-top: 25px;
 }
 div.botonorden:hover
 {
