@@ -1847,11 +1847,12 @@ bottom: 3%;
 /* Nombre del platillo*/
 div.nombrecomida
 {
-margin-top: 6px;
+margin-top: -3px;
+margin-left: -6px;
 }
 div.nombrecomida p
 {
-font-size: 26px;
+font-size: 20px;
 display: inline-block;
 margin-bottom: -1px;
 
@@ -1860,29 +1861,29 @@ margin-bottom: -1px;
 /* Descripción de la comida*/
 div.descripcioncomida p
 {
-font-size: 16px;
+font-size: 14px;
 display: inline-block;
 margin-bottom: 0px;
 }
 div.descripcioncomida
 {
-margin-right: 23em;
+margin-right: 14em;
 position: absolute;
-margin-top: 25px;
+margin-top: 16px;
 margin-left: 13px;
 }
 
 /*Precio de la comida*/
 div.preciodelacomida p
 {
-font-size: 22px;
+font-size: 17px;
 display: inline-block;
 margin-bottom: -1px;  
 }
 div.preciodelacomida
 {
 position: absolute;
-margin-left: 18em;
+margin-left: 29em;
 margin-top: -1.3em;
 }
 
@@ -1893,9 +1894,9 @@ div.botonorden
 }
 div.botonorden img
 {
-width: 14.7em;
-margin-left: 32em;
-margin-top: -6.4em;
+width: 10.7em;
+margin-left: 36em;
+margin-top: -5em;
 display: inline-block;
 position: absolute;
 
@@ -1909,9 +1910,9 @@ opacity: 0.5;
 div.facebookcomida img
 {
 position: absolute;
-margin-left: 32.3em;
-width: 96px;
-margin-top: -3em;
+margin-left: 36.3em;
+width: 78px;
+margin-top: -43px
 }
 div.facebookcomida
 {
@@ -1925,13 +1926,13 @@ div.facebookcomida:hover
 /* Botón Twitter*/
 div.twitter img
 {
-width: 101px;
+width: 79px;
 }
 div.twitter
 {
 position: absolute;
-margin-left: 37.6em;
-margin-top: -35px;
+margin-left: 39.4em;
+margin-top: -27px;
 }
 div.twitter:hover
 {  
@@ -1942,7 +1943,7 @@ div.botonx img
 {
 width: 2em;
 left: 44em;
-top: 35em;
+top: 45em;
 position: fixed;
 }
 div.botonx
@@ -1957,8 +1958,9 @@ opacity: 0.5;
 /* Texto No. de ordenes*/
 div.numordenes p
 {
-font-size: 18px;
-margin-top: 62px;
+font-size: 16px;
+margin-top: 50px;
+margin-left: 12px;
 }
 
 /*Botón 1*/
