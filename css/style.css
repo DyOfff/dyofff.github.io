@@ -1636,8 +1636,20 @@ margin-top: 21px;
 
 
 
-
-
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+Aca empieza el layout de los menús
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+div.menu
+{
+width: 100%;
+position: absolute;
+max-width: none;
+overflow: hidden;
+top: 110px;
+bottom: -23px;
+}
 
 /* Esto corresponde al "estilo de letra" de "comidas" "cenas" "bebidas y postres"*/
 div.tipo
@@ -1653,6 +1665,9 @@ font-style: italic;
 font-weight: bold;
 margin-top: 9px;
 }
+
+
+
 
 
 
