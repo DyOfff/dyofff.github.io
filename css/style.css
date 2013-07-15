@@ -1638,6 +1638,30 @@ margin-top: 21px;
 
 
 
+
+/* Esto corresponde al "estilo de letra" de "comidas" "cenas" "bebidas y postres"*/
+div.tipo
+{
+width: 33.1%;
+text-align: center;
+color: rgb(255, 255, 255);
+display: inline-block;
+float: left;
+padding: .5% 0%;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
 /*
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 EMPIEZA pagina de cuenta IPAD-VERTICAL
