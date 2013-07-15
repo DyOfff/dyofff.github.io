@@ -1643,7 +1643,7 @@ Aca empieza el layout de los menús
 */
 div.menu
 {
-width: 100%;
+width: 101%;
 position: absolute;
 max-width: none;
 overflow: hidden;
