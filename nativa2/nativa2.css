@@ -1,0 +1,2321 @@
+@charset "utf-8";
+/*
+Nombre del tema: Eatsy - App Web
+Autores: Miguel Nieva - Iván Villa - Rodolfo Espíritu
+*/
+
+/* */
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+
+/* Aca se cambia el estilo de tipografía del nombre de los restaurantes en los menús*/
+b,
+strong 
+{
+font-weight: bold;
+font-family: sans-serif;
+font-style: italic;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input 
+{
+    line-height: normal;
+    width: 22%;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==========================================================================
+   Normalize Ending
+   ========================================================================== */
+
+
+
+body
+{
+background:url(http://miguelnieva.com/images/background.png);
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   1) Aca empieza la primera parte de la pagina (imagenes principales)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+div.imagenportada img
+{
+width: 100%;
+}
+
+
+/* Imegen "mira de que trata" */
+div.miradequetrata
+{
+margin-left: 55em;
+}
+div.miradequetrata img
+{
+margin-bottom: 99px;
+width: 18em;
+}
+div.miradequetrata img:hover
+{
+opacity: 0.5;
+}
+
+
+
+/* Botón "quiero ordenar" */
+div.botonquieroordenar
+{
+margin-top: 28px;
+margin-left: 11px;
+}
+div.botonquieroordenar img
+{
+width: 192px;
+margin-bottom: -85px;
+opacity:1.0;
+}
+div.botonquieroordenar img:hover
+{
+opacity: 0.5;
+}
+
+
+/* Botón "soy restaurante" */
+div.botonsoyrestaurante img
+{
+width: 192px; 
+margin-left: 213px;
+margin-top: 34px;
+opacity:1.0;
+}
+div.botonsoyrestaurante img:hover
+{
+opacity: 0.5;
+}
+
+
+
+/* imagenes principales*/
+div.imagenesdepagina img
+{
+width: 100%;  
+margin-bottom: 126px;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación)
+   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*Botón inicio*/
+div.inicio
+{
+margin-top: -108px; 
+}
+div.inicio img
+{
+width: 16%;
+margin-left: 63em;
+opacity:1.0;
+}
+div.inicio img:hover
+{
+opacity: 0.5;
+}
+
+
+/* Texto "usuarios" */
+div.usuarios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-top: -14px;
+margin-left: 13px;  
+}
+
+
+
+/* Raya uno */
+div.rayauno
+{
+margin-top: -10px;
+}
+
+
+
+/* Imagen de etiqueta "quiero ordenar" */
+div.etiquetaordenar
+{
+text-align: left;
+margin-left: 1%;
+margin-top: 1%; 
+}
+div.etiquetaordenar img
+{
+width: 22%;
+}
+
+
+
+/* Parrafo "quiero invitación" */
+div.parrafoinvitacion
+{
+margin-left: 25%;
+margin-top: -6%;
+text-align: left;
+}
+div.parrafoinvitacion p
+{
+font-size: 20px;
+color:gray;
+font-family: 'Open Sans';
+font-weight: 300;
+}
+
+
+
+/*EMPIEZAN "redes sociales eatsy */
+div.facebookeatsy
+{
+text-align: right;
+}
+div.facebookeatsy img
+{
+width: 7.6%;
+margin-top: -70%;
+margin-right: 13%
+}
+div.facebookeatsy img:hover
+{
+opacity: 0.5;
+}
+/* Botón "twitter-eatsy" */
+div.twittereatsy
+{
+text-align: right;
+margin-top: -7.2%;
+margin-right: 3%
+}
+div.twittereatsy img
+{
+width: 7.6%;
+margin-top: -6px;
+}
+div.twittereatsy img:hover
+{
+opacity: 0.5;
+}
+/*TERMINA "rede.s sociales eatsy" */
+
+
+
+/* Raya dos*/
+div.rayados
+{
+margin-left: 25%;
+width: 74%;
+}
+
+
+
+/* EMPIEZA "registro para invitación" */
+/* Texto "e-mail" */
+div.indicates-required
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 2%;
+margin-top: -21px;
+}
+div.mc-field-group
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 2%;
+margin-top: 7px;
+}
+div#mce-responses
+{
+margin-top: 22px;
+}
+div.response
+{
+  
+}
+/* TERMINA "Registro para invitación" */
+
+
+
+/* Raya tres */
+div.rayatres
+{
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes)
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
+
+/*Palabra "Restaurantes" */
+div.restaurantes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 13px;
+}
+
+
+
+/*Raya cuatro*/
+div.rayacuatro
+{
+margin-top: -9px;
+}
+
+
+
+/*Botón "inicio2"*/
+div.inicio2 
+{
+
+}
+div.inicio2 img
+{
+width: 16%;
+margin-left: 63em;
+margin-bottom: -43px;
+}
+div.inicio2 img:hover
+{
+opacity: 0.8;  
+}
+
+
+
+/* EMPIEZA Texto "Me gustaría tener mi menú digital" */
+div.megustaria
+{
+margin-left: 13px;
+}
+div.megustaria p
+{
+font-size: 25px;
+font-family: 'Open Sans';
+font-weight: 300; 
+color: gray
+}
+/* TERMINA Texto "Me gustaría tener mi menú digital" */ 
+
+
+
+/* Imagen "¿Tienes un restaurante?" */
+div.tienesunrestaurante img
+{
+width: 94%;
+margin-left: 38px;  
+}
+
+
+
+/* Imagen "Te invitamos" */
+div.teinvitamos img
+{
+width: 94%;
+margin-left: 38px;
+margin-top: 49px;
+}
+
+
+
+/* EMPIEZA Palabra "Escribenos" */
+div.escribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 37px;
+}
+div.escribenos p
+{
+font-size: 20px;
+color: rgba(51 51 51);
+}
+/*TERMINA Plabra "Escribenos" */ 
+
+
+
+/* EMPIEZA texto "Tu menú digital está cerca" */
+div.parrafoescribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+}
+div.parrafoescribenos p
+{
+font-size: 20px;
+color:gray;
+margin-left: 38px;
+}
+/* TERMINA texto "Tu menú digital está cerca" */
+
+
+
+/* EMPIEZA Palabra "Imagina..." */
+div.imagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 26.4em;
+margin-top: -119px;
+margin-right: 38px;
+}
+div.imagina p
+{
+font-size: 20px;
+color: rgb(51 51 51);  
+}
+/*TERMINA Plabara "Imagina..." */
+
+
+
+/*EMPIEZA texto "las personas podrán compartir" */
+div.parrafoimagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+margin-top: -2px;
+margin-right: 39px;
+margin-left: -8px;
+}
+div.parrafoimagina p
+{
+font-size: 20px;
+color:gray;
+margin-left: 21.4em; 
+}
+/*TERMINA texto "las personas podrán compartir"*/
+
+
+
+/* Raya cinco*/
+div.rayacinco
+{
+width: 26%;
+margin-left: 39px;
+margin-top: 55px;
+
+}
+
+
+
+/* Imagen "menú de prueba"*/
+div.menuprueba img
+{
+width: 244%;
+text-align: r;
+margin-left: 24em;
+margin-top: -33px;
+}
+div.menuprueba img:hover
+{
+opacity: 0.8;  
+}
+
+
+
+/* EMPIEZA "registro para restaurantes"*/
+/* Palabra e-mail */
+div.anotaemailrestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 40%;
+margin-top: -28em;
+}
+/* Cuadro de "registro" */
+div.registrorestaurante
+{
+line-height: normal;
+width: 66em;
+margin-left: 49px;
+}
+div.anotanombrerestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 55px;
+}
+/* Botón "invitación" */
+div.botonenviar
+{
+width: 110%;
+margin-left: 7.5em;
+margin-top: 7%;
+}
+/*Cuadro para anotar "nombre del restaurante"*/
+div.cuadrorestaurante
+{
+line-height: normal;
+width: 66em;
+margin-left: 49px;
+}
+/*TERMINA "registro para restaurante"*/
+
+
+
+/*Raya seis*/
+div.rayaseis
+{
+margin-top: 16em;
+width: 77em;
+margin-left: -24px;
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   4) Acá empieza la "ultima parte de la página" (el footer y datos de Conexión)
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
+
+/* Palabra ¿Quiénes somos? */
+div.quienessomos p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: -26px; 
+margin-top: 8em;
+}
+
+
+
+/* Logo "Conexión"*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 29em;
+}
+
+
+
+/* Raya siete */
+div.rayasiete
+{
+margin-left: -25px;
+width: 77em;
+} 
+
+
+
+
+/* Conexión Web - Desarrolladores de eatsy */
+div.desarrolladores 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: -33px;
+margin-right: -38em;
+padding: 0px;
+font-size: 23px;
+}
+
+
+
+/* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
+/* Palabra "La empresa"*/
+div.empresa
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+}
+/*Palabra "Servicios"*/
+div.servicios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 19em;
+margin-top: -36px;
+}
+/*Palabra "Portafolio de trabajo"*/
+div.portafolio
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 40em;
+margin-right: -32em;
+margin-top: -38px;
+}
+/*Palabra "Redes sociales"*/
+div.redes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 60em;
+margin-right: -56em;
+margin-top: -38px;
+}
+/* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
+
+
+
+/* EMPIEZA rayas "información Conexión" */
+/* Raya "ocho"*/
+div.rayaocho
+{
+width: 17em;
+}
+/* Raya nueve*/
+div.rayanueve
+{
+width: 17em;
+margin-left: 19em;
+margin-top: -10px;
+}
+/* Raya "diez"*/
+div.rayadiez
+{
+width: 17em;
+margin-left: 40em;
+margin-top: -10px;
+}
+/* Raya "once"*/
+div.rayaonce
+{
+width: 15em;
+margin-left: 60em;
+margin-top: -10px;
+}
+/* TERMINA rayas "información Conexión" */
+
+
+
+/* EMPIEZA descripciones de "empresa" "serrvicios" "portafolio de trabajo" "redes sociales"*/
+/* Descripción "empresa"*/
+div.descripcionempresa
+{
+
+}
+div.descripcionempresa p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px;  
+}
+/* Descripción "servicios"*/
+div.descripcionservicios
+{
+margin-right: -17em;
+margin-top: -89px;
+margin-left: 19em;
+}
+div.descripcionservicios p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px; 
+}
+/*Descripcioón "Portafolio"*/
+div.descripcionportafolio
+{
+margin-left: 45.6em;
+margin-top: -91px;
+font-size: 14px;
+}
+div.descripcionportafolio p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px; 
+}
+/*Palabra "sitio oficial"*/
+div.sitiooficial
+{
+margin-left: 40em;
+margin-right: -37em;
+}
+div.sitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);  
+}
+/*Raya "doce"*/
+div.rayadoce
+{
+width: 17em;  
+margin-left: 40em;
+margin-right: -34.6em; 
+margin-top: 15px; 
+}
+/* Descripción "Sitio Oficial"*/
+div.descripcionsitiooficial
+{
+margin-left: 40em;
+margin-right: -37em;
+margin-top: -7px;
+}
+div.descripcionsitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px; 
+}
+/* Imagen "Facebook Conexión"*/
+div.facebookconexion
+{
+margin-top: -111px;
+}
+div.facebookconexion img
+{
+margin-left: 59.5em;
+}
+div.facebookconexion img:hover
+{
+opacity: 0.5;
+}
+/* Imagen "Twitter Conexión"*/
+div.twitterconexion
+{
+margin-top: 12px;
+}
+div.twitterconexion img
+{
+margin-left: 59.5em;
+}
+div.twitterconexion img:hover
+{
+opacity: 0.5;
+}
+/* Texto "Algunas empresas y clientes que han confiado en nosotros"*/
+div.empresasyclientes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151); 
+margin-right: -9em;  
+}
+/* Raya "trece"*/
+div.rayatrece
+{
+width: 75em;  
+}
+/*Imagen "Ibero"*/
+div.ibero
+{
+}
+div.ibero img
+{
+margin-left: 1px;  
+}
+div.ibero img:hover
+{
+opacity: 0.8;
+}
+/* Imagen "Trozmer"*/
+div.trozmer
+{
+margin-left: 17em;
+margin-top: -96px;
+}
+div.trozmer img
+{
+}
+div.trozmer img:hover
+{
+opacity: 0.8;
+}  
+/* Imagen "idm"*/  
+div.idm
+{
+margin-left: 35em;
+margin-top: -99px;  
+}
+div.idm img
+{
+}
+div.idm img:hover
+{
+opacity: 0.5;
+}
+/* Texto "Realmente apasionados del Diseño y la Programación"*/
+div.frase
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-right: -42em;
+margin-left: 30em;
+margin-top: -98px;
+font-size: 21px;
+text-align: center;
+}
+/*Raya "catorce"*/
+div.rayacatorce
+{
+width: 77em;
+margin-left: -24px;
+}
+/* Ultimo mensaje*/
+div.ultimomensaje
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 11px;
+margin-right: -79em;
+text-align: center;
+}
+
+/*TERMINA descripciones "empresa" "serrvicios" "portafolio de trabajo" "redes sociales"*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   "MEDIA CUERY - IPAD HORIZONTAL" 
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+@media only screen and (max-width : 1024px){
+
+
+/*Imagen "Mira de qué trata"*/
+div.miradequetrata
+{
+margin-left: 41em;
+}
+div.miradequetrata img
+{
+margin-bottom: 99px;
+width: 18em;
+}
+div.miradequetrata img:hover
+{
+opacity: 0.5;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD HORIZONTAL
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*Botón de "inicio"*/
+div.inicio
+{
+margin-top: -108px; 
+}
+div.inicio img
+{
+width: 19%;
+margin-left: 50em;
+}
+
+
+/* Parrafo "quiero invitación" CSS-IPAD HORIZONTAL*/
+div.parrafoinvitacion
+{
+margin-left: 25%;
+margin-top: -6%;
+text-align: left;
+}
+div.parrafoinvitacion p
+{
+font-size: 16px;
+color:gray;
+font-family: 'Open Sans';
+font-weight: 300;
+}
+
+
+
+/* Botón "invitación" CSS-IPAD HORIZONTAL*/
+div.indicates-required
+{
+
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD HORIZONTAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+/*Botón "inicio2"*/
+div.inicio2 
+{
+
+}
+div.inicio2 img
+{
+width: 19%;
+margin-left: 50em;
+margin-bottom: -43px;
+}
+
+
+/* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL*/
+div.parrafoescribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+}
+div.parrafoescribenos p
+{
+font-size: 16px;
+color:gray;
+margin-left: 38px;
+}
+/* TERMINA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL */
+
+
+
+/* EMPIEZA Palabra "Imagina..." CSS-IPAD HORIZONTAL*/
+div.imagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 20em;
+margin-top: -119px;
+margin-right: 38px;
+}
+div.imagina p
+{
+font-size: 20px;
+color: rgb(51 51 51);  
+}
+/*TERMINA Plabara "Imagina..." CSS-IPAD HORIZONTAL */
+
+
+
+/*EMPIEZA texto "las personas podrán compartir" CSS-IPAD HORIZONTAL*/
+div.parrafoimagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+margin-top: -2px;
+margin-right: 39px;
+}
+div.parrafoimagina p
+{
+font-size: 16px;
+color:gray;
+margin-left: 20.1em;
+}
+/*TERMINA texto "las personas podrán compartir" CSS-IPAD HORIZONTAL*/
+
+
+
+/* EMPIEZA "registro para restaurantes" CSS-IPAD HORIZONTAL*/
+/* Palabra e-mail */
+div.anotaemailrestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 38%;
+margin-top: -21em;
+}
+/* Cuadro de "registro" */
+div.registrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 18px;
+margin-right: -5em;
+}
+div.anotanombrerestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 9px;
+font-size: 16px;
+margin-right: -42px;
+}
+/* Botón "invitación" */
+div.botonenviar
+{
+width: 133%;
+margin-left: 5.5em;
+margin-top: 7%;
+}
+/*Cuadro para anotar "nombre del restaurante"*/
+div.cuadrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 18px;
+margin-right: -4em;
+}
+/*TERMINA "registro para restaurante" CSS-IPAD HORIZONTAL*/
+
+
+
+/* Imagen "menú de prueba" CSS-IPAD HORIZONTAL*/
+div.menuprueba img
+{
+width: 244%;
+text-align: r;
+margin-left: 18em;
+}
+
+
+
+/*Raya seis CSS-IPAD HORIZONTAL*/
+div.rayaseis
+{
+margin-top: 9em;
+width: 63em;
+margin-left: -37px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   4) Acá empieza la "ultima parte de la página" (el footer y datos de Conexión) CSS-IPAD HORIZONTAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
+/*Logo "Conexión"*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 20em;
+}
+
+
+/* Raya siete CSS-IPAD HORIZONTAL*/
+div.rayasiete
+{
+margin-left: -25px;
+width: 62em;
+} 
+
+
+
+/* Conexión Web - Desarrolladores de eatsy CSS-IPAD HORIZONTAL*/
+div.desarrolladores 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: -27px;
+margin-right: -34em;
+padding: 0px;
+font-size: 20px;
+}
+
+
+
+/* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD HORIZONTAL*/
+/* Palabra "La empresa"* CSS-IPAD HORIZONTAL */
+div.empresa 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+font-size: 15px;
+margin-left: -24px;
+}
+/*Palabra "Servicios" CSS-IPAD HORIZONTAL*/
+div.servicios p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: -60px;
+margin-top: -34px;
+font-size: 15px;
+}
+/*Palabra "Portafolio de trabajo" CSS-IPAD HORIZONTAL*/
+div.portafolio
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 32em;
+margin-right: -32em;
+margin-top: -36px;
+font-size: 15px;
+}
+/*Palabra "Redes sociales" CSS-IPAD HORIZONTAL*/
+div.redes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 46.7em;
+margin-right: -40em;
+margin-top: -36px;
+font-size: 15px;
+}
+/*Palabra "sitio oficial"*/
+div.sitiooficial
+{
+margin-left: 32em;
+margin-right: -37em;
+font-size: 15px;
+}
+div.sitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);  
+}
+/* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD HORIZONTAL*/
+
+
+
+/* EMPIEZA rayas "información Conexión" CSS-IPAD HORIZONTAL*/
+div.rayaocho
+{
+width: 14em;
+margin-left: -24px;
+}
+/* Raya nueve CSS-IPAD HORIZONTAL*/
+div.rayanueve
+{
+width: 13em;
+margin-left: 15em;
+margin-top: -10px;
+}
+/* Raya "diez" CSS-IPAD HORIZONTAL*/
+div.rayadiez
+{
+width: 12em;
+margin-left: 30em;
+margin-top: -10px;
+}
+/* Raya "once"*/
+div.rayaonce
+{
+width: 16em;
+margin-left: 44em;
+margin-top: -10px;
+}
+/*Raya "doce"*/
+div.rayadoce
+{
+width: 12em;
+margin-left: 30em;
+margin-right: -34.6em;
+margin-top: 15px;
+}
+
+
+
+/* EMPIEZA "descripciones" CSS-IPAD HORIZONTAL */
+/* Descripción "empresa"*/
+div.descripcionempresa p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 14px;
+margin-left: -25px;
+margin-right: 63px;
+}
+/* Descripción "servicios"*/
+div.descripcionservicios
+{
+margin-right: -17em;
+margin-top: -107px;
+margin-left: 15em;
+}
+/*Descripción "portafolio"*/
+div.descripcionportafolio
+{
+margin-left: 34.6em;
+margin-top: -91px;
+font-size: 14px;
+}
+/*Descripción "sitio oficial"*/
+div.descripcionsitiooficial
+{
+margin-left: 30em;
+margin-right: -37em;
+margin-top: -7px;
+}
+/*TERMINA "descripciones" CSS-IPAD HORIZONTAL*/
+
+
+
+/*Botón "facebook conexion" CSS-IPAD HORIZONTAL*/
+div.facebookconexion img
+{
+margin-left: 43.5em;
+}
+
+
+
+/*Botón "twitter conexión CSS-IPAD HORIZONTAL"*/
+div.twitterconexion img
+{
+margin-left: 43.5em;
+}
+
+
+
+/*Texto "algunas empresas" CSS-IPAD HORIZONTAL*/
+div.empresasyclientes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-right: -160px;
+font-size: 15px;
+margin-left: -25px; 
+}
+
+
+/* Raya "trece" CSS-IPAD HORIZONTAL*/
+div.rayatrece
+{
+width: 62em;
+margin-left: -25px;
+} 
+
+
+
+/*Logo "Trozmer" CSS-IPAD HORIZONTAL*/
+div.trozmer
+{
+margin-left: 14em;
+margin-top: -96px;
+}
+div.trozmer img
+{
+width: 10em;
+}
+
+
+/*Logo "idm" CSS-IPAD HORIZONTAL*/
+div.idm
+{
+margin-left: 28em;
+margin-top: -99px;  
+}
+
+
+
+/* Texto de "frase diseño y programación" CSS-IPAD HORIZONTAL*/
+div.frase
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-right: -33em;
+margin-left: 27em;
+margin-top: -98px;
+font-size: 21px;
+text-align: center;
+}
+
+
+/* Raya "catorce" CSS-IPAD HORIZONTAL*/
+div.rayacatorce
+{
+width: 62em;
+margin-left: -24px;
+}
+
+
+
+/* Ultimo mensaje*/
+div.ultimomensaje
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 11px;
+margin-right: -61em;
+text-align: center;
+}
+
+
+
+/* TERMINA rayas "información Conexión" CSS-IPAD HORIZONTAL*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   MEDIA CUERY - "IPAD VERTICAL"
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media only screen and (max-width : 768px){
+
+
+/*Imagen "Mira de qué trata"*/
+div.miradequetrata
+{
+margin-left: 32em;
+}
+div.miradequetrata img
+{
+margin-bottom: 99px;
+width: 12em;
+}
+div.miradequetrata img:hover
+{
+opacity: 0.5;
+}
+
+
+
+ /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD VERTICAL
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*Botón de "inicio"*/
+div.inicio
+{
+margin-top: -109px; 
+}
+div.inicio img
+{
+width: 22%;
+margin-left: 37em;
+}
+
+ /* Texto "usuarios" CSS-IPAD VERTICAL */
+div.usuarios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-top: -17px;
+margin-left: 13px;
+font-size: 14px; 
+}
+
+
+
+/* Parrafo "quiero invitación" CSS-IPAD VERTICAL*/
+div.parrafoinvitacion
+{
+margin-left: 25%;
+margin-top: -7%;
+text-align: left;
+margin-right: 144px;
+}
+div.parrafoinvitacion p
+{
+font-size: 14px;
+color:gray;
+font-family: 'Open Sans';
+font-weight: 300;
+}
+
+
+
+/*EMPIEZAN "redes sociales eatsy CSS-IPAD VERTICAL*/
+div.facebookeatsy
+{
+margin-top: -18px;
+text-align: right;
+}
+div.facebookeatsy img
+{
+width: 7.1%;
+margin-top: -60%;
+margin-right: 11%;
+}
+/* Botón "twitter-eatsy" CSS-IPAD VERTICAL*/
+div.twittereatsy
+{
+text-align: right;
+margin-top: -7.2%;
+margin-right: 1%;
+}
+div.twittereatsy img
+{
+width: 7.5%;
+margin-top: -4px;
+}
+/*TERMINA "redes sociales eatsy" CSS-IPAD VERTICAL*/
+
+
+
+/* EMPIEZA "registro para invitación" CSS-IPAD VERTICAL*/
+/* Texto "e-mail" CSS-IPAD VERTICAL*/
+div.anotaemail
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 9%;
+margin-top: -21px;
+font-size: 14px;
+}
+/* Botón "invitación" CSS-IPAD VERTICAL*/
+div.botoninvitacion
+{
+width: 71%;
+margin-left: 5%;
+margin-top: 1%;
+}
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD VERTICAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+/*Palabra "Restaurantes" CSS-IPAD VERTICAL*/
+div.restaurantes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 13px;
+font-size: 14px;
+}
+
+/*Botón "inicio2"*/
+div.inicio2 
+{
+
+}
+div.inicio2 img
+{
+width: 22%;
+margin-left: 37em;
+margin-bottom: -43px;
+}
+
+/* EMPIEZA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/
+div.megustaria
+{
+margin-left: 13px;
+}
+div.megustaria p
+{
+font-size: 21px;
+font-family: 'Open Sans';
+font-weight: 300;
+color: gray;
+}
+/* TERMINA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/ 
+
+
+
+/* Imagen "¿Tienes un restaurante?" CSS-IPAD VERTICAL*/
+div.tienesunrestaurante img
+{
+width: 98%;
+margin-left: 6px;  
+}
+
+
+
+/* Imagen "Te invitamos" CSS-IPAD VERTICAL */
+div.teinvitamos img
+{
+width: 98%;
+margin-left: 7px;
+margin-top: 8px;
+}
+
+
+
+/* EMPIEZA Palabra "Escribenos" CSS-IPAD VERTICAL */
+div.escribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 9px;
+}
+div.escribenos p
+{
+font-size: 14px;
+color: rgba(51 51 51);
+}
+/*TERMINA Plabra "Escribenos" CSS-IPAD VERTICAL*/ 
+
+
+
+/* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD VETICAL*/
+div.parrafoescribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+}
+div.parrafoescribenos p
+{
+font-size: 13px;
+color:gray;
+margin-left: 12px;
+}
+/* TERMINA texto "Tu menú digital está cerca" CSS-IPAD VERTICAL */
+
+
+
+/* EMPIEZA Palabra "Imagina..." CSS-IPAD VERTICAL*/
+div.imagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 16em;
+margin-top: -84px;
+margin-right: 38px;
+}
+div.imagina p
+{
+font-size: 14px;
+color: rgb(51 51 51);  
+}
+/*TERMINA Plabara "Imagina..." CSS-IPAD VERTICAL */
+
+
+
+/*EMPIEZA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
+div.parrafoimagina
+{
+font-family: 'Open Sans';
+font-weight: 300;
+text-align: left;
+margin-top: -2px;
+margin-right: 7px;
+margin-left: -8px;
+}
+div.parrafoimagina p
+{
+font-size: 13px;
+color:gray;
+margin-left: 20.1em;
+}
+/*TERMINA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
+
+
+
+/* Raya cinco*/
+div.rayacinco
+{
+width: 29%;
+margin-left: 14px;
+margin-top: -5px;
+}
+
+
+
+/* EMPIEZA "registro para restaurantes" CSS-IPAD VERTICAL*/
+/* Palabra e-mail */
+div.anotaemailrestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 43%;
+margin-top: -20em;
+font-size: 13px;
+}
+/* Cuadro de "registro" */
+div.registrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 8px;
+margin-right: -5em;
+}
+/* Texto "Anota nombre restaurante" CSS-IPAD VERTICAL*/
+div.anotanombrerestaurante
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: 17px;
+font-size: 13px;
+margin-right: -42px;
+}
+/*Cuadro para anotar "nombre del restaurante" CSS-IPAD VERTICAL*/
+div.cuadrorestaurante
+{
+line-height: normal;
+width: 58em;
+margin-left: 9px;
+margin-right: -4em;
+}
+/*TERMINA "registro para restaurante" CSS-IPAD VERTICAL*/
+
+
+
+/* Imagen "menú de prueba" CSS-IPAD VERTICAL*/
+div.menuprueba img
+{
+width: 227%;
+margin-left: 15em;
+}
+
+
+
+/*Raya seis CSS-IPAD VERTICAL*/
+div.rayaseis
+{
+margin-top: 5em;
+width: 49em;
+margin-left: -37px;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   4) Acá empieza la "ultima parte de la página" (el footer y datos de Conexión) CSS-IPAD VERTICAL
+   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/   
+
+
+/* Palabra ¿Quiénes somos? CSS-IPAD VERTICAL*/
+div.quienessomos p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: -1px;
+margin-top: 8em;
+font-size: 14px;
+}
+
+
+
+/*Logo "Conexión" CSS-IPAD VERTICAL*/
+div.logoconexion img
+{
+margin-top: 34px;
+margin-left: 17em;
+width: 13em;
+}
+
+
+
+/* Raya siete CSS-IPAD VERTICAL*/
+div.rayasiete
+{
+margin-left: -25px;
+width: 48em;
+} 
+
+
+
+/* Conexión Web - Desarrolladores de eatsy CSS-IPAD VERTICAL*/
+div.desarrolladores 
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-left: -9px;
+margin-right: -34em;
+padding: 0px;
+font-size: 19px;
+}
+
+
+
+/* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD VERTICAL */
+/* Palabra "La empresa"*/
+div.empresa
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+}
+div.empresa p
+{
+font-size: 14px;
+margin-left: 17px  
+}
+/*Palabra "Servicios"*/
+div.servicios
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 18em;
+margin-top: -35px;
+}
+div.servicos p
+{
+font-size: 14px;  
+}
+/*Palabra "Portafolio de trabajo" CSS-IPAD VERTICAL*/
+div.portafolio
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 40em;
+margin-right: -32em;
+margin-top: -32px;
+}
+div.portafolio p
+{
+font-size: 14px;
+margin-left: -165px;  
+}
+/*Palabra "sitio oficial"*/
+div.sitiooficial
+{
+margin-left: 29em;
+margin-right: -37em;
+}
+div.sitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+font-size: 14px;  
+}
+/*Palabra "Redes sociales" CSS-IPAD VERTICAL*/
+div.redes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151);
+margin-left: 60em;
+margin-right: -56em;
+margin-top: -35px;
+}
+div.redes p
+{
+font-size: 14px;
+margin-left: -20em;  
+}
+
+
+
+/* Raya nueve CSS-IPAD VERTICAL*/
+div.rayanueve
+{
+width: 12em;
+margin-left: 14em;
+margin-top: -10px;
+}
+/* Raya "diez" CSS-IPAD VERTICAL*/
+div.rayadiez
+{
+width: 10em;
+margin-left: 27.3em;
+margin-top: -10px;
+}
+/* Raya "once"*/
+div.rayaonce
+{
+width: 7.6em;
+margin-left: 38.9em;
+margin-top: -10px;
+}
+/*Raya "doce"*/
+div.rayadoce
+{
+width: 10em;
+margin-left: 27.4em;
+margin-right: -34.6em;
+margin-top: 15px;
+}
+
+
+/* EMPIEZA "descripciones" CSS-IPAD VERTICAL */
+/* Descripción "empresa"*/
+div.descripcionempresa p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px;
+margin-left: -5px;
+margin-right: 29px;
+}
+/* Descripción "servicios" CSS-IPAD VERTICAL*/
+div.descripcionservicios
+{
+margin-right: -17em;
+margin-top: -121px;
+margin-left: 14em;
+}
+div.descripcionservicios p
+{
+font-size: 13px;  
+}
+/*Descripcioón "Portafolio" CSS-IPAD VERTICAL*/
+div.descripcionportafolio p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px;
+margin-left: -3.6em;
+}
+/* Descripción "Sitio Oficial" CSS-IPAD VERTICAL*/
+div.descripcionsitiooficial
+{
+margin-left: 27.3em;
+margin-right: -37em;
+margin-top: -7px;
+}
+div.descripcionsitiooficial p
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 13px; 
+}
+
+
+
+/*Botón "facebook conexion" CSS-IPAD VERTICAL*/
+div.facebookconexion img
+{
+margin-left: 39.5em;
+width: 6em;
+margin-top: 16px;
+}
+
+
+
+/*Botón "twitter conexión CSS-IPAD VERTICAL"*/
+div.twitterconexion img
+{
+margin-left: 39.5em;
+width: 6.1em;
+}
+
+
+
+/* Texto "Algunas empresas y clientes que han confiado en nosotros" CSS-IPAD VERTICAL*/
+div.empresasyclientes
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+color: rgb(151 151 151); 
+margin-right: -9em;  
+}
+div.empresasyclientes p
+{
+font-size: 14px;
+margin-top: 31px;
+margin-left: 20px;
+margin-right: -91px; 
+}
+
+
+
+/* Raya "trece" CSS-IPAD VERTICAL*/
+div.rayatrece
+{
+width: 48em;
+margin-left: -25px;
+} 
+
+
+
+/*Imagen "Ibero" CSS-IPAD VERTICAL*/
+div.ibero
+{
+}
+div.ibero img
+{
+margin-left: 1px;
+width: 7em;  
+}
+
+
+
+/*Logo "Trozmer" CSS-IPAD VERTICAL*/
+div.trozmer
+{
+margin-left: 14em;
+margin-top: -96px;
+}
+div.trozmer img
+{
+width: 7em;
+margin-top: 27px;
+margin-left: -41px;
+}
+
+
+
+/* Imagen "idm" CSS-IPAD VERTICAL*/  
+div.idm
+{
+margin-left: 34em;
+margin-top: -99px;  
+}
+div.idm img
+{
+width: 6em;
+margin-top: 26px;
+margin-left: -11em;
+}
+
+
+
+/* Texto de "frase diseño y programación" CSS-IPAD HORIZONTAL*/
+div.frase
+{
+font-family: 'Open Sans';
+font-weight: 300;
+margin-right: -30em;
+margin-left: 28em;
+margin-top: -72px;
+font-size: 17px;
+text-align: center;
+}
+
+
+
+/* Raya "catorce" CSS-IPAD HORIZONTAL*/
+div.rayacatorce
+{
+width: 48em;
+margin-left: -24px;
+}
+
+
+
+/* Ultimo mensaje*/
+div.ultimomensaje
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-size: 11px;
+margin-right: -61em;
+text-align: center;
+margin-right: -48em;
+}
+}

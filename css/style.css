@@ -1,0 +1,2090 @@
+@charset "utf-8";
+/*
+Nombre del tema: Eatsy - App Web
+Autores: Miguel Nieva - Iván Villa - Rodolfo Espíritu
+*/
+
+/* */
+
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+
+[hidden] {
+    display: none;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    
+    
+}
+
+/*
+ * Removes default margin.
+ */
+
+body {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+
+a:focus {
+    outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+
+h1 {
+    font-size: 2em;
+}
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+
+
+/* Aca se cambia el estilo de tipografía del nombre de los restaurantes en los menús*/
+b,
+strong 
+{
+font-weight: bold;
+font-family: sans-serif;
+font-style: italic;
+}
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+
+dfn {
+    font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*
+ * Sets consistent quote types.
+ */
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+
+small {
+    font-size: 80%;
+}
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+
+img {
+    border: 0;
+}
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+
+figure {
+    margin: 0;
+}
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+    border: 0; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 2 */
+    margin: 0; /* 3 */
+}
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+button,
+input {
+    line-height: normal;
+}
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer; /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+
+textarea {
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+}
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+
+/*
+ * Remove most spacing between table cells.
+ */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ==========================================================================
+   Normalize Ending
+   ========================================================================== */
+
+
+/* Eso se refiere al fondo negro de las páginas de "gracias.html y directorio.htm"*/
+   body, body.chilis, body.chilissucursales, body.chilispagos
+   {
+background:url(http://miguelnieva.com/images/background.png);
+
+    }
+
+body.edificios
+{
+  background: url('../img/fotosgrandes/city3.png');
+}
+
+
+/* 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA Página de inicio (Menú de prueba - restaurantes)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/ 
+
+/*esto corresponde al div-conteneor del logotipo de eatsy*/
+div.logotipogracias
+{
+text-align: center;
+}
+
+/*logotipo de eatsy*/
+div.logotipogracias img
+{
+  margin-left: 7px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* Esto corresponde a la imagen de "Bienvenido"*/
+div.bienvenido img
+{
+text-align: center;
+}
+
+div.bienvenidoeatsy
+{
+  text-align: center; 
+  margin-top: 26px; 
+}
+
+div.img
+
+/*mensaje de "Bienvenido"*/
+p.fontgrande
+{
+  font-size: 20px;
+  color: 126 126 126;
+  margin-top: -55;
+  z
+}
+
+/*mensaje de "En eatsy podrás ordenar a los mejores restaurantes de Puebla*/
+p.fontchico
+{
+  font-size: 1em;
+  color: rgb(32 32 32);
+  margin-top: -80px;
+}
+
+/*color de "Bienvenido y en eatsy encontrarás"*/
+p.black
+{
+color: rgb( 126,126,126);
+margin-top: 22px;
+text-align: center;
+font-family: sans-serif;
+font-style: italic;
+}
+
+/* botón de empezar a ordenar*/
+div.empezaraordenar
+{
+  text-align: center;
+  margin-top: 76px;
+}
+div.empezaraordenar:hover
+{
+opacity: 0.5;  
+}
+
+/*esto corresponde al margen de la imagen de lapcompuipad*/
+div.lapcompuipad
+{
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+EMPIEZA directorio de restaurantes
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+div.appeatsy div.topeatsygracias div.logotipogracias
+{
+height: auto;
+margin-bottom: 5em;
+margin-top: 5em;
+text-align: center;
+}
+
+div.app a
+{
+  text-decoration: none;
+}
+
+div.top
+{
+  height: auto;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+ 
+div.top div.logotipo img
+{
+margin: 0 2%;
+}
+
+
+div.restaurante
+{
+  width: 24%;
+ display: inline-block; 
+  text-align: center;
+  height: 14em;
+  vertical-align: top;
+}
+
+div.restaurante img
+{
+ display: inline-block; 
+ width: 81px;
+}
+
+div.restaurante:hover
+{
+  opacity: .7;
+}
+
+div.restaurante div.imago
+{
+  height: 6em;
+}
+
+div.restaurante div.nombre
+{
+height: 0em;
+}
+
+
+/* Esto corresponde al color y estilo de letra de los nombres de restaurantes*/
+div.restaurante div.nombre a
+{
+color: #1F1E1F;
+font-family: sans-serif;
+font-style: italic;
+}
+/* Logotipos de restaurantes en el directorio*/
+div.restaurantes
+{
+margin: 0% 23%;
+margin-top: 79px;
+}
+
+p.center
+{
+text-align: center;
+}
+
+header.principal
+{
+    width: 100%; 
+    margin-top: 1%;
+}
+
+
+
+/* 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA "Menú de prueba"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*Logotipo sin marca*/
+div.marca
+{
+display: inline-block;
+text-align: center;
+width: 110px;
+vertical-align: bottom;
+margin-top: 1%;
+margin-left: 30px;
+}
+div.marca img.loguitos
+{
+width: 92px;
+}
+
+
+/*Esto corresponde a los datos del Restaurante en "Menú de prueba"*/
+div.restaurantito
+{
+display: inline-block;
+color: rgb(126, 126, 126);
+margin-bottom: 2.5%;
+font-style: italic;
+}
+
+div.restaurante
+{
+margin-left: 0%;
+color: white
+}
+
+
+
+/* Botón de cuenta (regresar a página de inicio)*/
+div.botoncuenta 
+{
+display: inline-block;
+margin: 1% 1% 0% 0%;
+margin-top: 47px;
+float: right;
+}
+div.botoncuenta img
+{
+
+}
+div.botoncuenta img:hover
+{
+opacity: 0.5;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+Aca empieza el layout de los menús
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+div.menu
+{
+width: 100.1%;
+position: absolute;
+max-width: none;
+overflow: hidden;
+top: 110px;
+bottom: 0px;
+}
+
+div.lista
+{
+display: inline-block;
+float: left;
+height: 91%;
+overflow-x: hidden;
+vertical-align: top;
+width: 33.3%;
+-webkit-overflow-scrolling: touch;
+bottom: 0;
+overflow-x: hidden;
+overflow-y: auto;
+-o-transition: top .1s ease-out;
+-ms-transition: top .1s ease-out;
+-moz-transition: top .1s ease-out;
+-webkit-transition: top .1s ease-out transition: top .1s ease-out;
+position: relative;
+overflow: scroll;
+}
+
+div.lista::-webkit-scrollbar 
+{ 
+width: 9px;
+background-color: rgb(253, 252, 25);
+}
+div.lista::-webkit-scrollbar-thumb 
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: rgb(109, 110, 112);
+}
+div.lista::-webkit-scrollbar-track 
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+border-radius: 0px;
+background-color: rgb(32, 32, 32);
+}
+
+    
+
+/*Esto corresponde a la barra de "comidas" "cenas" "bebidas y postres"*/ 
+div.barra
+{
+margin-top: 3%;
+width: 100%;
+height: 4%;
+margin-bottom: -0.3%;
+padding-bottom: 4px; 
+background: rgb(32, 32, 32);
+display: inline-block;
+}
+
+/* Esto corresponde al "estilo de letra" de "comidas" "cenas" "bebidas y postres"*/
+div.tipo
+{
+width: 33.1%;
+text-align: center;
+color: rgb(255, 255, 255);
+display: inline-block;
+float: left;
+padding: .5% 0%;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+}
+
+
+
+
+
+div.alimento
+{
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+div.foto
+{
+  /*height: 14.8em;*/
+height: 12.2em;
+overflow: hidden;
+position: relative;
+background: rgba(255, 255, 255, .9);
+margin-bottom: 0px;
+}
+
+/*Esto corresponde al tamaño de imagen en los menús*/
+div.alimento div.foto img
+{
+ width: 104%; 
+}
+
+/* Esto corresponde al estilo de la barra en donde vienen precios y nombres de menús*/
+div.alimento div.foto div.descripcion
+{
+position: absolute;
+padding-top: 6px;
+opacity: 0.8;
+/*Datos pertnecientes a la barra en donde están los nombres y precios*/
+background-color: rgb(255, 255, 255);
+background: rgba(0, 0, 0, .6);
+bottom: 0;
+/*Datos pertenecientes a la tipografía*/
+color: rgb(255, 255, 255);
+height:;
+overflow: hidden;
+padding: -7px 5px 15px;
+width: 100%;
+}
+
+
+/* Aca se edita el texto de los platillos en el menú principal*/
+div.alimento div.foto div.descripcion div.nombre
+{
+margin-left: 10px;
+margin-bottom: 2px;
+display: inline-block;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+}
+
+/* Aca se edita el texto del precio en el menú principal*/
+div.alimento div.foto div.descripcion div.precio
+{
+display: inline-block;
+float: right;
+margin-right: 12px;
+font-family: sans-serif;
+font-style: italic;
+margin-bottom:4px;
+}
+body.alimento img.fotoepica
+{
+  width: 100%;position: absolute;
+}
+
+body.alimento img.logonegro
+{
+position: fixed;
+z-index: 1;
+width: 13%;
+right: 85.4%;
+bottom: 3%;
+opacity: 0.8;
+}
+
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////
+Acá empieza el cuadro negro en donde van las descripciones y precios de los platillos
+//////////////////////////////////////////////////////////////////////////////////////////
+*/
+div.cuadrocomida
+{
+width: 262px;
+padding-bottom: 11px;
+background: rgba(32,32,32,0.8);
+position: fixed;
+margin-left: 53em;
+margin-top: 3em;
+}
+
+/* Nombre del platillo*/
+div.nombrecomida
+{
+font-size: 27px;
+color: white;
+font-family: sans-serif; 
+}
+div.nombrecomida p
+{
+margin-left: 16px;
+margin-top: 11px; 
+font-style: italic;
+}
+
+/* Descripción de la comida*/
+div.descripcioncomida p
+{
+color: white;
+margin-top: -22px;
+font-size: 15px;
+font-style: italic;
+}
+div.descripcioncomida
+{
+margin-right: 18px;
+margin-left: 17px;
+}
+
+/*Precio de la comida*/
+div.preciodelacomida p
+{
+color: white;
+margin-left: 16px;
+font-weight: bold;
+font-size: 20px;
+margin-top: -4px;
+font-style: italic;
+}
+
+/* Texto No. de ordenes*/
+div.numordenes p
+{
+font-size: 16px;
+font-family: sans-serif;
+font-weight: bold;
+font-style: italic;
+color: white;
+margin-left: 16px;
+display: inline-block;
+margin-top: 8px; 
+}
+
+
+
+/*Botón 1*/
+div.botoncitos div.boton1 img
+{
+width: 28px;
+margin-left: 17px;
+margin-top: -9px;
+display: inline-block;
+}
+div.boton1:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton 2*/
+div.botoncitos div.boton2 img
+{
+width: 28px;
+margin-left: 66px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton2:hover
+{
+opacity: 0.5;  
+}
+
+/* Botón 3*/
+div.botoncitos div.boton3 img
+{
+width: 28px;
+margin-left: 115px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton3:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton 4*/
+div.botoncitos div.boton4 img
+{
+width: 28px;
+margin-left: 165px;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton4:hover
+{
+opacity: 0.5;
+}
+
+/*Boton 5*/
+div.botoncitos div.boton5 img
+{
+width: 28px;
+margin-left: 215px;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton5:hover
+{
+opacity: 0.5;  
+}
+
+/*Botón agregar a la orden*/
+div.botonorden img
+{
+width: 14.7em;
+margin-left: 14px;
+margin-top: 25px;
+}
+div.botonorden:hover
+{
+opacity: 0.5;
+}
+
+/*Botón facebookcomida*/
+div.facebookcomida img
+{
+width: 94px;
+margin-top: 4px;
+margin-left: 17px;
+}
+div.facebookcomida
+{
+display: inline-block;
+}
+div.facebookcomida:hover
+{
+opacity: 0.5;  
+}
+
+/* Botón Twitter*/
+div.twitter img
+{
+width: 92px;
+margin-left: 38px;
+}
+div.twitter
+{
+display: inline-block;  
+}
+div.twitter:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton para cerrar*/
+div.botonx img
+{
+width: 2em;
+left: 70em;
+top: 45px;
+position: fixed;
+}
+div.botonx
+{  
+}
+div.botonx:hover
+{
+opacity: 0.5;  
+}
+
+
+
+body.alimento img.paquete
+{
+position: fixed;
+z-index: 1;
+width: 39%;
+right: 7.4%;
+top: 7%;
+}
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina de cuenta
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+div.imagenedificios img
+{
+width: 100%;
+}
+
+/*Botón "regresar a menú"*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 59em;
+margin-top: 36px;
+width: 15em;
+}
+div.regresarmenu img:hover
+{
+opacity: 0.5;  
+}
+
+
+
+
+/*Imagen "paquete eureka"*/
+div.imagenpaquete img
+{
+width: 40%;
+float: right;
+margin: 0 4%;
+margin-top: 6em;
+}
+
+/*
+//////////////////////////////////
+ EMPIEZA Cuadro negro
+//////////////////////////////////
+*/
+div.cuadronegro
+{
+width: 35em;
+margin-top: 3em;
+margin-left: 5em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+
+
+/*Palabra "Restaurante"*/
+div.restaurantecuenta p
+{
+font-size: 27px;
+margin-left: 23px;
+color: white;  
+}
+
+
+
+/*Acá va el "Nombre el restaurante"*/
+div.nombrederestaurante p
+{
+margin-left: 24px;
+color: white;
+font-size: 30px;
+font-style: bold;
+font-weight: bold;
+margin-top: -23px;
+}
+
+
+
+/*Esta es la raya blanca*/
+div.rayacuenta
+{
+margin-top: -14px;
+}
+
+
+
+/*Texto "Le repito su orden"*/
+div.repito p
+{
+font-size: 23px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 26px;
+}
+
+
+
+/*Platillo1*/
+ div.platillo1 p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Precio1*/
+div.precio1 p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+}
+
+
+/*Platillo2*/
+div.platillo2 p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Precio2*/
+div.precio2 p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo3*/
+div.platillo3 p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Precio3*/
+div.precio3 p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo4*/
+div.platillo4 p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Precio4*/
+div.precio4 p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+}
+
+
+
+/*Platillo5*/
+div.platillo5 p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Precio5*/
+div.precio5 p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+}
+
+
+/*Total*/
+div.total p
+{
+color: white;
+font-size: 18px;
+margin-left: 39px;
+}
+/*Preciototal*/
+div.preciototal p
+{
+color: white;
+font-size: 18px;
+margin-left: 25em;
+margin-top: -42px;
+font-weight: bold;
+}
+
+/*
+////////////////////////////////////
+TERMINA "cuadro negor"
+////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TERMINA pagina de "cuenta"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+div.scrollbar
+{
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+EMPIEZA media query -IPAD HORIZONTAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+@media only screen and (max-width : 1024px) {
+
+
+div.alimento div.foto img
+{
+ width: 205%;
+}
+
+
+
+
+/* Esto corresponde al responsive design del logotipo blanco de eatsy*/
+body.alimento img.logonegro
+{
+position: fixed;
+z-index: 1;
+width: 18%;
+right: 80.4%;
+bottom: 3%;
+opacity: 0.8;
+}
+
+
+body.alimento img.paquete
+{
+width: 46%;
+margin top: 32px;
+margin-right: -37px;
+margin-top: 37px;
+}
+
+body.alimento div.cuadronegro
+{
+width: 47%;
+height: 63%;
+background-color: black;
+opacity: .6;
+margin: 4% 0 0 2%;
+position: fixed;
+z-index: 10;
+}
+
+div.top 
+{
+    height: auto;
+    margin-bottom: 5em;
+    margin-top: 4em;
+    text-align: center;
+}
+
+div.logotipo
+    {
+      margin: 7% 38.5% 0;
+    }
+
+div.top div.logotipo img 
+{
+  margin: 0 6%;
+  width: 85%;
+}
+
+
+
+
+div.logotipogracias img
+{
+margin-left: 12px;
+}
+
+
+
+div.individual
+{
+  width: 100%;
+padding-bottom: 20px;
+}
+
+div.logotipo
+{
+ width: 19%;
+display: inline-block;
+margin: 0;
+}
+
+div.logotipo img
+{
+  width: 69%;
+
+}
+
+div.informacion
+{
+ color: white;
+display: inline-block;
+width: 19%;
+vertical-align: top;
+margin-left: -30px;
+}
+
+div.informacion div.direccion
+{
+  margin: 0% 1%;
+}
+
+div.informacion div.telefono
+{
+ margin: 0% 1%; 
+}
+
+body.chilissucursal div.orden
+{
+  background: green;
+    font-weight: bold;
+    color: white;
+    width: 43%;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-top: 46px;
+    float:right;
+
+}
+
+div.separadorsucursal
+{
+    border-top:solid thin white;
+    margin: 4% 1%;
+}
+
+
+body.alimento
+{
+height: 100%; width: 100%; background: rgb(32,32,32);
+}
+
+
+body.alimento img.fotoepica
+{
+  width: 100%;position: absolute;
+}
+
+
+
+body.alimento img.facegrande
+{
+  position: fixed;
+z-index: 1;
+width: 8%;
+right: 21.4%;
+top: 66.5%;
+}
+
+body.alimento img.twittergrande
+{
+  position: fixed;
+z-index: 1;
+width: 8%;
+right: 13.2%;
+top: 66.5%;
+}
+
+
+
+
+
+
+
+/* Chilis Orden */
+
+body.chilisorden
+{
+background: url("../img/postre.jpg"); 
+}
+
+
+body.chilisorden div.orden
+{
+  display: inline-block;
+  width: 60%;
+
+}
+
+div.chilisorden div.opciones div.banner
+{
+display: none;
+}
+div.chilisorden div .opciones div.banner img
+{
+  width: 50%;
+}
+
+
+body.chilisorden div.orden div.informacion div.logotipo
+{
+  width: 100%;
+  margin: 0%;
+}
+
+body.chilisorden div.orden div.pedido div.alimento
+{
+width: 140%;
+margin-top: 1.5em;
+}
+
+body.chilisorden div.orden div.separadororden
+{
+border-top: solid thin white;
+margin: 10% 6%;
+}
+
+
+body.chilisorden div.opciones
+{
+  width: 20%;
+    display: inline-block;
+  float: right;
+  margin-right: 8.9%;
+}
+
+
+body.chilisorden div.banner img.atras
+{
+  width: 23%;
+  margin: 0 0% 4% 65%;
+}
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina "Cuenta" IPAD-HORIZONTAL
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////
+ EMPIEZA Cuadro negro - IPA HORIZONTAL
+//////////////////////////////////
+*/
+
+/*Botón "regresar a menú" IPAD VERTICAL*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 47.7em;
+margin-top: 41px;
+width: 14em;
+}
+
+
+
+/*Imagen "paquete eureka" - IPAD HORIZONTAL*/
+div.imagenpaquete img
+{
+width: 40%;
+float: right;
+margin: 0 2%;
+margin-top: 11em;
+}
+
+/*Cuadro negro -IPAD HORIZONTAL*/
+div.cuadronegro
+{
+width: 34em;
+margin-top: 3em;
+margin-left: 1em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+/*Texto "Le repito su orden" - IPAD HORIZONTAL*/
+div.repito p
+{
+font-size: 23px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 13px;
+}
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Acá empieza el cuadro negro en donde van las descripciones y precios de los platillos - IPAD HORIZONTAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+div.cuadrocomida
+{
+width: 262px;
+padding-bottom: 11px;
+background: rgba(32,32,32,0.8);
+position: fixed;
+margin-left: 42em;
+margin-top: 3em;
+}
+
+/*Boton para cerrar*/
+div.botonx img
+{
+width: 2em;
+left: 59em;
+top: 45px;
+position: fixed;
+}
+div.botonx:hover
+{
+opacity: 0.5;  
+}
+div.botonx
+{  
+}
+
+
+
+} /* Fin de Media Query - IPAD HORIZONTAL */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA medya query IPAD VERTICAL
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+@media only screen and (max-width : 768px){
+
+
+/*Esto corresponde a los datos del Restaurante en "Menú de prueba"  IPAD-VERTICAL*/
+div.restaurantito
+{
+display: inline-block;
+color: rgb(126, 126, 126);
+margin-bottom: 5.5%;
+font-size: 13px;
+}
+
+/*Botón de "Regresar a página de inicio"  IPAD-VERTICAL*/
+div.botoncuenta img
+{
+width: 11em;
+margin-top: 21px;
+}
+
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+Aca empieza el layout de los menús
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+div.menu
+{
+width: 100.1%;
+position: absolute;
+max-width: none;
+overflow: hidden;
+top: 110px;
+bottom: -23px;
+}
+
+/* Esto corresponde al "estilo de letra" de "comidas" "cenas" "bebidas y postres"*/
+div.tipo
+{
+width: 33.1%;
+text-align: center;
+color: rgb(255, 255, 255);
+display: inline-block;
+float: left;
+padding: .5% 0%;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+margin-top: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA pagina de cuenta IPAD-VERTICAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////
+ EMPIEZA Cuadro negro - IPAD VERTICAL
+//////////////////////////////////
+*/
+
+/*Botón "regresar a menú" IPAD VERTICAL*/
+div.regresarmenu img
+{
+position: absolute;
+margin-left: 32em;
+margin-top: 44px;
+width: 13em;
+}
+
+div.cuadronegro
+{
+width: 27em;
+margin-top: 3em;
+margin-left: 1em;
+background-color: black;
+opacity: 0.6;
+position: absolute;
+}
+
+
+/*Palabra "Restaurante" - IPAD VERTICAL */
+div.restaurantecuenta p
+{
+font-size: 22px;
+margin-left: 23px;
+color: white;
+}
+
+
+
+/*Acá va el "Nombre el restaurante"*/
+div.nombrederestaurante p
+{
+margin-left: 24px;
+color: white;
+font-size: 23px;
+font-style: bold;
+font-weight: bold;
+margin-top: -23px;
+}
+
+
+
+/*Texto "Le repito su orden"*/
+div.repito p
+{
+font-size: 17px;
+color: white;
+margin-left: 24px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+
+
+/*Platillo1 - IPAD VERTICAL*/
+ div.platillo1 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio1 - IPAD VERTICAL*/
+div.precio1 p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+/*Platillo2*/
+div.platillo2 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio2*/
+div.precio2 p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo3*/
+div.platillo3 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio3*/
+div.precio3 p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo4*/
+div.platillo4 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio4*/
+div.precio4 p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+
+/*Platillo5*/
+div.platillo5 p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Precio5*/
+div.precio5 p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+/*Total*/
+div.total p
+{
+color: white;
+font-size: 14px;
+margin-left: 23px;
+}
+/*Preciototal*/
+div.preciototal p
+{
+color: white;
+font-size: 13px;
+margin-left: 28em;
+margin-top: -29px;
+}
+
+
+/*Imagen "paquete eureka"*/
+div.imagenpaquete img
+{
+width: 53%;
+float: right;
+margin: 0 4%;
+margin-top: 26em;
+}
+
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TERMINA  pagina de cuenta IPAD-VERTICAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Acá empieza el cuadro negro en donde van las descripciones y precios de los platillos - IPAD VERTICAL
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+div.cuadrocomida
+{
+width: 768px;
+height: 124px;
+padding-bottom: 9px;
+background: rgba(0,0,0,0.0);
+position: fixed;
+margin-left: 0em;
+margin-top: 48em;
+z-index: 1;
+bottom: 3%;
+}
+
+/* Nombre del platillo*/
+div.nombrecomida
+{
+margin-top: -3px;
+margin-left: -6px;
+}
+div.nombrecomida p
+{
+font-size: 20px;
+display: inline-block;
+margin-bottom: -1px;
+
+}
+
+/* Descripción de la comida*/
+div.descripcioncomida p
+{
+font-size: 14px;
+display: inline-block;
+margin-bottom: 0px;
+}
+div.descripcioncomida
+{
+margin-right: 14em;
+position: absolute;
+margin-top: 16px;
+margin-left: 13px;
+}
+
+/*Precio de la comida*/
+div.preciodelacomida p
+{
+font-size: 17px;
+display: inline-block;
+margin-bottom: -1px;  
+}
+div.preciodelacomida
+{
+position: absolute;
+margin-left: 29em;
+margin-top: -1.3em;
+}
+
+/*Botón agregar a la orden*/
+div.botonorden
+{
+
+}
+div.botonorden img
+{
+width: 10.7em;
+margin-left: 36em;
+margin-top: -5em;
+display: inline-block;
+position: absolute;
+
+}
+div.botonorden:hover
+{
+opacity: 0.5;
+}
+
+/*Botón facebookcomida*/
+div.facebookcomida img
+{
+position: absolute;
+margin-left: 36.3em;
+width: 78px;
+margin-top: -43px
+}
+div.facebookcomida
+{
+
+}
+div.facebookcomida:hover
+{
+ 
+}
+
+/* Botón Twitter*/
+div.twitter img
+{
+width: 79px;
+}
+div.twitter
+{
+position: absolute;
+margin-left: 39.4em;
+margin-top: -27px;
+}
+div.twitter:hover
+{  
+}
+
+/*Boton para cerrar*/
+div.botonx img
+{
+width: 2em;
+left: 44em;
+top: 45em;
+position: fixed;
+}
+div.botonx
+{  
+}
+div.botonx:hover
+{
+opacity: 0.5;  
+}
+
+
+/* Texto No. de ordenes*/
+div.numordenes p
+{
+font-size: 16px;
+margin-top: 50px;
+margin-left: 12px;
+}
+
+/*Botón 1*/
+div.botoncitos div.boton1 img
+{
+width: 28px;
+margin-left: 17px;
+margin-top: -9px;
+display: inline-block;
+}
+div.boton1:hover
+{
+opacity: 0.5;  
+}
+
+/*Boton 2*/
+div.botoncitos div.boton2 img
+{
+width: 28px;
+margin-left: 96px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton2:hover
+{
+opacity: 0.5;  
+}
+
+
+/* Botón 3*/
+div.botoncitos div.boton3 img
+{
+width: 28px;
+margin-left: 183px;
+margin-top: -32px;
+display: inline-block;
+position: absolute;
+}
+div.boton3:hover
+{
+opacity: 0.5;  
+}
+
+
+/*Boton 4*/
+div.botoncitos div.boton4 img
+{
+width: 28px;
+margin-left: 17em;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton4:hover
+{
+opacity: 0.5;
+}
+
+
+/*Boton 5*/
+div.botoncitos div.boton5 img
+{
+width: 28px;
+margin-left: 22.2em;
+margin-top: -32px;
+display: inline-block;
+position: absolute; 
+}
+div.boton5:hover
+{
+opacity: 0.5;  
+}
+
+
+/* Esto corresponde al responsive design del logotipo blanco de eatsy*/
+body.alimento img.logonegro
+{
+position: fixed;
+z-index: 1;
+width: 20%;;
+right: 80.4%;
+bottom: 90%;
+opacity: .8;
+}
+
+
+} /*TERMINA query IPAD- VERTICAL*/
