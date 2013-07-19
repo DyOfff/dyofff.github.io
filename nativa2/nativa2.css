@@ -892,7 +892,7 @@ margin-top: 8em;
 div.logoconexion img
 {
 margin-top: 135px;
-margin-left: 29em;
+margin-left: 30em;
 }
 
 
@@ -1319,6 +1319,21 @@ opacity: 0.5;
    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
+div.escribenos
+{
+font-family: 'Open Sans';
+font-weight: 300;
+font-weight: bold;
+margin-left: 37px;
+display: inline-block;
+}
+div.escribenos p
+{
+font-size: 14px;
+color: rgba(51 51 51);
+}
+
+
 /*Botón de "inicio"*/
 div.inicio
 {
@@ -1389,6 +1404,13 @@ font-size: 16px;
 color:gray;
 margin-left: 38px;
 }
+
+div.rayacinco
+{
+display: inline-block;
+position: absolute;
+margin-top: 3px;  
+}
 /* TERMINA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL */
 
 
@@ -1400,8 +1422,10 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 margin-left: 20em;
-margin-top: -119px;
+margin-top: -8em;
 margin-right: 38px;
+display: inline-block;
+position: absolute;
 }
 div.imagina p
 {
@@ -1418,8 +1442,10 @@ div.parrafoimagina
 font-family: 'Open Sans';
 font-weight: 300;
 text-align: left;
-margin-top: -2px;
+margin-top: -75px;
 margin-right: 39px;
+display: inline-block;
+position: absolute;
 }
 div.parrafoimagina p
 {
@@ -1437,39 +1463,44 @@ div.anotaemailrestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 38%;
-margin-top: -21em;
+margin-left: 14%;
+margin-top: -23em;
 }
 /* Cuadro de "registro" */
 div.registrorestaurante
 {
 line-height: normal;
-width: 58em;
-margin-left: 18px;
+width: 50em;
+margin-left: 72px;
 margin-right: -5em;
+margin-top: -20em;
 }
 div.anotanombrerestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 9px;
+margin-left: 46px;
 font-size: 16px;
 margin-right: -42px;
+margin-top: -18em;
 }
 /* Botón "invitación" */
 div.botonenviar
 {
-width: 133%;
-margin-left: 5.5em;
-margin-top: 7%;
+width: 82%;
+margin-left: 4.5em;
+margin-top: -18%;
+display: inline-block;
+position: absolute;
 }
 /*Cuadro para anotar "nombre del restaurante"*/
 div.cuadrorestaurante
 {
 line-height: normal;
-width: 58em;
-margin-left: 18px;
+width: 50em;
+margin-left: 71px;
 margin-right: -4em;
+margin-top: -15em;
 }
 /*TERMINA "registro para restaurante" CSS-IPAD HORIZONTAL*/
 
@@ -1478,9 +1509,9 @@ margin-right: -4em;
 /* Imagen "menú de prueba" CSS-IPAD HORIZONTAL*/
 div.menuprueba img
 {
-width: 244%;
-text-align: r;
+width: 71%;
 margin-left: 18em;
+margin-top: -11px;
 }
 
 
@@ -1488,9 +1519,8 @@ margin-left: 18em;
 /*Raya seis CSS-IPAD HORIZONTAL*/
 div.rayaseis
 {
-margin-top: 9em;
+margin-top: 0em;
 width: 63em;
-margin-left: -37px;
 }
 
 
@@ -1504,8 +1534,10 @@ margin-left: -37px;
 /*Logo "Conexión"*/
 div.logoconexion img
 {
-margin-top: 34px;
-margin-left: 20em;
+margin-top: 10em;
+margin-left: 24em;
+display: inline-block;
+position: absolute;
 }
 
 
@@ -1513,7 +1545,10 @@ margin-left: 20em;
 div.rayasiete
 {
 margin-left: -25px;
-width: 62em;
+width: 64em;
+display: inline-block;
+position: absolute;
+margin-top: 21em;
 } 
 
 
@@ -1523,24 +1558,33 @@ div.desarrolladores
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: -27px;
+margin-left: 25px;
 margin-right: -34em;
 padding: 0px;
 font-size: 20px;
+display: inline-block;
+position: absolute;
+margin-top: 17em;
 }
 
 
 
 /* EMPIEZA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" CSS-IPAD HORIZONTAL*/
 /* Palabra "La empresa"* CSS-IPAD HORIZONTAL */
-div.empresa 
+div.empresa p 
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
 font-size: 15px;
-margin-left: -24px;
+}
+div.empresa
+{
+display: inline-block;
+position: absolute;
+margin-left: 28px;
+margin-top: 25em;  
 }
 /*Palabra "Servicios" CSS-IPAD HORIZONTAL*/
 div.servicios p
@@ -1549,21 +1593,30 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-margin-left: -60px;
-margin-top: -34px;
 font-size: 15px;
 }
+div.servicios
+{
+display: inline-block;
+position: absolute;
+margin-left: 0.2em;
+margin-top: 17.4em;
+}
 /*Palabra "Portafolio de trabajo" CSS-IPAD HORIZONTAL*/
-div.portafolio
+div.portafolio p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-margin-left: 32em;
-margin-right: -32em;
-margin-top: -36px;
 font-size: 15px;
+}
+div.portafolio
+{
+display: inline-block;
+position: absolute;
+margin-left: 36em;
+margin-top: 15.2em;
 }
 /*Palabra "Redes sociales" CSS-IPAD HORIZONTAL*/
 div.redes
@@ -1572,17 +1625,24 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-margin-left: 46.7em;
-margin-right: -40em;
-margin-top: -36px;
 font-size: 15px;
+}
+div.redes
+{
+display: inline-block;
+position: absolute;
+margin-top: 16.1em;
+margin-left: 54.5em;
 }
 /*Palabra "sitio oficial"*/
 div.sitiooficial
 {
-margin-left: 32em;
+margin-left: 40.4em;
 margin-right: -37em;
 font-size: 15px;
+display: inline-block;
+position: absolute;
+margin-top: 33em;
 }
 div.sitiooficial p
 {
@@ -1599,36 +1659,47 @@ color: rgb(151 151 151);
 div.rayaocho
 {
 width: 14em;
-margin-left: -24px;
+margin-left: 31px;
+display: inline-block;
+position: absolute;
+margin-top: 27.5em;
 }
 /* Raya nueve CSS-IPAD HORIZONTAL*/
 div.rayanueve
 {
 width: 13em;
-margin-left: 15em;
-margin-top: -10px;
+margin-left: 20.9em;
+margin-top: 27.5em;
+display: inline-block;
+position: absolute;
 }
 /* Raya "diez" CSS-IPAD HORIZONTAL*/
 div.rayadiez
 {
 width: 12em;
-margin-left: 30em;
-margin-top: -10px;
+margin-left: 37.9em;
+margin-top: 27.5em;
+display: inline-block;
+position: absolute;
 }
 /* Raya "once"*/
 div.rayaonce
 {
-width: 16em;
-margin-left: 44em;
-margin-top: -10px;
+width: 10em;
+margin-left: 53em;
+margin-top: 27.5em;
+display: inline-block;
+position: absolute;
 }
 /*Raya "doce"*/
 div.rayadoce
 {
 width: 12em;
-margin-left: 30em;
+margin-left: 38em;
 margin-right: -34.6em;
-margin-top: 15px;
+margin-top: 33.5em;
+display: inline-block;
+position: absolute;
 }
 
 
@@ -1640,29 +1711,38 @@ div.descripcionempresa p
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px;
-margin-left: -25px;
-margin-right: 63px;
+margin-left: 31px;
+display: inline-block;
+position: absolute;
+margin-top: 33em;
 }
 /* Descripción "servicios"*/
 div.descripcionservicios
 {
 margin-right: -17em;
-margin-top: -107px;
-margin-left: 15em;
+margin-top: 28em;
+margin-left: 21em;
+display: inline-block;
+position: absolute;
+
 }
 /*Descripción "portafolio"*/
 div.descripcionportafolio
 {
-margin-left: 34.6em;
-margin-top: -91px;
+margin-left: 43.2em;
+margin-top: 32em;
 font-size: 14px;
+display: inline-block;
+position: absolute;
 }
 /*Descripción "sitio oficial"*/
 div.descripcionsitiooficial
 {
-margin-left: 30em;
+margin-left: 38em;
 margin-right: -37em;
-margin-top: -7px;
+margin-top: 34em;
+display: inline-block;
+position: absolute;
 }
 /*TERMINA "descripciones" CSS-IPAD HORIZONTAL*/
 
@@ -1671,7 +1751,10 @@ margin-top: -7px;
 /*Botón "facebook conexion" CSS-IPAD HORIZONTAL*/
 div.facebookconexion img
 {
-margin-left: 43.5em;
+margin-left: 52.5em;
+display: inline-block;
+position: absolute;
+margin-top: 36em;
 }
 
 
@@ -1679,7 +1762,10 @@ margin-left: 43.5em;
 /*Botón "twitter conexión CSS-IPAD HORIZONTAL"*/
 div.twitterconexion img
 {
-margin-left: 43.5em;
+margin-left: 52.5em;
+display: inline-block;
+position: absolute;
+margin-top: 32em;
 }
 
 
@@ -1688,11 +1774,12 @@ margin-left: 43.5em;
 div.empresasyclientes
 {
 font-family: 'Open Sans';
-font-weight: 300;
 font-weight: bold;
-margin-right: -160px;
 font-size: 15px;
-margin-left: -25px; 
+margin-left: -9px;
+display: inline-block;
+position: absolute;
+margin-top: 39em;
 }
 
 
@@ -1700,16 +1787,27 @@ margin-left: -25px;
 div.rayatrece
 {
 width: 62em;
-margin-left: -25px;
+margin-left: 11px;
+display: inline-block;
+position: absolute;
+margin-top: 39em;
 } 
 
-
+div.ibero
+{
+margin-left: 3px;
+margin-top: 16em;
+display: inline-block;
+position: absolute;
+}
 
 /*Logo "Trozmer" CSS-IPAD HORIZONTAL*/
 div.trozmer
 {
 margin-left: 14em;
-margin-top: -96px;
+margin-top: 40em;
+display: inline-block;
+position: absolute;
 }
 div.trozmer img
 {
@@ -1721,7 +1819,9 @@ width: 10em;
 div.idm
 {
 margin-left: 28em;
-margin-top: -99px;  
+margin-top: 40em; 
+display: inline-block;
+position: absolute; 
 }
 
 
@@ -1731,11 +1831,12 @@ div.frase
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-right: -33em;
-margin-left: 27em;
-margin-top: -98px;
+margin-left: 30em;
+margin-top: 30.5em;
 font-size: 21px;
 text-align: center;
+display: inline-block;
+position: absolute;
 }
 
 
@@ -1743,7 +1844,10 @@ text-align: center;
 div.rayacatorce
 {
 width: 62em;
-margin-left: -24px;
+margin-left: 10px;
+display: inline-block;
+position: absolute;
+margin-top: 45.5em;
 }
 
 
@@ -1754,8 +1858,11 @@ div.ultimomensaje
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 11px;
-margin-right: -61em;
 text-align: center;
+display: inline-block;
+position: absolute;
+margin-top: 67em;
+margin-left: 67px;
 }
 
 
