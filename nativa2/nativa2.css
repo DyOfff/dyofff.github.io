@@ -601,13 +601,10 @@ font-weight: 300;
 margin-left: 2%;
 margin-top: 7px;
 }
-<<<<<<< HEAD
 div.espacioinvitacion
 {
 
 }
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 div#mce-responses
 {
 margin-top: 22px;
@@ -794,11 +791,7 @@ margin-top: 55px;
 /* Imagen "menú de prueba"*/
 div.menuprueba img
 {
-<<<<<<< HEAD
 width: 70%;
-=======
-width: 244%;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 text-align: r;
 margin-left: 24em;
 margin-top: -33px;
@@ -816,71 +809,48 @@ div.anotaemailrestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-<<<<<<< HEAD
 margin-left: 184px;
 margin-top: -28em;
 position: absolute;
 display: inline-block;
-=======
-margin-left: 40%;
-margin-top: -28em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Cuadro de "registro" */
 div.registrorestaurante
 {
 line-height: normal;
 width: 66em;
-<<<<<<< HEAD
 margin-left: 97px;
 position: absolute;
 display: inline-block;
 margin-top: -24em;
-=======
-margin-left: 49px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.anotanombrerestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-<<<<<<< HEAD
 margin-left: 101px;
 position: absolute;
 display: inline-block;
 margin-top: -21em;
-=======
-margin-left: 55px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Botón "invitación" */
 div.botonenviar
 {
-<<<<<<< HEAD
 width: 86%;
 margin-left: 94px;
 margin-top: -17%;
 position: absolute;
 display: inline-block;
-=======
-width: 110%;
-margin-left: 7.5em;
-margin-top: 7%;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Cuadro para anotar "nombre del restaurante"*/
 div.cuadrorestaurante
 {
 line-height: normal;
 width: 66em;
-<<<<<<< HEAD
 margin-left: 96px;
 position: absolute;
 display: inline-block;
 margin-top: -17em;
-=======
-margin-left: 49px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*TERMINA "registro para restaurante"*/
 
@@ -889,17 +859,11 @@ margin-left: 49px;
 /*Raya seis*/
 div.rayaseis
 {
-<<<<<<< HEAD
 margin-top: -1em;
 width: 79em;
 margin-left: 0px;
 position: absolute;
 display: inline-block;
-=======
-margin-top: 16em;
-width: 77em;
-margin-left: -24px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 
 
@@ -927,11 +891,7 @@ margin-top: 8em;
 /* Logo "Conexión"*/
 div.logoconexion img
 {
-<<<<<<< HEAD
 margin-top: 135px;
-=======
-margin-top: 34px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 margin-left: 29em;
 }
 
@@ -941,14 +901,10 @@ margin-left: 29em;
 div.rayasiete
 {
 margin-left: -25px;
-<<<<<<< HEAD
 width: 80em;
 display: inline-block;
 position: absolute;
 margin-top: 4em;
-=======
-width: 77em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 } 
 
 
@@ -959,7 +915,6 @@ div.desarrolladores
 {
 font-family: 'Open Sans';
 font-weight: 300;
-<<<<<<< HEAD
 margin-left: 27px;
 margin-right: -38em;
 padding: 0px;
@@ -967,12 +922,6 @@ font-size: 23px;
 margin-top: 3em;
 display: inline-block;
 position: absolute;
-=======
-margin-left: -33px;
-margin-right: -38em;
-padding: 0px;
-font-size: 23px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 
 
@@ -985,7 +934,6 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 margin-left: 28px;
@@ -993,17 +941,11 @@ margin-top: 8em;
 }
 /*Palabra "Servicios"*/
 div.servicios 
-=======
-}
-/*Palabra "Servicios"*/
-div.servicios
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 }
@@ -1011,10 +953,6 @@ div.servicios p
 {
 margin-top: 9.1em;
 margin-left: 22em;
-=======
-margin-left: 19em;
-margin-top: -36px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Palabra "Portafolio de trabajo"*/
 div.portafolio
@@ -1026,7 +964,6 @@ color: rgb(151 151 151);
 margin-left: 40em;
 margin-right: -32em;
 margin-top: -38px;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 }
@@ -1034,8 +971,6 @@ div.portafolio p
 {
 margin-top: 11.5em;
 margin-left: 29px;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Palabra "Redes sociales"*/
 div.redes
@@ -1047,7 +982,6 @@ color: rgb(151 151 151);
 margin-left: 60em;
 margin-right: -56em;
 margin-top: -38px;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 }
@@ -1056,9 +990,6 @@ div.redes p
 margin-top: 11.6em;
 margin-left: 30px;
  }
-=======
-}
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 /* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
 
 
@@ -1068,55 +999,37 @@ margin-left: 30px;
 div.rayaocho
 {
 width: 17em;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 margin-left: 32px;
 margin-top: 11em;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Raya nueve*/
 div.rayanueve
 {
 width: 17em;
-<<<<<<< HEAD
 margin-left: 22em;
 margin-top: 11em;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 19em;
-margin-top: -10px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Raya "diez"*/
 div.rayadiez
 {
 width: 17em;
-<<<<<<< HEAD
 margin-left: 42em;
 margin-top: 11em;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 40em;
-margin-top: -10px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Raya "once"*/
 div.rayaonce
 {
 width: 15em;
-<<<<<<< HEAD
 margin-left: 62em;
 margin-top: 11em;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 60em;
-margin-top: -10px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* TERMINA rayas "información Conexión" */
 
@@ -1132,29 +1045,19 @@ div.descripcionempresa p
 {
 font-family: 'Open Sans';
 font-weight: 300;
-<<<<<<< HEAD
 font-size: 14px;
 display: inline-block;
 position: absolute;
 margin-top: 14em;
 margin-left: 32px;
-=======
-font-size: 14px;  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Descripción "servicios"*/
 div.descripcionservicios
 {
-<<<<<<< HEAD
 margin-top: 186px;
 margin-left: 22em;
 display: inline-block;
 position: absolute;
-=======
-margin-right: -17em;
-margin-top: -89px;
-margin-left: 19em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.descripcionservicios p
 {
@@ -1165,103 +1068,68 @@ font-size: 14px;
 /*Descripcioón "Portafolio"*/
 div.descripcionportafolio
 {
-<<<<<<< HEAD
 margin-left: 47.8em;
 margin-top: 13em;
 font-size: 14px;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 45.6em;
-margin-top: -91px;
-font-size: 14px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.descripcionportafolio p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px; 
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Palabra "sitio oficial"*/
 div.sitiooficial
 {
-<<<<<<< HEAD
 margin-left: 41.9em;
 margin-right: -37em;
 display: inline-block;
 position: absolute;
 margin-top: 14em;
 
-=======
-margin-left: 40em;
-margin-right: -37em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.sitiooficial p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
-<<<<<<< HEAD
 color: rgb(151 151 151); 
-=======
-color: rgb(151 151 151);  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Raya "doce"*/
 div.rayadoce
 {
-<<<<<<< HEAD
 width: 17em;
 margin-left: 42em;
 margin-right: -34.6em;
 margin-top: 17em;
 display: inline-block;
 position: absolute;
-=======
-width: 17em;  
-margin-left: 40em;
-margin-right: -34.6em; 
-margin-top: 15px; 
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Descripción "Sitio Oficial"*/
 div.descripcionsitiooficial
 {
-<<<<<<< HEAD
 margin-left: 42em;
 margin-right: -37em;
 margin-top: 17.4em;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 40em;
-margin-right: -37em;
-margin-top: -7px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.descripcionsitiooficial p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px; 
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Imagen "Facebook Conexión"*/
 div.facebookconexion
 {
 margin-top: -111px;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 }
@@ -1271,27 +1139,17 @@ margin-left: 61.5em;
 display: inline-block;
 position: absolute;
 margin-top: 20em;
-=======
-}
-div.facebookconexion img
-{
-margin-left: 59.5em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.facebookconexion img:hover
 {
 opacity: 0.5;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Imagen "Twitter Conexión"*/
 div.twitterconexion
 {
 margin-top: 12px;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 }
@@ -1301,28 +1159,18 @@ margin-left: 61.5em;
 display: inline-block;
 position: absolute;
 margin-top: 16.5em;  
-=======
-}
-div.twitterconexion img
-{
-margin-left: 59.5em;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.twitterconexion img:hover
 {
 opacity: 0.5;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
-=======
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Texto "Algunas empresas y clientes que han confiado en nosotros"*/
 div.empresasyclientes
 {
 font-family: 'Open Sans';
 font-weight: 300;
-<<<<<<< HEAD
 margin-top: 20em;
 font-weight: bold;
 color: rgb(151 151 151); 
@@ -1333,23 +1181,14 @@ position: absolute;
 div.empresasyclientes p
 {
 margin-left: 32px;
-=======
-font-weight: bold;
-color: rgb(151 151 151); 
-margin-right: -9em;  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Raya "trece"*/
 div.rayatrece
 {
-<<<<<<< HEAD
 width: 79em;
 display: inline-block;
 position: absolute;
 margin-top: 23em;
-=======
-width: 75em;  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Imagen "Ibero"*/
 div.ibero
@@ -1357,14 +1196,10 @@ div.ibero
 }
 div.ibero img
 {
-<<<<<<< HEAD
 margin-left: 1px; 
 display: inline-block;
 position: absolute; 
 margin-top: 24em;
-=======
-margin-left: 1px;  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.ibero img:hover
 {
@@ -1374,13 +1209,9 @@ opacity: 0.8;
 div.trozmer
 {
 margin-left: 17em;
-<<<<<<< HEAD
 margin-top: 24em;
 display: inline-block;
 position: absolute;
-=======
-margin-top: -96px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.trozmer img
 {
@@ -1393,13 +1224,9 @@ opacity: 0.8;
 div.idm
 {
 margin-left: 35em;
-<<<<<<< HEAD
 margin-top: 24em;
 display: inline-block;
 position: absolute;  
-=======
-margin-top: -99px;  
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 div.idm img
 {
@@ -1414,33 +1241,21 @@ div.frase
 font-family: 'Open Sans';
 font-weight: 300;
 margin-right: -42em;
-<<<<<<< HEAD
 margin-left: 40em;
 margin-top: 18em;
 font-size: 21px;
 text-align: center;
 display: inline-block;
 position: absolute;
-=======
-margin-left: 30em;
-margin-top: -98px;
-font-size: 21px;
-text-align: center;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /*Raya "catorce"*/
 div.rayacatorce
 {
-<<<<<<< HEAD
 width: 80.3em;
 margin-top: 30em;
 margin-left: -24px;
 display: inline-block;
 position: absolute;
-=======
-width: 77em;
-margin-left: -24px;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 /* Ultimo mensaje*/
 div.ultimomensaje
@@ -1449,15 +1264,11 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-size: 11px;
 margin-right: -79em;
-<<<<<<< HEAD
 display: inline-block;
 position: absolute;
 margin-top: 44em;
 margin-left: 171px;
 
-=======
-text-align: center;
->>>>>>> 76c1fb5782f9ab6b3a57fe8ec8fbd83812bcec77
 }
 
 /*TERMINA descripciones "empresa" "serrvicios" "portafolio de trabajo" "redes sociales"*/
