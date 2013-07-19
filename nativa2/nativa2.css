@@ -1409,7 +1409,8 @@ div.rayacinco
 {
 display: inline-block;
 position: absolute;
-margin-top: 3px;  
+margin-top: 3px;
+width: 15em; 
 }
 /* TERMINA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL */
 
@@ -1464,7 +1465,8 @@ div.anotaemailrestaurante
 font-family: 'Open Sans';
 font-weight: 300;
 margin-left: 14%;
-margin-top: -23em;
+margin-top: -26em;
+font-size: 14px;
 }
 /* Cuadro de "registro" */
 div.registrorestaurante
@@ -1479,10 +1481,12 @@ div.anotanombrerestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 46px;
-font-size: 16px;
-margin-right: -42px;
-margin-top: -18em;
+font-size: 14px;
+}
+div.anotanombrerestaurante
+{
+margin-top: -20em; 
+margin-left: 59px;
 }
 /* Botón "invitación" */
 div.botonenviar
