@@ -601,6 +601,10 @@ font-weight: 300;
 margin-left: 2%;
 margin-top: 7px;
 }
+div.espacioinvitacion
+{
+
+}
 div#mce-responses
 {
 margin-top: 22px;
@@ -787,7 +791,7 @@ margin-top: 55px;
 /* Imagen "menú de prueba"*/
 div.menuprueba img
 {
-width: 244%;
+width: 70%;
 text-align: r;
 margin-left: 24em;
 margin-top: -33px;
@@ -805,35 +809,48 @@ div.anotaemailrestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 40%;
+margin-left: 184px;
 margin-top: -28em;
+position: absolute;
+display: inline-block;
 }
 /* Cuadro de "registro" */
 div.registrorestaurante
 {
 line-height: normal;
 width: 66em;
-margin-left: 49px;
+margin-left: 97px;
+position: absolute;
+display: inline-block;
+margin-top: -24em;
 }
 div.anotanombrerestaurante
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: 55px;
+margin-left: 101px;
+position: absolute;
+display: inline-block;
+margin-top: -21em;
 }
 /* Botón "invitación" */
 div.botonenviar
 {
-width: 110%;
-margin-left: 7.5em;
-margin-top: 7%;
+width: 86%;
+margin-left: 94px;
+margin-top: -17%;
+position: absolute;
+display: inline-block;
 }
 /*Cuadro para anotar "nombre del restaurante"*/
 div.cuadrorestaurante
 {
 line-height: normal;
 width: 66em;
-margin-left: 49px;
+margin-left: 96px;
+position: absolute;
+display: inline-block;
+margin-top: -17em;
 }
 /*TERMINA "registro para restaurante"*/
 
@@ -842,9 +859,11 @@ margin-left: 49px;
 /*Raya seis*/
 div.rayaseis
 {
-margin-top: 16em;
-width: 77em;
-margin-left: -24px;
+margin-top: -1em;
+width: 79em;
+margin-left: 0px;
+position: absolute;
+display: inline-block;
 }
 
 
@@ -872,7 +891,7 @@ margin-top: 8em;
 /* Logo "Conexión"*/
 div.logoconexion img
 {
-margin-top: 34px;
+margin-top: 135px;
 margin-left: 29em;
 }
 
@@ -882,7 +901,10 @@ margin-left: 29em;
 div.rayasiete
 {
 margin-left: -25px;
-width: 77em;
+width: 80em;
+display: inline-block;
+position: absolute;
+margin-top: 4em;
 } 
 
 
@@ -893,10 +915,13 @@ div.desarrolladores
 {
 font-family: 'Open Sans';
 font-weight: 300;
-margin-left: -33px;
+margin-left: 27px;
 margin-right: -38em;
 padding: 0px;
 font-size: 23px;
+margin-top: 3em;
+display: inline-block;
+position: absolute;
 }
 
 
@@ -909,16 +934,25 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
+display: inline-block;
+position: absolute;
+margin-left: 28px;
+margin-top: 8em;
 }
 /*Palabra "Servicios"*/
-div.servicios
+div.servicios 
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
 color: rgb(151 151 151);
-margin-left: 19em;
-margin-top: -36px;
+display: inline-block;
+position: absolute;
+}
+div.servicios p
+{
+margin-top: 9.1em;
+margin-left: 22em;
 }
 /*Palabra "Portafolio de trabajo"*/
 div.portafolio
@@ -930,6 +964,13 @@ color: rgb(151 151 151);
 margin-left: 40em;
 margin-right: -32em;
 margin-top: -38px;
+display: inline-block;
+position: absolute;
+}
+div.portafolio p
+{
+margin-top: 11.5em;
+margin-left: 29px;
 }
 /*Palabra "Redes sociales"*/
 div.redes
@@ -941,7 +982,14 @@ color: rgb(151 151 151);
 margin-left: 60em;
 margin-right: -56em;
 margin-top: -38px;
+display: inline-block;
+position: absolute;
 }
+div.redes p
+{
+margin-top: 11.6em;
+margin-left: 30px;
+ }
 /* TERMINA palabras "La empresa" "Servicios" "Portafolio de trabajo" "Redes sociales" */
 
 
@@ -951,27 +999,37 @@ margin-top: -38px;
 div.rayaocho
 {
 width: 17em;
+display: inline-block;
+position: absolute;
+margin-left: 32px;
+margin-top: 11em;
 }
 /* Raya nueve*/
 div.rayanueve
 {
 width: 17em;
-margin-left: 19em;
-margin-top: -10px;
+margin-left: 22em;
+margin-top: 11em;
+display: inline-block;
+position: absolute;
 }
 /* Raya "diez"*/
 div.rayadiez
 {
 width: 17em;
-margin-left: 40em;
-margin-top: -10px;
+margin-left: 42em;
+margin-top: 11em;
+display: inline-block;
+position: absolute;
 }
 /* Raya "once"*/
 div.rayaonce
 {
 width: 15em;
-margin-left: 60em;
-margin-top: -10px;
+margin-left: 62em;
+margin-top: 11em;
+display: inline-block;
+position: absolute;
 }
 /* TERMINA rayas "información Conexión" */
 
@@ -987,14 +1045,19 @@ div.descripcionempresa p
 {
 font-family: 'Open Sans';
 font-weight: 300;
-font-size: 14px;  
+font-size: 14px;
+display: inline-block;
+position: absolute;
+margin-top: 14em;
+margin-left: 32px;
 }
 /* Descripción "servicios"*/
 div.descripcionservicios
 {
-margin-right: -17em;
-margin-top: -89px;
-margin-left: 19em;
+margin-top: 186px;
+margin-left: 22em;
+display: inline-block;
+position: absolute;
 }
 div.descripcionservicios p
 {
@@ -1005,89 +1068,127 @@ font-size: 14px;
 /*Descripcioón "Portafolio"*/
 div.descripcionportafolio
 {
-margin-left: 45.6em;
-margin-top: -91px;
+margin-left: 47.8em;
+margin-top: 13em;
 font-size: 14px;
+display: inline-block;
+position: absolute;
 }
 div.descripcionportafolio p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px; 
+display: inline-block;
+position: absolute;
 }
 /*Palabra "sitio oficial"*/
 div.sitiooficial
 {
-margin-left: 40em;
+margin-left: 41.9em;
 margin-right: -37em;
+display: inline-block;
+position: absolute;
+margin-top: 14em;
+
 }
 div.sitiooficial p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-weight: bold;
-color: rgb(151 151 151);  
+color: rgb(151 151 151); 
 }
 /*Raya "doce"*/
 div.rayadoce
 {
-width: 17em;  
-margin-left: 40em;
-margin-right: -34.6em; 
-margin-top: 15px; 
+width: 17em;
+margin-left: 42em;
+margin-right: -34.6em;
+margin-top: 17em;
+display: inline-block;
+position: absolute;
 }
 /* Descripción "Sitio Oficial"*/
 div.descripcionsitiooficial
 {
-margin-left: 40em;
+margin-left: 42em;
 margin-right: -37em;
-margin-top: -7px;
+margin-top: 17.4em;
+display: inline-block;
+position: absolute;
 }
 div.descripcionsitiooficial p
 {
 font-family: 'Open Sans';
 font-weight: 300;
 font-size: 14px; 
+display: inline-block;
+position: absolute;
 }
 /* Imagen "Facebook Conexión"*/
 div.facebookconexion
 {
 margin-top: -111px;
+display: inline-block;
+position: absolute;
 }
 div.facebookconexion img
 {
-margin-left: 59.5em;
+margin-left: 61.5em;
+display: inline-block;
+position: absolute;
+margin-top: 20em;
 }
 div.facebookconexion img:hover
 {
 opacity: 0.5;
+display: inline-block;
+position: absolute;
 }
 /* Imagen "Twitter Conexión"*/
 div.twitterconexion
 {
 margin-top: 12px;
+display: inline-block;
+position: absolute;
 }
 div.twitterconexion img
 {
-margin-left: 59.5em;
+margin-left: 61.5em;
+display: inline-block;
+position: absolute;
+margin-top: 16.5em;  
 }
 div.twitterconexion img:hover
 {
 opacity: 0.5;
+display: inline-block;
+position: absolute;
 }
 /* Texto "Algunas empresas y clientes que han confiado en nosotros"*/
 div.empresasyclientes
 {
 font-family: 'Open Sans';
 font-weight: 300;
+margin-top: 20em;
 font-weight: bold;
 color: rgb(151 151 151); 
-margin-right: -9em;  
+margin-right: -9em; 
+display: inline-block;
+position: absolute; 
+}
+div.empresasyclientes p
+{
+margin-left: 32px;
 }
 /* Raya "trece"*/
 div.rayatrece
 {
-width: 75em;  
+width: 79em;
+display: inline-block;
+position: absolute;
+margin-top: 23em;
 }
 /*Imagen "Ibero"*/
 div.ibero
@@ -1095,7 +1196,10 @@ div.ibero
 }
 div.ibero img
 {
-margin-left: 1px;  
+margin-left: 1px; 
+display: inline-block;
+position: absolute; 
+margin-top: 24em;
 }
 div.ibero img:hover
 {
@@ -1105,7 +1209,9 @@ opacity: 0.8;
 div.trozmer
 {
 margin-left: 17em;
-margin-top: -96px;
+margin-top: 24em;
+display: inline-block;
+position: absolute;
 }
 div.trozmer img
 {
@@ -1118,7 +1224,9 @@ opacity: 0.8;
 div.idm
 {
 margin-left: 35em;
-margin-top: -99px;  
+margin-top: 24em;
+display: inline-block;
+position: absolute;  
 }
 div.idm img
 {
@@ -1133,16 +1241,21 @@ div.frase
 font-family: 'Open Sans';
 font-weight: 300;
 margin-right: -42em;
-margin-left: 30em;
-margin-top: -98px;
+margin-left: 40em;
+margin-top: 18em;
 font-size: 21px;
 text-align: center;
+display: inline-block;
+position: absolute;
 }
 /*Raya "catorce"*/
 div.rayacatorce
 {
-width: 77em;
+width: 80.3em;
+margin-top: 30em;
 margin-left: -24px;
+display: inline-block;
+position: absolute;
 }
 /* Ultimo mensaje*/
 div.ultimomensaje
@@ -1151,7 +1264,11 @@ font-family: 'Open Sans';
 font-weight: 300;
 font-size: 11px;
 margin-right: -79em;
-text-align: center;
+display: inline-block;
+position: absolute;
+margin-top: 44em;
+margin-left: 171px;
+
 }
 
 /*TERMINA descripciones "empresa" "serrvicios" "portafolio de trabajo" "redes sociales"*/
