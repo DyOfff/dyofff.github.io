@@ -2184,7 +2184,7 @@ margin-top: -23em;
 /* Cuadro de "registro" */
 div.registrorestaurante
 {
-width: 46em;
+width: 44em;
 margin-left: 40px;
 margin-top: -16em;
 }
@@ -2203,7 +2203,7 @@ margin-top: -17em;
 div.cuadrorestaurante
 {
 line-height: normal;
-width: 46em;
+width: 44em;
 margin-left: 40px;
 display: inline-block;
 position: absolute;
@@ -2226,7 +2226,7 @@ position: absolute;
 div.menuprueba img
 {
 width: 71.4%;
-margin-left: 15em;
+margin-left: 14em;
 margin-top: 84px;
 }
 
@@ -2442,7 +2442,7 @@ margin-right: 40em;
 div.descripcionservicios
 {
 margin-left: 16em;
-margin-top: 27.6em;
+margin-top: 27.7em;
 position: absolute;
 display: inline-block;
 }
