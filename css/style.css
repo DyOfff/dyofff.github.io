@@ -1239,6 +1239,50 @@ div.scrollbar
 
 
 
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+PAGINA "ERROR 404"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+div.imagenerror img
+{
+width: 100%;
+margin-top: 4em;
+}
+
+
+/*Botón "regrsar al website"*/
+div.botonregresarawebsite img
+{
+position: absolute;
+display: inline-block;
+width: 14em;
+margin-left: 10em;
+margin-top: 3em;  
+}
+div.botonregresarawebsite img:hover
+{
+opacity: 0.5;  
+}
+
+
+/*Botón "Regresar al menú"*/
+div.botonregresaramenu img
+{
+position: absolute;
+display: inline-block;
+width: 14em;
+margin-left: 56em;
+margin-top: 3em;  
+}
+div.botonregresaramenu img:hover
+{
+opacity: 0.5;  
+}
+
+
+
 
 
 
