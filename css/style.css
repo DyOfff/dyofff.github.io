@@ -1631,7 +1631,32 @@ div.botonx
 {  
 }
 
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+PAGINA "ERROR 404"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
 
+/*Botón "regrsar al website"*/
+div.botonregresarawebsite img
+{
+position: absolute;
+display: inline-block;
+width: 14em;
+margin-left: 5em;
+margin-top: 3em;  
+}
+
+
+/*Botón "Regresar al menú"*/
+div.botonregresaramenu img
+{
+position: absolute;
+display: inline-block;
+width: 14em;
+margin-left: 44em;
+margin-top: 3em;  
+}
 
 } /* Fin de Media Query - IPAD HORIZONTAL */
 
