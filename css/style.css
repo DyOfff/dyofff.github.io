@@ -1861,7 +1861,7 @@ PAGINA "ERROR 404" - IPAD HORIZONTAL
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
-/*Botón "regrsar al website"*/
+/*Botón "regrsar al website" IPAD HORIZONTAL*/
 div.botonregresarawebsite img
 {
 position: absolute;
@@ -1872,7 +1872,7 @@ margin-top: 3em;
 }
 
 
-/*Botón "Regresar al menú"*/
+/*Botón "Regresar al menú" IPAD HORIZONTAL*/
 div.botonregresaramenu img
 {
 position: absolute;
@@ -1880,6 +1880,21 @@ display: inline-block;
 width: 14em;
 margin-left: 44em;
 margin-top: 3em;  
+}
+
+/*Cuadro bebidas IPAD HORIZONTAL*/
+div.cuadrobebidas
+{
+margin-left: 36em;
+}
+
+div.botonxbebidas img
+{
+width: 36px;
+position: absolute;
+display: inline-block;
+margin-left: 59em;
+margin-top: -37em;
 }
 
 } /* Fin de Media Query - IPAD HORIZONTAL */
