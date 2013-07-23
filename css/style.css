@@ -1882,6 +1882,7 @@ margin-left: 44em;
 margin-top: 3em;  
 }
 
+
 /*Cuadro bebidas IPAD HORIZONTAL*/
 div.cuadrobebidas
 {
@@ -2429,5 +2430,20 @@ margin-left: 32em;
 margin-top: 3em;  
 }
 
+
+/*Cuadro bebidas IPAD VERTICAL*/
+div.cuadrobebidas
+{
+margin-left: 20em;
+}
+
+div.botonxbebidas img
+{
+width: 36px;
+position: absolute;
+display: inline-block;
+margin-left: 43em;
+margin-top: -37em;
+}
 
 } /*TERMINA query IPAD- VERTICAL*/
