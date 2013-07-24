@@ -1017,11 +1017,85 @@ top: 7%;
 }
 
 
+
+
+
+
 /*
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 EMPIEZA "cuadro negro - bebidas"
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
+
+div.cuadrocerveza
+{
+width: 22em;
+height: 11em;
+padding-bottom: 11px;
+background: rgba(32,32,32,0.8);
+margin-left: 48em;
+margin-top: -9em;
+display: inline-block;
+vertical-align: top;
+overflow-x: hidden;
+overflow-y: auto;
+position: fixed;
+}
+div.cuadrocerveza::-webkit-scrollbar 
+{ 
+width: 9px;
+background-color: rgb(253, 252, 25);
+}
+div.cuadrocerveza::-webkit-scrollbar-thumb 
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: rgb(109, 110, 112);
+}
+div.cuadrocerveza::-webkit-scrollbar-track 
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+border-radius: 0px;
+background-color: rgb(32, 32, 32);
+}
+
+
+
+/*Esto corresponde al cuadro negro de "refrescos"*/
+div.cuadrorefrescos
+{
+width: 22em;
+height: 20em;
+background: rgba(32,32,32,0.8);
+margin-left: 48em;
+margin-top: -31em;
+display: inline-block;
+float: left;
+overflow-x: hidden;
+overflow-y: auto;
+position: fixed;
+}
+div.cuadrorefrescos::-webkit-scrollbar 
+{ 
+width: 9px;
+background-color: rgb(253, 252, 25);
+}
+div.cuadrorefrescos::-webkit-scrollbar-thumb 
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: rgb(109, 110, 112);
+}
+div.cuadrorefrescos::-webkit-scrollbar-track 
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+border-radius: 0px;
+background-color: rgb(32, 32, 32);
+}
+
+
+
+/*Esto corresponde al cuadro negro de bebidas naturales*/
 div.cuadrobebidas
 {
 width: 22em;
@@ -1031,12 +1105,10 @@ background: rgba(32,32,32,0.8);
 margin-left: 48em;
 margin-top: -37em;
 display: inline-block;
-float: left;
 vertical-align: top;
-bottom: 0;
 overflow-x: hidden;
 overflow-y: auto;
-position: relative;
+position: fixed;
 }
 div.cuadrobebidas::-webkit-scrollbar 
 { 
@@ -1056,6 +1128,11 @@ border-radius: 0px;
 background-color: rgb(32, 32, 32);
 }
 
+
+div.partebebidasuno
+{
+margin-bottom: 100px;
+}
 
 /* Esto corresponde al título de "bebidas"*/
 div.titulobebidas p
@@ -1093,10 +1170,11 @@ font-size: 18px;
 font-family: sans-serif;
 font-style: italic;
 color: white;
-margin-left: 252px;
+margin-left: 265px;
 position: absolute;
 display: inline-block;
-margin-top: -37px;  
+margin-top: -37px; 
+margin-right: -45em;
 }
 
 /* Esto pertenece al texto "No de ordenes"*/
@@ -1193,33 +1271,6 @@ div.agregarordenprimerabebida img:hover
 opacity: 0.5;  
 }
 
-/*Esto corresponde a la segunda bebida*/
-div.partebebidasdos
-{
-margin-top: 54px;
-display: inline-block;
-}
-
-/*Esto corresponde a la tercera bebida*/
-div.partebebidastres
-{
-margin-top: 59px;
-display: inline-block;
-}
-
-/*Esto corresponde a la cuarta bebida*/
-div.partebebidascuatro
-{
-margin-top: 59px;
-display: inline-block;
-}
-
-/*Esto corresponde a la quinta bebida*/
-div.partebebidascinco
-{
-margin-top: 59px;
-display: inline-block; 
-}
 
 /*Esto corresponde al boton "x" de bebidas*/
 div.botonxbebidas img
