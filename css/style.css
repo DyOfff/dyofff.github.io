@@ -1249,6 +1249,7 @@ position: absolute;
 display: inline-block;
 margin-left: 71em;
 margin-top: 3em;
+position: fixed;
 }
 div.botonxbebidas img:hover
 {
@@ -1965,6 +1966,7 @@ position: absolute;
 display: inline-block;
 margin-left: 58em;
 margin-top: 46px;
+position: fixed;
 }
 div.botonxbebidas img:hover
 {
@@ -2570,6 +2572,8 @@ position: absolute;
 display: inline-block;
 margin-left: 42em;
 margin-top: 40em;
+position: fixed;
+}
 div.botonxbebidas img:hover
 {
 opacity: 0.5;  
