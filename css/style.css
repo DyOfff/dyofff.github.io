@@ -2485,7 +2485,7 @@ margin-top: 10em;
 }
 
 
-/*Botón "regrsar al website"*/
+/*Botón "regrsar al website" IPAD VERTICAL*/
 div.botonregresarawebsite img
 {
 position: absolute;
@@ -2496,7 +2496,7 @@ margin-top: 3em;
 }
 
 
-/*Botón "Regresar al menú"*/
+/*Botón "Regresar al menú" IPAD VERTICAL*/
 div.botonregresaramenu img
 {
 position: absolute;
@@ -2521,5 +2521,60 @@ display: inline-block;
 margin-left: 43em;
 margin-top: -37em;
 }
+
+
+/*
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EMPIEZA "cuadro negro - bebidas" IPAD Vertical
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+div.cuadrobebiditas
+{
+width: 42em;
+height: 11em;
+padding-bottom: 11px;
+background: rgba(32,32,32,0.8);
+margin-left: 0em;
+margin-top: 32em;
+display: inline-block;
+vertical-align: top;
+overflow-x: hidden;
+overflow-y: auto;
+position: fixed;
+}
+div.cuadrobebiditas::-webkit-scrollbar 
+{ 
+width: 9px;
+background-color: rgb(253, 252, 25);
+}
+div.cuadrobebiditas::-webkit-scrollbar-thumb 
+{
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+background-color: rgb(109, 110, 112);
+}
+div.cuadrobebiditas::-webkit-scrollbar-track 
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+border-radius: 0px;
+background-color: rgb(32, 32, 32);
+}
+
+
+/*Esto corresponde al boton "x" de bebidas  IPAD VETICAL*/ 
+div.botonxbebidas img
+{
+width: 36px;
+position: absolute;
+display: inline-block;
+margin-left: 39em;
+margin-top: 29em;
+div.botonxbebidas img:hover
+{
+opacity: 0.5;  
+}
+
+
 
 } /*TERMINA query IPAD- VERTICAL*/
