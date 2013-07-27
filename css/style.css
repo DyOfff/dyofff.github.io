@@ -2606,6 +2606,12 @@ margin-left: 13px;
 margin-top: -7px;
 }
 
+/*Esto corresponde al la "raya blanca"*/
+div.rayabebidas hr
+{
+margin-top: -2px;
+}
+
 
 
 /* Esto pertenece al texto "No de ordenes"*/
