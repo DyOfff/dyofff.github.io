@@ -2595,6 +2595,19 @@ margin-top: -37px;
 margin-right: -45em;
 }
 
+div.titulobebidas p
+{
+font-size: 24px;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+color: white;
+margin-left: 13px;
+margin-top: -7px;
+}
+
+
+
 /* Esto pertenece al texto "No de ordenes"*/
 div.numerodeordenesbebidas p
 {
