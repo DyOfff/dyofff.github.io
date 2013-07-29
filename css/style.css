@@ -2571,6 +2571,28 @@ background-color: rgb(32, 32, 32);
 Empieza primera bebida IPAD VERTICAL
 /////////////////////////////////////////////////
 */
+
+div.titulobebidas p
+{
+font-size: 24px;
+font-family: sans-serif;
+font-style: italic;
+font-weight: bold;
+color: white;
+margin-left: 13px;
+margin-top: 2px;
+}
+
+/*Esto corresponde al la "raya blanca"*/
+div.rayabebidas hr
+{
+margin-top: -2px;
+}
+
+
+
+
+
 div.primerabebida p
 {
 font-size: 18px;
@@ -2593,23 +2615,6 @@ position: absolute;
 display: inline-block;
 margin-top: -33px; 
 margin-right: -45em;
-}
-
-div.titulobebidas p
-{
-font-size: 24px;
-font-family: sans-serif;
-font-style: italic;
-font-weight: bold;
-color: white;
-margin-left: 13px;
-margin-top: --3px;
-}
-
-/*Esto corresponde al la "raya blanca"*/
-div.rayabebidas hr
-{
-margin-top: -2px;
 }
 
 
