@@ -2633,7 +2633,7 @@ margin-top: 24px;
 /*botón "uno" primera bebida*/
 div.unoprimerabebida img
 {
-width: 23px;
+width: 32px;
 margin-left: 12px;
 margin-top: -12px;
 position: absolute;
@@ -2646,8 +2646,8 @@ opacity: 0.5;
 /*Botón "dos" primera bebida*/
 div.dosprimerabebida img
 {
-width: 23px;
-margin-left: 47px;
+width: 33px;
+margin-left: 74px;
 margin-top: -12px;
 position: absolute;
 display: inline-block;
@@ -2659,8 +2659,8 @@ opacity: 0.5;
 /*Botón "tres" primera bebida*/
 div.tresprimerabebida img
 {
-width: 23px;
-margin-left: 81px;
+width: 34px;
+margin-left: 139px;
 margin-top: -12px;
 position: absolute;
 display: inline-block;  
@@ -2672,8 +2672,8 @@ opacity: 0.5;
 /*Boton "cuatro primera bebida"*/
 div.cuatroprimerabebida img
 {
-width: 23px;
-margin-left: 116px;
+width: 34px;
+margin-left: 208px;
 margin-top: -12px;
 position: absolute;
 display: inline-block;  
@@ -2685,8 +2685,8 @@ opacity: 0.5;
 /*Botón "cinco" primera bebida*/
 div.cincoprimerabebida img
 {
-width: 23px;
-margin-left: 152px;
+width: 34px;
+margin-left: 280px;
 margin-top: -12px;
 position: absolute;
 display: inline-block;   
