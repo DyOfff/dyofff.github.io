@@ -402,10 +402,60 @@ background:url(http://miguelnieva.com/images/background.png);
    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 */
 
+
+div.porque img
+{
+width: 191px;  
+}
+div.porque img:hover
+{
+opacity: 0.5;  
+}
+
+div.invitacion img
+{
+width: 371px;
+margin-left: 12em;
+position: absolute;
+display: inline-block;
+margin-top: -56px;
+}
+div.invitacion img:hover
+{
+opacity: 0.5;  
+}
+
+div.desarrolladora img
+{
+width: 247px;
+margin-left: 564px;
+position: absolute;
+display: inline-block;
+margin-top: -56px; 
+}
+div.desarrolladora img:hover
+{
+opacity: 0.5;
+}
+
+div.cuadronaranjamenu img
+{
+width: 452px;
+height: 49px;
+margin-left: 812px;
+position: absolute;
+display: inline-block;
+margin-top: -56px;   
+}
+
+
 div.imagenportada img
 {
 width: 100%;
+margin-top: -2.7em;
+margin-bottom: 3em;
 }
+
 
 
 /* Imegen "mira de que trata" */
@@ -419,449 +469,128 @@ margin-bottom: 99px;
 width: 18em;
 }
 
-
-
-
-/* Botón "quiero ordenar" */
-div.botonquieroordenar
+div.quecas img
 {
-margin-top: 28px;
-margin-left: 11px;
+width: 15.6em;
+position: absolute;
+display: inline-block;
+margin-top: -30.5em;
+margin-left: 60em;
 }
-div.botonquieroordenar img
+div.imagenflecha img
 {
-width: 192px;
-margin-bottom: -85px;
-opacity:1.0;
+width: 81px;
+margin-top: -46px;
+margin-left: 73em;
+position: absolute;
+display: inline-block;
 }
-div.botonquieroordenar img:hover
+div.imagenflecha img:hover
+{
+opacity: 0.5;
+}
+
+div.video1
+{
+position: absolute;
+display: inline-block;
+margin-top: -30em;
+margin-left: 39em;
+}
+
+div.eatsynegro img
+{
+width: 320px;
+position: absolute;
+display: inline-block;
+margin-top: -211px;
+margin-left: 39em; 
+}
+
+div.id="mc_embed_signup"
+{
+margin-top: -4em;
+margin-left: 4em;  
+}
+
+div.barranaranja img
+{
+width: 100%;
+margin-bottom: 14em;
+margin-top: 3em;  
+}
+
+div.imagenflecha2 img
+{
+width: 81px;
+margin-top: -48px;
+margin-left: 73em;
+position: absolute;
+display: inline-block;
+}
+div.imagenflecha2 img:hover
 {
 opacity: 0.5;
 }
 
 
-/* Botón "soy restaurante" */
-div.botonsoyrestaurante img
+div.facebookytwitter img
 {
-width: 192px; 
-margin-left: 213px;
-margin-top: 34px;
-opacity:1.0;
+width: 100%;
+margin-bottom: 4em; 
+margin-top: 6em;  
 }
-div.botonsoyrestaurante img:hover
+
+div.facebook img
+{
+width: 22em;
+display: inline-block;
+position: absolute;
+margin-top: -10em;
+margin-left: 42px;
+}
+div.facebook img:hover
+{
+opacity: 0.5;
+}
+
+div.twitter img
+{
+width: 22em;
+display: inline-block;
+position: absolute;
+margin-top: -10em;
+margin-left: 54.7em;
+}
+div.twitter img:hover
+{
+opacity: 0.5;
+}
+
+div.nuevaera img
+{
+width: 100%;
+margin-top: -4em; 
+}
+
+div.imagenflecha3 img
+{
+width: 81px;
+margin-top: -106px;
+margin-left: 73em;
+position: absolute;
+display: inline-block;
+}
+div.imagenflecha img:hover
 {
 opacity: 0.5;
 }
 
 
 
-/* imagenes principales*/
-div.imagenesdepagina img
-{
-width: 100%;  
-margin-bottom: 126px;
-}
 
 
 
-
-/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación)
-   ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
-
-/*Botón inicio*/
-div.inicio
-{
-margin-top: -108px; 
-}
-div.inicio img
-{
-width: 16%;
-margin-left: 63em;
-opacity:1.0;
-}
-div.inicio img:hover
-{
-opacity: 0.5;
-}
-
-
-/* Texto "usuarios" */
-div.usuarios
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-top: -14px;
-margin-left: 13px;  
-}
-
-
-
-/* Raya uno */
-div.rayauno
-{
-margin-top: -10px;
-}
-
-
-
-/* Imagen de etiqueta "quiero ordenar" */
-div.etiquetaordenar
-{
-text-align: left;
-margin-left: 1%;
-margin-top: 1%; 
-}
-div.etiquetaordenar img
-{
-width: 22%;
-}
-
-
-
-/* Parrafo "quiero invitación" */
-div.parrafoinvitacion
-{
-margin-left: 25%;
-margin-top: -6%;
-text-align: left;
-}
-div.parrafoinvitacion p
-{
-font-size: 20px;
-color:gray;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-
-
-
-/*EMPIEZAN "redes sociales eatsy */
-div.facebookeatsy
-{
-text-align: right;
-}
-div.facebookeatsy img
-{
-width: 7.6%;
-margin-top: -70%;
-margin-right: 13%
-}
-div.facebookeatsy img:hover
-{
-opacity: 0.5;
-}
-/* Botón "twitter-eatsy" */
-div.twittereatsy
-{
-text-align: right;
-margin-top: -7.2%;
-margin-right: 3%
-}
-div.twittereatsy img
-{
-width: 7.6%;
-margin-top: -6px;
-}
-div.twittereatsy img:hover
-{
-opacity: 0.5;
-}
-/*TERMINA "rede.s sociales eatsy" */
-
-
-
-/* Raya dos*/
-div.rayados
-{
-margin-left: 25%;
-width: 74%;
-}
-
-
-
-/* EMPIEZA "registro para invitación" */
-/* Texto "e-mail" */
-div.indicates-required
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 2%;
-margin-top: -21px;
-}
-div.mc-field-group
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 2%;
-margin-top: 7px;
-}
-div.espacioinvitacion
-{
-
-}
-div#mce-responses
-{
-margin-top: 22px;
-}
-div.response
-{
-  
-}
-/* TERMINA "Registro para invitación" */
-
-
-
-/* Raya tres */
-div.rayatres
-{
-}
-
-
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes)
-   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/   
-
-
-
-/*Palabra "Restaurantes" */
-div.restaurantes
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 13px;
-}
-
-
-
-/*Raya cuatro*/
-div.rayacuatro
-{
-margin-top: -9px;
-}
-
-
-
-/*Botón "inicio2"*/
-div.inicio2 
-{
-
-}
-div.inicio2 img
-{
-width: 16%;
-margin-left: 63em;
-margin-bottom: -43px;
-}
-div.inicio2 img:hover
-{
-opacity: 0.8;  
-}
-
-
-
-/* EMPIEZA Texto "Me gustaría tener mi menú digital" */
-div.megustaria
-{
-margin-left: 13px;
-}
-div.megustaria p
-{
-font-size: 25px;
-font-family: 'Open Sans';
-font-weight: 300; 
-color: gray
-}
-/* TERMINA Texto "Me gustaría tener mi menú digital" */ 
-
-
-
-/* Imagen "¿Tienes un restaurante?" */
-div.tienesunrestaurante img
-{
-width: 94%;
-margin-left: 38px;  
-}
-
-
-
-/* Imagen "Te invitamos" */
-div.teinvitamos img
-{
-width: 94%;
-margin-left: 38px;
-margin-top: 49px;
-}
-
-
-
-/* EMPIEZA Palabra "Escribenos" */
-div.escribenos
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 37px;
-}
-div.escribenos p
-{
-font-size: 20px;
-color: rgba(51 51 51);
-}
-/*TERMINA Plabra "Escribenos" */ 
-
-
-
-/* EMPIEZA texto "Tu menú digital está cerca" */
-div.parrafoescribenos
-{
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-}
-div.parrafoescribenos p
-{
-font-size: 20px;
-color:gray;
-margin-left: 38px;
-}
-/* TERMINA texto "Tu menú digital está cerca" */
-
-
-
-/* EMPIEZA Palabra "Imagina..." */
-div.imagina
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 26.4em;
-margin-top: -119px;
-margin-right: 38px;
-}
-div.imagina p
-{
-font-size: 20px;
-color: rgb(51 51 51);  
-}
-/*TERMINA Plabara "Imagina..." */
-
-
-
-/*EMPIEZA texto "las personas podrán compartir" */
-div.parrafoimagina
-{
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-margin-top: -2px;
-margin-right: 39px;
-margin-left: -8px;
-}
-div.parrafoimagina p
-{
-font-size: 20px;
-color:gray;
-margin-left: 21.4em; 
-}
-/*TERMINA texto "las personas podrán compartir"*/
-
-
-
-/* Raya cinco*/
-div.rayacinco
-{
-width: 26%;
-margin-left: 39px;
-margin-top: 55px;
-
-}
-
-
-
-/* Imagen "menú de prueba"*/
-div.menuprueba img
-{
-width: 70%;
-text-align: r;
-margin-left: 24em;
-margin-top: -33px;
-}
-div.menuprueba img:hover
-{
-opacity: 0.8;  
-}
-
-
-
-/* EMPIEZA "registro para restaurantes"*/
-/* Palabra e-mail */
-div.anotaemailrestaurante
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 184px;
-margin-top: -28em;
-position: absolute;
-display: inline-block;
-}
-/* Cuadro de "registro" */
-div.registrorestaurante
-{
-line-height: normal;
-width: 66em;
-margin-left: 97px;
-position: absolute;
-display: inline-block;
-margin-top: -24em;
-}
-div.anotanombrerestaurante
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 101px;
-position: absolute;
-display: inline-block;
-margin-top: -21em;
-}
-/* Botón "invitación" */
-div.botonenviar
-{
-width: 86%;
-margin-left: 94px;
-margin-top: -17%;
-position: absolute;
-display: inline-block;
-}
-/*Cuadro para anotar "nombre del restaurante"*/
-div.cuadrorestaurante
-{
-line-height: normal;
-width: 66em;
-margin-left: 96px;
-position: absolute;
-display: inline-block;
-margin-top: -17em;
-}
-/*TERMINA "registro para restaurante"*/
-
-
-
-/*Raya seis*/
-div.rayaseis
-{
-margin-top: -1em;
-width: 79em;
-margin-left: 0px;
-position: absolute;
-display: inline-block;
-}
 
 
 
@@ -1143,26 +872,7 @@ opacity: 0.5;
 display: inline-block;
 position: absolute;
 }
-/* Imagen "Twitter Conexión"*/
-div.twitterconexion
-{
-margin-top: 12px;
-display: inline-block;
-position: absolute;
-}
-div.twitterconexion img
-{
-margin-left: 61.5em;
-display: inline-block;
-position: absolute;
-margin-top: 16.5em;  
-}
-div.twitterconexion img:hover
-{
-opacity: 0.5;
-display: inline-block;
-position: absolute;
-}
+
 /* Texto "Algunas empresas y clientes que han confiado en nosotros"*/
 div.empresasyclientes
 {
@@ -1311,218 +1021,7 @@ opacity: 0.5;
 }
 
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD HORIZONTAL
-   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
 
-div.escribenos
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 37px;
-display: inline-block;
-}
-div.escribenos p
-{
-font-size: 14px;
-color: rgba(51 51 51);
-}
-
-
-/*Botón de "inicio"*/
-div.inicio
-{
-margin-top: -108px; 
-}
-div.inicio img
-{
-width: 19%;
-margin-left: 50em;
-}
-
-
-/* Parrafo "quiero invitación" CSS-IPAD HORIZONTAL*/
-div.parrafoinvitacion
-{
-margin-left: 25%;
-margin-top: -6%;
-text-align: left;
-}
-div.parrafoinvitacion p
-{
-font-size: 16px;
-color:gray;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-
-
-
-/* Botón "invitación" CSS-IPAD HORIZONTAL*/
-div.indicates-required
-{
-
-}
-
-
-
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD HORIZONTAL
-   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/   
-
-/*Botón "inicio2"*/
-div.inicio2 
-{
-
-}
-div.inicio2 img
-{
-width: 19%;
-margin-left: 50em;
-margin-bottom: -43px;
-}
-
-
-/* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL*/
-div.parrafoescribenos
-{
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-}
-div.parrafoescribenos p
-{
-font-size: 16px;
-color:gray;
-margin-left: 38px;
-}
-
-div.rayacinco
-{
-display: inline-block;
-position: absolute;
-margin-top: 3px;
-width: 15em; 
-}
-/* TERMINA texto "Tu menú digital está cerca" CSS-IPAD HORIZONTAL */
-
-
-
-/* EMPIEZA Palabra "Imagina..." CSS-IPAD HORIZONTAL*/
-div.imagina
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 20em;
-margin-top: -8em;
-margin-right: 38px;
-display: inline-block;
-position: absolute;
-}
-div.imagina p
-{
-font-size: 20px;
-color: rgb(51 51 51);  
-}
-/*TERMINA Plabara "Imagina..." CSS-IPAD HORIZONTAL */
-
-
-
-/*EMPIEZA texto "las personas podrán compartir" CSS-IPAD HORIZONTAL*/
-div.parrafoimagina
-{
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-margin-top: -75px;
-margin-right: 39px;
-display: inline-block;
-position: absolute;
-}
-div.parrafoimagina p
-{
-font-size: 16px;
-color:gray;
-margin-left: 20.1em;
-}
-/*TERMINA texto "las personas podrán compartir" CSS-IPAD HORIZONTAL*/
-
-
-
-/* EMPIEZA "registro para restaurantes" CSS-IPAD HORIZONTAL*/
-/* Palabra e-mail */
-div.anotaemailrestaurante
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 14%;
-margin-top: -26em;
-font-size: 14px;
-}
-/* Cuadro de "registro" */
-div.registrorestaurante
-{
-line-height: normal;
-width: 50em;
-margin-left: 72px;
-margin-right: -5em;
-margin-top: -20em;
-}
-div.anotanombrerestaurante
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-size: 14px;
-}
-div.anotanombrerestaurante
-{
-margin-top: -20em; 
-margin-left: 59px;
-}
-/* Botón "invitación" */
-div.botonenviar
-{
-width: 82%;
-margin-left: 4.5em;
-margin-top: -18%;
-display: inline-block;
-position: absolute;
-}
-/*Cuadro para anotar "nombre del restaurante"*/
-div.cuadrorestaurante
-{
-line-height: normal;
-width: 50em;
-margin-left: 71px;
-margin-right: -4em;
-margin-top: -15em;
-}
-/*TERMINA "registro para restaurante" CSS-IPAD HORIZONTAL*/
-
-
-
-/* Imagen "menú de prueba" CSS-IPAD HORIZONTAL*/
-div.menuprueba img
-{
-width: 71%;
-margin-left: 18em;
-margin-top: -11px;
-}
-
-
-
-/*Raya seis CSS-IPAD HORIZONTAL*/
-div.rayaseis
-{
-margin-top: 0em;
-width: 63em;
-}
 
 
 
@@ -1915,329 +1414,6 @@ opacity: 0.5;
 
 
 
- /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   2) Aca empieza la "segunda parte de la página" (en donde los usuarios van a pedir su invitación) CSS-IPAD VERTICAL
-   //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/
-
-/*Botón de "inicio"*/
-div.inicio
-{
-margin-top: -109px; 
-}
-div.inicio img
-{
-width: 22%;
-margin-left: 37em;
-}
-
- /* Texto "usuarios" CSS-IPAD VERTICAL */
-div.usuarios
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-top: -17px;
-margin-left: 13px;
-font-size: 14px; 
-}
-
-
-
-/* Parrafo "quiero invitación" CSS-IPAD VERTICAL*/
-div.parrafoinvitacion
-{
-margin-left: 25%;
-margin-top: -7%;
-text-align: left;
-margin-right: 144px;
-}
-div.parrafoinvitacion p
-{
-font-size: 14px;
-color:gray;
-font-family: 'Open Sans';
-font-weight: 300;
-}
-
-
-
-/*EMPIEZAN "redes sociales eatsy CSS-IPAD VERTICAL*/
-div.facebookeatsy
-{
-margin-top: -18px;
-text-align: right;
-}
-div.facebookeatsy img
-{
-width: 7.1%;
-margin-top: -60%;
-margin-right: 11%;
-}
-/* Botón "twitter-eatsy" CSS-IPAD VERTICAL*/
-div.twittereatsy
-{
-text-align: right;
-margin-top: -7.2%;
-margin-right: 1%;
-}
-div.twittereatsy img
-{
-width: 7.5%;
-margin-top: -4px;
-}
-/*TERMINA "redes sociales eatsy" CSS-IPAD VERTICAL*/
-
-
-
-/* EMPIEZA "registro para invitación" CSS-IPAD VERTICAL*/
-/* Texto "e-mail" CSS-IPAD VERTICAL*/
-div.anotaemail
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 9%;
-margin-top: -21px;
-font-size: 14px;
-}
-/* Botón "invitación" CSS-IPAD VERTICAL*/
-div.botoninvitacion
-{
-width: 71%;
-margin-left: 5%;
-margin-top: 1%;
-}
-
-
-
-
-
-
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-   3) Aca empieza la "Tercera parte de la página" - ( en donde se registran los restaurantes) CSS-IPAD VERTICAL
-   /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-*/   
-
-/*Palabra "Restaurantes" CSS-IPAD VERTICAL*/
-div.restaurantes
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 13px;
-font-size: 14px;
-}
-
-/*Botón "inicio2"*/
-div.inicio2 
-{
-
-}
-div.inicio2 img
-{
-width: 22%;
-margin-left: 37em;
-margin-bottom: -43px;
-}
-
-/* EMPIEZA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/
-div.megustaria
-{
-margin-left: 13px;
-}
-div.megustaria p
-{
-font-size: 21px;
-font-family: 'Open Sans';
-font-weight: 300;
-color: gray;
-}
-/* TERMINA Texto "Me gustaría tener mi menú digital" CSS-IPAD VERTICAL*/ 
-
-
-
-/* Imagen "¿Tienes un restaurante?" CSS-IPAD VERTICAL*/
-div.tienesunrestaurante img
-{
-width: 98%;
-margin-left: 6px;  
-}
-
-
-
-/* Imagen "Te invitamos" CSS-IPAD VERTICAL */
-div.teinvitamos img
-{
-width: 98%;
-margin-left: 7px;
-margin-top: 8px;
-}
-
-
-
-/* EMPIEZA Palabra "Escribenos" CSS-IPAD VERTICAL */
-div.escribenos
-{
-font-family: 'Open Sans';
-font-weight: 300;
-font-weight: bold;
-margin-left: 18px;
-display: inline-block;
-position: absolute;
-}
-div.escribenos p
-{
-font-size: 14px;
-color: rgba(51 51 51);
-}
-/*TERMINA Plabra "Escribenos" CSS-IPAD VERTICAL*/ 
-
-
-
-/* EMPIEZA texto "Tu menú digital está cerca" CSS-IPAD VETICAL*/
-div.parrafoescribenos
-{
-font-family: 'Open Sans';
-display: inline-block;
-position: absolute;
-margin-top: 33px;
-margin-left: 9px;
-
-}
-div.parrafoescribenos p
-{
-font-size: 13px;
-color:gray;
-margin-left: 12px;
-}
-/* TERMINA texto "Tu menú digital está cerca" CSS-IPAD VERTICAL */
-
-
-
-/* EMPIEZA Palabra "Imagina..." CSS-IPAD VERTICAL*/
-div.imagina
-{
-font-family: 'Open Sans';
-font-weight: bold;
-margin-left: 16em;
-margin-top: -106px;
-margin-right: 38px;
-display: inline-block;
-position: absolute;
-}
-div.imagina p
-{
-font-size: 14px;
-color: rgb(51 51 51);  
-}
-/*TERMINA Plabara "Imagina..." CSS-IPAD VERTICAL */
-
-
-
-/*EMPIEZA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
-div.parrafoimagina
-{
-font-family: 'Open Sans';
-font-weight: 300;
-text-align: left;
-margin-top: 34px;
-margin-right: 7px;
-margin-left: -8px;
-}
-div.parrafoimagina p
-{
-font-size: 13px;
-color:gray;
-margin-left: 20.1em;
-}
-/*TERMINA texto "las personas podrán compartir" CSS-IPAD VERTICAL*/
-
-
-
-/* Raya cinco*/
-div.rayacinco
-{
-width: 26%;
-margin-left: 21px;
-margin-top: 91px;
-position: absolute;
-display: inline-block;
-}
-
-
-
-/* EMPIEZA "registro para restaurantes" CSS-IPAD VERTICAL*/
-/* Palabra e-mail */
-div.anotaemailrestaurante
-{
-font-family: 'Open Sans';
-margin-left: 14%;
-font-size: 13px;
-display: inline-block;
-position: absolute;
-margin-top: -23em;
-}
-/* Cuadro de "registro" */
-div.registrorestaurante
-{
-width: 44em;
-margin-left: 40px;
-margin-top: -16em;
-}
-/* Texto "Anota nombre restaurante" CSS-IPAD VERTICAL*/
-div.anotanombrerestaurante
-{
-font-family: 'Open Sans';
-font-weight: 300;
-margin-left: 27px;
-font-size: 13px;
-position: absolute;
-display: inline-block;
-margin-top: -17em;
-}
-/*Cuadro para anotar "nombre del restaurante" CSS-IPAD VERTICAL*/
-div.cuadrorestaurante
-{
-line-height: normal;
-width: 44em;
-margin-left: 40px;
-display: inline-block;
-position: absolute;
-margin-top: -11em;
-}
-/* Botón "invitación" */
-div.botonenviar
-{
-width: 82%;
-margin-left: 3.2em;
-margin-top: -12%;
-display: inline-block;
-position: absolute;
-}
-/*TERMINA "registro para restaurante" CSS-IPAD VERTICAL*/
-
-
-
-/* Imagen "menú de prueba" CSS-IPAD VERTICAL*/
-div.menuprueba img
-{
-width: 71.4%;
-margin-left: 14em;
-margin-top: 84px;
-}
-
-
-
-/*Raya seis CSS-IPAD VERTICAL*/
-div.rayaseis
-{
-margin-top: 0em;
-width: 50em;
-margin-left: -37px;
-display: inline-block;
-position: absolute;
-}
 
 
 
