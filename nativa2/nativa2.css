@@ -503,8 +503,16 @@ div.eatsynegro img
 width: 320px;
 position: absolute;
 display: inline-block;
-margin-top: -211px;
-margin-left: 39em; 
+margin-top: -473px;
+margin-left: 39em;
+}
+
+div.plecablancaabajo img
+{
+position: absolute;
+display: inline-block;
+margin-top: -10em;
+margin-left: 39em;
 }
 
 div.id="mc_embed_signup"
